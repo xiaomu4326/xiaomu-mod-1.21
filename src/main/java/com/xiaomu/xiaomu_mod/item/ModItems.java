@@ -1,6 +1,7 @@
 package com.xiaomu.xiaomu_mod.item;
 
 import com.xiaomu.xiaomu_mod.XiaomuMod;
+import com.xiaomu.xiaomu_mod.item.custom.KobayashiBeerCanFull;
 import com.xiaomu.xiaomu_mod.sound.ModJukeboxSongs;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -71,6 +72,21 @@ public class ModItems {
     public static final Item DAY_LIGHT = registerItems("day_light",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.EPIC).jukeboxPlayable(ModJukeboxSongs.DAY_LIGHT)));
 
+
+    //Food
+    public static final Item TOHRU_MEAT = registerItems("tohru_meat",
+            new Item(new Item.Settings().maxCount(64).rarity(Rarity.COMMON).food(ModFoodComponents.TOHRU_MEAT)));
+
+    public static final Item COOKED_TOHRU_MEAT = registerItems("cooked_tohru_meat",
+            new Item(new Item.Settings().maxCount(64).rarity(Rarity.COMMON).food(ModFoodComponents.COOKED_TOHRU_MEAT)));
+
+    public static final Item KOBAYASHI_BEER_CAN_FULL = registerItems("kobayashi_beer_can_full",
+            new KobayashiBeerCanFull(new Item.Settings().maxCount(64).rarity(Rarity.COMMON).food(ModFoodComponents.KOBAYASHI_BEER_CAN_FULL)));
+
+
+    //other
+    public static final Item KOBAYASHI_BEER_CAN_EMPTY = registerItems("kobayashi_beer_can_empty",
+            new Item(new Item.Settings().maxCount(64).rarity(Rarity.COMMON)));
 
     private static Item registerItems(String id, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(XiaomuMod.MOD_ID, id), item);

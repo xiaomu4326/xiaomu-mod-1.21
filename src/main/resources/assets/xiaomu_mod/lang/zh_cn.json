@@ -44,6 +44,7 @@
   "item.xiaomu_mod.magic_tv_ver_s1_episode_3_to_11_ending": "Magia - Kalafina",
   "jukebox_song.xiaomu_mod.magic_tv_ver_s1_episode_3_to_11_ending": "Magia - Kalafina",
 
+
   "item.xiaomu_mod.passing_memories": "Passing Memories - Faouzia,HOYO-MiX",
   "jukebox_song.xiaomu_mod.passing_memories": "Passing Memories - Faouzia,HOYO-MiX",
 
@@ -59,5 +60,16 @@
   "item.xiaomu_mod.day_light": "Daylight - Seredris",
   "jukebox_song.xiaomu_mod.day_light": "Daylight - Seredris",
 
-  "itemGroup.xiaomu_mod.music_disc_group": "音乐唱片"
+
+  "item.xiaomu_mod.tohru_meat": "托尔的尾巴肉",
+  "item.xiaomu_mod.cooked_tohru_meat": "煮熟的托尔的尾巴肉",
+
+  "item.xiaomu_mod.kobayashi_beer_can_full": "小林的啤酒罐 (满)",
+
+  "item.xiaomu_mod.kobayashi_beer_can_empty": "小林的啤酒罐 (空)",
+
+
+  "itemGroup.xiaomu_mod.music_disc_group": "音乐唱片",
+
+  "itemGroup.xiaomu_mod.other_group": "其他"
 }

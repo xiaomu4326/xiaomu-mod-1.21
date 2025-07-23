@@ -14,9 +14,12 @@ import net.minecraft.util.Identifier;
 public class ModItemGroup {
 
     public static final RegistryKey<ItemGroup> RECORDS_GROUP = register("music_disc_group");
+    public static final RegistryKey<ItemGroup> OTHER_GROUP = register("other_group");
+
     private static RegistryKey<ItemGroup> register(String id) {
         return RegistryKey.of(RegistryKeys.ITEM_GROUP, Identifier.of(XiaomuMod.MOD_ID, id));
     }
+
     public static void registerRecordsGroup(){
         Registry.register(Registries.ITEM_GROUP, RECORDS_GROUP,
                 ItemGroup.create(ItemGroup.Row.TOP, 0)
@@ -49,6 +52,18 @@ public class ModItemGroup {
                             entries.add(ModItems.I_LOVE_YOU_SO);
                             entries.add(ModItems.DAY_LIGHT);
                         }).build());
+
+        Registry.register(Registries.ITEM_GROUP, OTHER_GROUP,
+                ItemGroup.create(ItemGroup.Row.TOP, 0)
+                        .displayName(Text.translatable("itemGroup.xiaomu_mod.other_group"))
+                        .icon(() -> new ItemStack(ModItems.TOHRU_MEAT))
+                        .entries((displayContext, entries) -> {
+                            entries.add(ModItems.TOHRU_MEAT);
+                            entries.add(ModItems.COOKED_TOHRU_MEAT);
+                            entries.add(ModItems.KOBAYASHI_BEER_CAN_FULL);
+                            entries.add(ModItems.KOBAYASHI_BEER_CAN_EMPTY);
+                        }).build());
+
         XiaomuMod.LOGGER.info("Registering Records Group");
     }
 }

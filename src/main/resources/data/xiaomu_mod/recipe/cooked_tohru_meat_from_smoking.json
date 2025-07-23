@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 125,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "xiaomu_mod:tohru_meat"
+  },
+  "result": {
+    "id": "xiaomu_mod:cooked_tohru_meat"
+  }
+}
