@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.xiaomu_mod.magic_tv_ver_s1_opening"
+  },
+  "length_in_seconds": 270.0,
+  "sound_event": "xiaomu_mod:music_disc.magic_tv_ver_s1_opening"
+}

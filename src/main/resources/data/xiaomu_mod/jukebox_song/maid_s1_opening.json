@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.xiaomu_mod.maid_s1_opening"
+  },
+  "length_in_seconds": 227.0,
+  "sound_event": "xiaomu_mod:music_disc.maid_s1_opening"
+}

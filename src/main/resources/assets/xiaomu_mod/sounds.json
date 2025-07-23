@@ -1,0 +1,107 @@
+{
+  "music_disc.maid_s1_opening": {
+    "sounds": [
+      "xiaomu_mod:maid_s1_opening"
+    ]
+  },
+  "music_disc.maid_s1_opening_tv_ver": {
+    "sounds": [
+      "xiaomu_mod:maid_s1_opening_tv_ver"
+    ]
+  },
+  "music_disc.maid_s1_ending": {
+    "sounds": [
+      "xiaomu_mod:maid_s1_ending"
+    ]
+  },
+  "music_disc.maid_s1_ending_tv_ver": {
+    "sounds": [
+      "xiaomu_mod:maid_s1_ending_tv_ver"
+    ]
+  },
+  "music_disc.maid_s2_opening": {
+    "sounds": [
+      "xiaomu_mod:maid_s2_opening"
+    ]
+  },
+  "music_disc.maid_s2_ending": {
+    "sounds": [
+      "xiaomu_mod:maid_s2_ending"
+    ]
+  },
+  "music_disc.deer_s1_opening": {
+    "sounds": [
+      "xiaomu_mod:deer_s1_opening"
+    ]
+  },
+  "music_disc.cafe_s1_opening": {
+    "sounds": [
+      "xiaomu_mod:cafe_s1_opening"
+    ]
+  },
+  "music_disc.cafe_s1_ending": {
+    "sounds": [
+      "xiaomu_mod:cafe_s1_ending"
+    ]
+  },
+  "music_disc.cafe_s1_opening_tv_ver": {
+    "sounds": [
+      "xiaomu_mod:cafe_s1_opening_tv_ver"
+    ]
+  },
+  "music_disc.cafe_s1_ending_tv_ver": {
+    "sounds": [
+      "xiaomu_mod:cafe_s1_ending_tv_ver"
+    ]
+  },
+  "music_disc.so_lucky": {
+    "sounds": [
+      "xiaomu_mod:so_lucky"
+    ]
+  },
+  "music_disc.at_the_mercy_of_god": {
+    "sounds": [
+      "xiaomu_mod:at_the_mercy_of_god"
+    ]
+  },
+  "music_disc.magic_tv_ver_s1_opening": {
+    "sounds": [
+      "xiaomu_mod:magic_tv_ver_s1_opening"
+    ]
+  },
+  "music_disc.magic_tv_ver_s1_episode_1_to_2_ending": {
+    "sounds": [
+      "xiaomu_mod:magic_tv_ver_s1_episode_1_to_2_ending"
+    ]
+  },
+  "music_disc.magic_tv_ver_s1_episode_3_to_11_ending": {
+    "sounds": [
+      "xiaomu_mod:magic_tv_ver_s1_episode_3_to_11_ending"
+    ]
+  },
+  "music_disc.passing_memories": {
+    "sounds": [
+      "xiaomu_mod:passing_memories"
+    ]
+  },
+  "music_disc.call_of_silence": {
+    "sounds": [
+      "xiaomu_mod:call_of_silence"
+    ]
+  },
+  "music_disc.duvet": {
+    "sounds": [
+      "xiaomu_mod:duvet"
+    ]
+  },
+  "music_disc.i_love_you_so": {
+    "sounds": [
+      "xiaomu_mod:i_love_you_so"
+    ]
+  },
+  "music_disc.day_light": {
+    "sounds": [
+      "xiaomu_mod:day_light"
+    ]
+  }
+}

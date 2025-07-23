@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.xiaomu_mod.cafe_s1_opening_tv_ver"
+  },
+  "length_in_seconds": 91.0,
+  "sound_event": "xiaomu_mod:music_disc.cafe_s1_opening_tv_ver"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "xiaomu_mod:item/i_love_you_so"
+  }
+}

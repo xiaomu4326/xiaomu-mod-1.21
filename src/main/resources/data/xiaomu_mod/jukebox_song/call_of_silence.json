@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.xiaomu_mod.call_of_silence"
+  },
+  "length_in_seconds": 178.0,
+  "sound_event": "xiaomu_mod:music_disc.call_of_silence"
+}

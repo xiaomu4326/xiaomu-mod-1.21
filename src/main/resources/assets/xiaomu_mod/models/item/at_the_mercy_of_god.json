@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "xiaomu_mod:item/at_the_mercy_of_god"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.xiaomu_mod.i_love_you_so"
+  },
+  "length_in_seconds": 160.0,
+  "sound_event": "xiaomu_mod:music_disc.i_love_you_so"
+}

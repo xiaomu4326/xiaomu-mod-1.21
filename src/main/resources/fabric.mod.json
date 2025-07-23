@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "xiaomu_mod",
+	"version": "${version}",
+	"name": "xiaomu mod",
+	"description": "Some interesting things",
+	"authors": [
+		"xiaomu4326"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/xiaomu_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.xiaomu.xiaomu_mod.XiaomuMod"
+		],
+		"fabric-datagen": [
+			"com.xiaomu.xiaomu_mod.XiaomuModDataGenerator"
+		],
+		"client": [
+			"com.xiaomu.xiaomu_mod.XiaomuModClient"
+		]
+	},
+	"mixins": [
+		"xiaomu_mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
