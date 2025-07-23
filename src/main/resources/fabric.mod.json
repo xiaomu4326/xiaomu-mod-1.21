@@ -8,8 +8,8 @@
 		"xiaomu4326"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/xiaomu4326",
+		"sources": "https://github.com/xiaomu4326/xiaomu-mod-template-1.21"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/xiaomu_mod/icon.png",
