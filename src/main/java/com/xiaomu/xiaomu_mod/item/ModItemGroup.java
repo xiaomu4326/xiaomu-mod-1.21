@@ -55,7 +55,7 @@ public class ModItemGroup {
 
         Registry.register(Registries.ITEM_GROUP, OTHER_GROUP,
                 ItemGroup.create(ItemGroup.Row.TOP, 0)
-                        .displayName(Text.translatable("itemGroup.xiaomu_mod.other_group"))
+                        .displayName(Text.translatable("itemGroup.xiaomu_mod.food_group"))
                         .icon(() -> new ItemStack(ModItems.TOHRU_MEAT))
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.TOHRU_MEAT);
@@ -64,7 +64,7 @@ public class ModItemGroup {
                             entries.add(ModItems.KOBAYASHI_BEER_CAN_EMPTY);
                         }).build());
 
-        XiaomuMod.LOGGER.info("Registering Records Group");
+        XiaomuMod.LOGGER.info("Registering Groups");
     }
 }
 

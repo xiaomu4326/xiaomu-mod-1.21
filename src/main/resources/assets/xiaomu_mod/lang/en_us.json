@@ -60,8 +60,8 @@
   "jukebox_song.xiaomu_mod.day_light": "Daylight - Seredris",
 
 
-  "item.xiaomu_mod.tohru_meat": "Tohru's meat",
-  "item.xiaomu_mod.cooked_tohru_meat": "Cooked Tohru's meat",
+  "item.xiaomu_mod.tohru_meat": "Tohru's Meat",
+  "item.xiaomu_mod.cooked_tohru_meat": "Cooked Tohru's Meat",
 
   "item.xiaomu_mod.kobayashi_beer_can_full": "Kobayashi's Beer Can (Full)",
 
@@ -70,5 +70,5 @@
 
   "itemGroup.xiaomu_mod.music_disc_group": "Music Disc",
 
-  "itemGroup.xiaomu_mod.other_group": "Other"
+  "itemGroup.xiaomu_mod.food_group": "Food"
 }

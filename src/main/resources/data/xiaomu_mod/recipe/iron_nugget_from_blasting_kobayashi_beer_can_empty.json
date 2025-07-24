@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "xiaomu_mod:kobayashi_beer_can_empty"
+  },
+  "result": {
+    "id": "minecraft:iron_nugget"
+  }
+}
