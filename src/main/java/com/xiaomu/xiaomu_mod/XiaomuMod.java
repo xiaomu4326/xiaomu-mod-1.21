@@ -24,6 +24,7 @@ public class XiaomuMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroup.registerRecordsGroup();
 		ModSoundEvents.registerModSoundEvents();
+
 		LOGGER.info("Yoshino, Tohru and all of my waifus are so cute!");
 		LOGGER.info("MOD_ID: " + MOD_ID);
 		LOGGER.info("Waiting for the game interface to open");
