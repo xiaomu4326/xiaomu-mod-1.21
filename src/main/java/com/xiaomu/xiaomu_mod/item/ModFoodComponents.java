@@ -20,6 +20,5 @@ public class ModFoodComponents {
 
     public static final FoodComponent KOBAYASHI_BEER_CAN_FULL = new FoodComponent.Builder().nutrition(2).saturationModifier(0.3f)
             .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 500), 1.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.POISON, 500), 1.0f)
             .build();
 }

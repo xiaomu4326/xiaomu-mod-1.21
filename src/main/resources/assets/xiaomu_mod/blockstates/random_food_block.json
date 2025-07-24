@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "xiaomu_mod:block/random_food_block"
+    }
+  }
+}

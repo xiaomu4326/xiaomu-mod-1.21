@@ -3,7 +3,10 @@ package com.xiaomu.xiaomu_mod.item;
 import com.xiaomu.xiaomu_mod.XiaomuMod;
 import com.xiaomu.xiaomu_mod.item.custom.KobayashiBeerCanFull;
 import com.xiaomu.xiaomu_mod.sound.ModJukeboxSongs;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -91,6 +94,15 @@ public class ModItems {
     private static Item registerItems(String id, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(XiaomuMod.MOD_ID, id), item);
     }
+
+    public static void addItemToFoodAndDrinkItemGroup(FabricItemGroupEntries fabricItemGroupEntries){
+        fabricItemGroupEntries.add(TOHRU_MEAT);
+        fabricItemGroupEntries.add(COOKED_TOHRU_MEAT);
+        fabricItemGroupEntries.add(KOBAYASHI_BEER_CAN_FULL);
+        fabricItemGroupEntries.add(KOBAYASHI_BEER_CAN_EMPTY);
+    }
+
     public static void registerModItems(){
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemToFoodAndDrinkItemGroup);
     }
 }

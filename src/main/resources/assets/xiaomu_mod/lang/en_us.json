@@ -51,7 +51,7 @@
   "jukebox_song.xiaomu_mod.call_of_silence": "Call of Silence - 澤野弘之,R!N／Gemie",
 
   "item.xiaomu_mod.duvet": "Duvet - Bôa",
-  "jukebox_song.xiaomu_mdo.duvet": "Duvet - Bôa",
+  "jukebox_song.xiaomu_mod.duvet": "Duvet - Bôa",
 
   "item.xiaomu_mod.i_love_you_so": "I Love You So - The Walters",
   "jukebox_song.xiaomu_mod.i_love_you_so": "I Love You So - The Walters",
@@ -68,7 +68,12 @@
   "item.xiaomu_mod.kobayashi_beer_can_empty": "Kobayashi's Beer Can (Empty)",
 
 
-  "itemGroup.xiaomu_mod.music_disc_group": "Music Disc",
+  "block.xiaomu_mod.random_food_block": "Food Gift Box",
 
-  "itemGroup.xiaomu_mod.food_group": "Food"
+
+  "itemGroup.xiaomu_mod.music_disc_group": "Mod Music Disc",
+
+  "itemGroup.xiaomu_mod.food_group": "Mod Food",
+
+  "itemGroup.xiaomu_mod.other_group": "Other"
 }

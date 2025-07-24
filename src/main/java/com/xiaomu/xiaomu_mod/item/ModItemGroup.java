@@ -1,6 +1,7 @@
 package com.xiaomu.xiaomu_mod.item;
 
 import com.xiaomu.xiaomu_mod.XiaomuMod;
+import com.xiaomu.xiaomu_mod.block.ModBlocks;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -13,15 +14,20 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
 
-    public static final RegistryKey<ItemGroup> RECORDS_GROUP = register("music_disc_group");
+    public static final RegistryKey<ItemGroup> MUSIC_DISC_GROUP = register("music_disc_group");
+
+    public static final RegistryKey<ItemGroup> FOOD_GROUP = register("food_group");
+
     public static final RegistryKey<ItemGroup> OTHER_GROUP = register("other_group");
+
+
 
     private static RegistryKey<ItemGroup> register(String id) {
         return RegistryKey.of(RegistryKeys.ITEM_GROUP, Identifier.of(XiaomuMod.MOD_ID, id));
     }
 
     public static void registerRecordsGroup(){
-        Registry.register(Registries.ITEM_GROUP, RECORDS_GROUP,
+        Registry.register(Registries.ITEM_GROUP, MUSIC_DISC_GROUP,
                 ItemGroup.create(ItemGroup.Row.TOP, 0)
                         .displayName(Text.translatable("itemGroup.xiaomu_mod.music_disc_group"))
                         .icon(() -> new ItemStack(Blocks.JUKEBOX))
@@ -53,7 +59,7 @@ public class ModItemGroup {
                             entries.add(ModItems.DAY_LIGHT);
                         }).build());
 
-        Registry.register(Registries.ITEM_GROUP, OTHER_GROUP,
+        Registry.register(Registries.ITEM_GROUP, FOOD_GROUP,
                 ItemGroup.create(ItemGroup.Row.TOP, 0)
                         .displayName(Text.translatable("itemGroup.xiaomu_mod.food_group"))
                         .icon(() -> new ItemStack(ModItems.TOHRU_MEAT))
@@ -62,6 +68,14 @@ public class ModItemGroup {
                             entries.add(ModItems.COOKED_TOHRU_MEAT);
                             entries.add(ModItems.KOBAYASHI_BEER_CAN_FULL);
                             entries.add(ModItems.KOBAYASHI_BEER_CAN_EMPTY);
+                        }).build());
+
+        Registry.register(Registries.ITEM_GROUP, OTHER_GROUP,
+                ItemGroup.create(ItemGroup.Row.TOP, 0)
+                        .displayName(Text.translatable("itemGroup.xiaomu_mod.other_group"))
+                        .icon(() -> new ItemStack(ModBlocks.RANDOM_FOOD_BLOCK))
+                        .entries((displayContext, entries) -> {
+                            entries.add(ModBlocks.RANDOM_FOOD_BLOCK);
                         }).build());
 
         XiaomuMod.LOGGER.info("Registering Groups");

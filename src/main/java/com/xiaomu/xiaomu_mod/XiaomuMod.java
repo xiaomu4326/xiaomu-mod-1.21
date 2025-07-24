@@ -1,5 +1,6 @@
 package com.xiaomu.xiaomu_mod;
 
+import com.xiaomu.xiaomu_mod.block.ModBlocks;
 import com.xiaomu.xiaomu_mod.item.ModItemGroup;
 import com.xiaomu.xiaomu_mod.item.ModItems;
 import com.xiaomu.xiaomu_mod.sound.ModSoundEvents;
@@ -24,6 +25,7 @@ public class XiaomuMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroup.registerRecordsGroup();
 		ModSoundEvents.registerModSoundEvents();
+		ModBlocks.registerModBlocks();
 
 		LOGGER.info("Yoshino, Tohru and all of my waifus are so cute!");
 		LOGGER.info("MOD_ID: " + MOD_ID);

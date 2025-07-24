@@ -1,0 +1,998 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "xiaomu_mod:random_food_block",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xiaomu_mod:tohru_meat",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 32.0,
+                    "min": 16.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:poisonous_potato",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:beetroot",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:dried_kelp",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:beef",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:porkchop",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:mutton",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:chicken",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:rabbit",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cod",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:salmon",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:tropical_fish",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:pufferfish",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:potato",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:apple",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:melon_slice",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:sweet_berries",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glow_berries",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:chorus_fruit",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:carrot",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:rotten_flesh",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 20.0,
+                    "min": 10.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:spider_eye",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 20.0,
+                    "min": 10.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xiaomu_mod:kobayashi_beer_can_full",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:mushroom_stew",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 3.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:beetroot_soup",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 3.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:rabbit_stew",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 3.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:milk_bucket",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 3.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:honey_bottle",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 8.0,
+                    "min": 4.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:baked_potato",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xiaomu_mod:cooked_tohru_meat",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 32.0,
+                    "min": 16.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_beef",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_porkchop",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_mutton",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_chicken",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_rabbit",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_cod",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_salmon",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:bread",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cookie",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cake",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 3.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:pumpkin_pie",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:golden_apple",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 32.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.02
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:golden_carrot",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 32.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.02
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:enchanted_golden_apple",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 64.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.01
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xiaomu_mod:random_food_block",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 128.0,
+                    "min": 128.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.01
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:wheat",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 32.0,
+                    "min": 16.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "xiaomu_mod:blocks/random_food_block"
+}
