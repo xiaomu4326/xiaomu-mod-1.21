@@ -59,6 +59,11 @@ public class ModItems {
     public static final Item MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING = registerItems("magic_tv_ver_s1_episode_3_to_11_ending",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.EPIC).jukeboxPlayable(ModJukeboxSongs.MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING)));
 
+    public static final Item SENREN_BANKA_OPENING = registerItems("senren_banka_opening",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.EPIC).jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_OPENING)));
+    public static final Item SENREN_BANKA_OPENING_GAME_VER = registerItems("senren_banka_opening_game_ver",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.EPIC).jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_OPENING_GAME_VER)));
+
     //English
     public static final Item PASSING_MEMORIES = registerItems("passing_memories",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.EPIC).jukeboxPlayable(ModJukeboxSongs.PASSING_MEMORIES)));

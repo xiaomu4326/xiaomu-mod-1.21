@@ -79,6 +79,16 @@
       "xiaomu_mod:magic_tv_ver_s1_episode_3_to_11_ending"
     ]
   },
+  "music_disc.senren_banka_opening": {
+    "sounds": [
+      "xiaomu_mod:senren_banka_opening"
+    ]
+  },
+  "music_disc.senren_banka_opening_game_ver": {
+    "sounds": [
+      "xiaomu_mod:senren_banka_opening_game_ver"
+    ]
+  },
   "music_disc.passing_memories": {
     "sounds": [
       "xiaomu_mod:passing_memories"

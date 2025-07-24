@@ -41,6 +41,9 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING = of("magic_tv_ver_s1_episode_3_to_11_ending");
 
+    RegistryKey<JukeboxSong> SENREN_BANKA_OPENING = of("senren_banka_opening");
+    RegistryKey<JukeboxSong> SENREN_BANKA_OPENING_GAME_VER = of("senren_banka_opening_game_ver");
+
     //English
     RegistryKey<JukeboxSong> PASSING_MEMORIES = of("passing_memories");
 
@@ -94,6 +97,10 @@ public interface ModJukeboxSongs {
         register(registry, MAGIC_TV_VER_S1_EPISODE_1_TO_2_ENDING, ModSoundEvents.MUSIC_DISC_MAGIC_TV_VER_S1_EPISODE_1_TO_2_ENDING, 264, 15);
 
         register(registry, MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING, ModSoundEvents.MUSIC_DISC_MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING, 313, 15);
+
+        register(registry, SENREN_BANKA_OPENING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_OPENING, 237, 15);
+        register(registry, SENREN_BANKA_OPENING_GAME_VER, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_OPENING_GAME_VER, 107, 15);
+
 
         //English
         register(registry, PASSING_MEMORIES, ModSoundEvents.MUSIC_DISC_PASSING_MEMORIES, 219, 15);

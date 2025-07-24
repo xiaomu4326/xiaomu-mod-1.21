@@ -51,6 +51,8 @@ public class ModItemGroup {
                             entries.add(ModItems.MAGIC_TV_VER_S1_OPENING);
                             entries.add(ModItems.MAGIC_TV_VER_S1_EPISODE_1_TO_2_ENDING);
                             entries.add(ModItems.MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING);
+                            entries.add(ModItems.SENREN_BANKA_OPENING);
+                            entries.add(ModItems.SENREN_BANKA_OPENING_GAME_VER);
                             //English
                             entries.add(ModItems.PASSING_MEMORIES);
                             entries.add(ModItems.CALL_OF_SILENCE);

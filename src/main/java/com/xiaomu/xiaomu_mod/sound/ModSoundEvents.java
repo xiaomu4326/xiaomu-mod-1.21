@@ -37,6 +37,9 @@ public class ModSoundEvents {
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING = registerReference("music_disc.magic_tv_ver_s1_episode_3_to_11_ending");
 
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_OPENING = registerReference("music_disc.senren_banka_opening");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_OPENING_GAME_VER = registerReference("music_disc.senren_banka_opening_game_ver");
+
     //English
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_PASSING_MEMORIES = registerReference("music_disc.passing_memories");
 
