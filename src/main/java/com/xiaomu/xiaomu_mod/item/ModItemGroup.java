@@ -82,7 +82,10 @@ public class ModItemGroup {
                             entries.add(ModItems.COOKED_TOHRU_MEAT);
                             entries.add(ModItems.KOBAYASHI_BEER_CAN_FULL);
                             entries.add(ModItems.KOBAYASHI_BEER_CAN_EMPTY);
+                            entries.add(ModItems.GILDED_APPLE);
                             entries.add(ModItems.ENCHANTED_GOLDEN_CARROT);
+                            entries.add(ModItems.GOLDEN_BREAD);
+                            entries.add(ModItems.ENCHANTED_GOLDEN_BREAD);
                         }).build());
 
         Registry.register(Registries.ITEM_GROUP, OTHER_GROUP,

@@ -125,7 +125,18 @@ public class ModItems {
             new KobayashiBeerCanFull(new Item.Settings().maxCount(64).rarity(Rarity.COMMON).food(ModFoodComponents.KOBAYASHI_BEER_CAN_FULL)));
 
     public static final Item ENCHANTED_GOLDEN_CARROT = registerItems("enchanted_golden_carrot",
-            new Item((new Item.Settings().maxCount(64).rarity(Rarity.RARE).food(ModFoodComponents.ENCHANTED_GOLDEN_CARROT).component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true))));
+            new Item((new Item.Settings().maxCount(64).rarity(Rarity.RARE).food(ModFoodComponents.ENCHANTED_GOLDEN_CARROT)
+                    .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true))));
+
+    public static final Item GILDED_APPLE = registerItems("gilded_apple",
+            new Item((new Item.Settings().maxCount(64).rarity(Rarity.COMMON).food(ModFoodComponents.GILDED_APPLE))));
+
+    public static final Item GOLDEN_BREAD = registerItems("golden_bread",
+            new Item((new Item.Settings().maxCount(64).rarity(Rarity.RARE).food(ModFoodComponents.GOLDEN_BREAD))));
+
+    public static final Item ENCHANTED_GOLDEN_BREAD = registerItems("enchanted_golden_bread",
+            new Item((new Item.Settings().maxCount(64).rarity(Rarity.EPIC).food(ModFoodComponents.ENCHANTED_GOLDEN_BREAD)
+                    .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true))));
 
 
     //other
@@ -141,7 +152,10 @@ public class ModItems {
         fabricItemGroupEntries.add(COOKED_TOHRU_MEAT);
         fabricItemGroupEntries.add(KOBAYASHI_BEER_CAN_FULL);
         fabricItemGroupEntries.add(KOBAYASHI_BEER_CAN_EMPTY);
+        fabricItemGroupEntries.add(GILDED_APPLE);
         fabricItemGroupEntries.add(ENCHANTED_GOLDEN_CARROT);
+        fabricItemGroupEntries.add(GOLDEN_BREAD);
+        fabricItemGroupEntries.add(ENCHANTED_GOLDEN_BREAD);
     }
 
     public static void registerModItems(){
