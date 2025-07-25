@@ -89,6 +89,66 @@
       "xiaomu_mod:senren_banka_opening_game_ver"
     ]
   },
+  "music_disc.senren_banka_yoshino": {
+    "sounds": [
+      "xiaomu_mod:senren_banka_yoshino"
+    ]
+  },
+  "music_disc.senren_banka_yoshino_instrument_ver": {
+    "sounds": [
+      "xiaomu_mod:senren_banka_yoshino_instrument_ver"
+    ]
+  },
+  "music_disc.senren_banka_yoshino_quiet_ver": {
+    "sounds": [
+      "xiaomu_mod:senren_banka_yoshino_quiet_ver"
+    ]
+  },
+  "music_disc.senren_banka_yoshino_ending": {
+    "sounds": [
+      "xiaomu_mod:senren_banka_yoshino_ending"
+    ]
+  },
+  "music_disc.senren_banka_murasame": {
+    "sounds": [
+      "xiaomu_mod:senren_banka_murasame"
+    ]
+  },
+  "music_disc.senren_banka_murasame_instrument_ver": {
+    "sounds": [
+      "xiaomu_mod:senren_banka_murasame_instrument_ver"
+    ]
+  },
+  "music_disc.senren_banka_murasame_quiet_ver": {
+    "sounds": [
+      "xiaomu_mod:senren_banka_murasame_quiet_ver"
+    ]
+  },
+  "music_disc.senren_banka_murasame_ending": {
+    "sounds": [
+      "xiaomu_mod:senren_banka_murasame_ending"
+    ]
+  },
+  "music_disc.senren_banka_mako": {
+    "sounds": [
+      "xiaomu_mod:senren_banka_mako"
+    ]
+  },
+  "music_disc.senren_banka_mako_ending": {
+    "sounds": [
+      "xiaomu_mod:senren_banka_mako_ending"
+    ]
+  },
+  "music_disc.senren_banka_lena": {
+    "sounds": [
+      "xiaomu_mod:senren_banka_lena"
+    ]
+  },
+  "music_disc.senren_banka_lena_ending": {
+    "sounds": [
+      "xiaomu_mod:senren_banka_lena_ending"
+    ]
+  },
   "music_disc.passing_memories": {
     "sounds": [
       "xiaomu_mod:passing_memories"

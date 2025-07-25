@@ -53,6 +53,18 @@ public class ModItemGroup {
                             entries.add(ModItems.MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING);
                             entries.add(ModItems.SENREN_BANKA_OPENING);
                             entries.add(ModItems.SENREN_BANKA_OPENING_GAME_VER);
+                            entries.add(ModItems.SENREN_BANKA_YOSHINO);
+                            entries.add(ModItems.SENREN_BANKA_YOSHINO_INSTRUMENT_VER);
+                            entries.add(ModItems.SENREN_BANKA_YOSHINO_QUIET_VER);
+                            entries.add(ModItems.SENREN_BANKA_YOSHINO_ENDING);
+                            entries.add(ModItems.SENREN_BANKA_MURASAME);
+                            entries.add(ModItems.SENREN_BANKA_MURASAME_INSTRUMENT_VER);
+                            entries.add(ModItems.SENREN_BANKA_MURASAME_QUIET_VER);
+                            entries.add(ModItems.SENREN_BANKA_MURASAME_ENDING);
+                            entries.add(ModItems.SENREN_BANKA_MAKO);
+                            entries.add(ModItems.SENREN_BANKA_MAKO_ENDING);
+                            entries.add(ModItems.SENREN_BANKA_LENA);
+                            entries.add(ModItems.SENREN_BANKA_LENA_ENDING);
                             //English
                             entries.add(ModItems.PASSING_MEMORIES);
                             entries.add(ModItems.CALL_OF_SILENCE);
@@ -70,6 +82,7 @@ public class ModItemGroup {
                             entries.add(ModItems.COOKED_TOHRU_MEAT);
                             entries.add(ModItems.KOBAYASHI_BEER_CAN_FULL);
                             entries.add(ModItems.KOBAYASHI_BEER_CAN_EMPTY);
+                            entries.add(ModItems.ENCHANTED_GOLDEN_CARROT);
                         }).build());
 
         Registry.register(Registries.ITEM_GROUP, OTHER_GROUP,

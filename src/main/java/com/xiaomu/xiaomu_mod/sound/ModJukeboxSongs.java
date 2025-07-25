@@ -44,6 +44,26 @@ public interface ModJukeboxSongs {
     RegistryKey<JukeboxSong> SENREN_BANKA_OPENING = of("senren_banka_opening");
     RegistryKey<JukeboxSong> SENREN_BANKA_OPENING_GAME_VER = of("senren_banka_opening_game_ver");
 
+    RegistryKey<JukeboxSong> SENREN_BANKA_YOSHINO = of("senren_banka_yoshino");
+    RegistryKey<JukeboxSong> SENREN_BANKA_YOSHINO_INSTRUMENT_VER = of("senren_banka_yoshino_instrument_ver");
+    RegistryKey<JukeboxSong> SENREN_BANKA_YOSHINO_QUIET_VER = of("senren_banka_yoshino_quiet_ver");
+
+    RegistryKey<JukeboxSong> SENREN_BANKA_YOSHINO_ENDING = of("senren_banka_yoshino_ending");
+
+    RegistryKey<JukeboxSong> SENREN_BANKA_MURASAME = of("senren_banka_murasame");
+    RegistryKey<JukeboxSong> SENREN_BANKA_MURASAME_INSTRUMENT_VER = of("senren_banka_murasame_instrument_ver");
+    RegistryKey<JukeboxSong> SENREN_BANKA_MURASAME_QUIET_VER = of("senren_banka_murasame_quiet_ver");
+
+    RegistryKey<JukeboxSong> SENREN_BANKA_MURASAME_ENDING = of("senren_banka_murasame_ending");
+
+    RegistryKey<JukeboxSong> SENREN_BANKA_MAKO = of("senren_banka_mako");
+
+    RegistryKey<JukeboxSong> SENREN_BANKA_MAKO_ENDING = of("senren_banka_mako_ending");
+
+    RegistryKey<JukeboxSong> SENREN_BANKA_LENA = of("senren_banka_lena");
+
+    RegistryKey<JukeboxSong> SENREN_BANKA_LENA_ENDING = of("senren_banka_lena_ending");
+
     //English
     RegistryKey<JukeboxSong> PASSING_MEMORIES = of("passing_memories");
 
@@ -54,6 +74,7 @@ public interface ModJukeboxSongs {
     RegistryKey<JukeboxSong> I_LOVE_YOU_SO = of("i_love_you_so");
 
     RegistryKey<JukeboxSong> DAY_LIGHT = of("day_light");
+
 
     private static RegistryKey<JukeboxSong> of(String id){
         return RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(XiaomuMod.MOD_ID, id));
@@ -66,6 +87,7 @@ public interface ModJukeboxSongs {
                 key, new JukeboxSong(soundEvent, Text.translatable(Util.createTranslationKey("jukebox_song", key.getValue())), lengthInSeconds, comparatorOutput)
         );
     }
+
 
     static void bootstrap(Registerable<JukeboxSong> registry) {
 
@@ -100,6 +122,26 @@ public interface ModJukeboxSongs {
 
         register(registry, SENREN_BANKA_OPENING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_OPENING, 237, 15);
         register(registry, SENREN_BANKA_OPENING_GAME_VER, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_OPENING_GAME_VER, 107, 15);
+
+        register(registry, SENREN_BANKA_YOSHINO, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_YOSHINO, 205, 15);
+        register(registry, SENREN_BANKA_YOSHINO_INSTRUMENT_VER, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_YOSHINO_INSTRUMENT_VER, 156, 15);
+        register(registry, SENREN_BANKA_YOSHINO_QUIET_VER, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_YOSHINO_QUIET_VER, 99, 15);
+
+        register(registry, SENREN_BANKA_YOSHINO_ENDING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_YOSHINO_ENDING, 343, 15);
+
+        register(registry, SENREN_BANKA_MURASAME, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_MURASAME, 231, 15);
+        register(registry, SENREN_BANKA_MURASAME_INSTRUMENT_VER, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_MURASAME_INSTRUMENT_VER, 207, 15);
+        register(registry, SENREN_BANKA_MURASAME_QUIET_VER, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_MURASAME_QUIET_VER, 135, 15);
+
+        register(registry, SENREN_BANKA_MURASAME_ENDING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_MURASAME_ENDING, 250, 15);
+
+        register(registry, SENREN_BANKA_MAKO, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_MAKO, 225, 15);
+
+        register(registry, SENREN_BANKA_MAKO_ENDING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_MAKO_ENDING, 289, 15);
+
+        register(registry, SENREN_BANKA_LENA, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_LENA, 194, 15);
+
+        register(registry, SENREN_BANKA_LENA_ENDING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_LENA_ENDING, 464, 15);
 
 
         //English

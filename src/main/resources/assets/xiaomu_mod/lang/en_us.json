@@ -49,6 +49,39 @@
   "item.xiaomu_mod.senren_banka_opening_game_ver": "恋ひ恋ふ縁 (Game Size) - Famishin,KOTOKO",
   "jukebox_song.xiaomu_mod.senren_banka_opening_game_ver": "恋ひ恋ふ縁 (Game Size) - Famishin,KOTOKO",
 
+  "item.xiaomu_mod.senren_banka_yoshino": "とおりゃんせ~甘美風来 - 遥そら",
+  "jukebox_song.xiaomu_mod.senren_banka_yoshino": "とおりゃんせ~甘美風来 - 遥そら",
+  "item.xiaomu_mod.senren_banka_yoshino_instrument_ver": "とおりゃんせ～甘美風来 Instrument Version - Angel Note,ゆずひこ",
+  "jukebox_song.xiaomu_mod.senren_banka_yoshino_instrument_ver": "とおりゃんせ～甘美風来 Instrument Version - Angel Note,ゆずひこ",
+  "item.xiaomu_mod.senren_banka_yoshino_quiet_ver": "とおりゃんせ～甘美風来 Quiet Version - Angel Note,ゆずひこ",
+  "jukebox_song.xiaomu_mod.senren_banka_yoshino_quiet_ver": "とおりゃんせ～甘美風来 Quiet Version - Angel Note,ゆずひこ",
+
+  "item.xiaomu_mod.senren_banka_yoshino_ending": "愛しさと感謝の気持ち - Famishin,榊原ゆい",
+  "jukebox_song.xiaomu_mod.senren_banka_yoshino_ending": "愛しさと感謝の気持ち - Famishin,榊原ゆい",
+
+  "item.xiaomu_mod.senren_banka_murasame": "キズナヒトツ - 山本希望",
+  "jukebox_song.xiaomu_mod.senren_banka_murasame": "キズナヒトツ - 山本希望",
+  "item.xiaomu_mod.senren_banka_murasame_instrument_ver": "キズナヒトツ Instrument Version - Angel Note,井ノ原智",
+  "jukebox_song.xiaomu_mod.senren_banka_murasame_instrument_ver": "キズナヒトツ Instrument Version - Angel Note,井ノ原智",
+  "item.xiaomu_mod.senren_banka_murasame_quiet_ver": "キズナヒトツ Quiet Version - Angel Note,井ノ原智",
+  "jukebox_song.xiaomu_mod.senren_banka_murasame_quiet_ver": "キズナヒトツ Quiet Version - Angel Note,井ノ原智",
+
+  "item.xiaomu_mod.senren_banka_murasame_ending": "ふたつの影 - Famishin,春風まゆき",
+  "jukebox_song.xiaomu_mod.senren_banka_murasame_ending": "ふたつの影 - Famishin,春風まゆき",
+
+  "item.xiaomu_mod.senren_banka_mako": "茉子の日常 - 高森奈津美",
+  "jukebox_song.xiaomu_mod.senren_banka_mako": "茉子の日常 - 高森奈津美",
+
+  "item.xiaomu_mod.senren_banka_mako_ending": "ふたりで - Famishin,Riryka",
+  "jukebox_song.xiaomu_mod.senren_banka_mako_ending": "ふたりで - Famishin,Riryka",
+
+  "item.xiaomu_mod.senren_banka_lena": "Blue sky - 種崎敦美",
+  "jukebox_song.xiaomu_mod.senren_banka_lena": "Blue sky - 種崎敦美",
+
+  "item.xiaomu_mod.senren_banka_lena_ending": "GIFT - Famishin,カサンドラ",
+  "jukebox_song.xiaomu_mod.senren_banka_lena_ending": "GIFT - Famishin,カサンドラ",
+
+
   "item.xiaomu_mod.passing_memories": "Passing Memories - Faouzia,HOYO-MiX",
   "jukebox_song.xiaomu_mod.passing_memories": "Passing Memories - Faouzia,HOYO-MiX",
 
@@ -71,6 +104,8 @@
   "item.xiaomu_mod.kobayashi_beer_can_full": "Kobayashi's Beer Can (Full)",
 
   "item.xiaomu_mod.kobayashi_beer_can_empty": "Kobayashi's Beer Can (Empty)",
+
+  "item.xiaomu_mod.enchanted_golden_carrot": "Enchanted Golden Carrot",
 
 
   "block.xiaomu_mod.random_food_block": "Food Gift Box",

@@ -40,6 +40,26 @@ public class ModSoundEvents {
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_OPENING = registerReference("music_disc.senren_banka_opening");
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_OPENING_GAME_VER = registerReference("music_disc.senren_banka_opening_game_ver");
 
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_YOSHINO = registerReference("music_disc.senren_banka_yoshino");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_YOSHINO_INSTRUMENT_VER = registerReference("music_disc.senren_banka_yoshino_instrument_ver");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_YOSHINO_QUIET_VER = registerReference("music_disc.senren_banka_yoshino_quiet_ver");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_YOSHINO_ENDING = registerReference("music_disc.senren_banka_yoshino_ending");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_MURASAME = registerReference("music_disc.senren_banka_murasame");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_MURASAME_INSTRUMENT_VER = registerReference("music_disc.senren_banka_murasame_instrument_ver");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_MURASAME_QUIET_VER = registerReference("music_disc.senren_banka_murasame_quiet_ver");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_MURASAME_ENDING = registerReference("music_disc.senren_banka_murasame_ending");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_MAKO = registerReference("music_disc.senren_banka_mako");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_MAKO_ENDING = registerReference("music_disc.senren_banka_mako_ending");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_LENA = registerReference("music_disc.senren_banka_lena");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_LENA_ENDING = registerReference("music_disc.senren_banka_lena_ending");
+
     //English
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_PASSING_MEMORIES = registerReference("music_disc.passing_memories");
 
