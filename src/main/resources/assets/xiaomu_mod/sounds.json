@@ -24,6 +24,11 @@
       "xiaomu_mod:maid_s2_opening"
     ]
   },
+  "music_disc.maid_s2_opening_tv_ver": {
+    "sounds": [
+      "xiaomu_mod:maid_s2_opening_tv_ver"
+    ]
+  },
   "music_disc.maid_s2_ending": {
     "sounds": [
       "xiaomu_mod:maid_s2_ending"
@@ -172,6 +177,16 @@
   "music_disc.day_light": {
     "sounds": [
       "xiaomu_mod:day_light"
+    ]
+  },
+  "music_disc.hope_is_the_thing_with_feathers": {
+    "sounds": [
+      "xiaomu_mod:hope_is_the_thing_with_feathers"
+    ]
+  },
+  "music_disc.sway_to_my_beat_in_cosmos": {
+    "sounds": [
+      "xiaomu_mod:sway_to_my_beat_in_cosmos"
     ]
   }
 }

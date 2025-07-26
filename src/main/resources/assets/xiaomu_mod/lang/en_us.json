@@ -12,6 +12,8 @@
 
   "item.xiaomu_mod.maid_s2_opening": "爱のシュプリーム！ - fhána",
   "jukebox_song.xiaomu_mod.maid_s2_opening": "爱のシュプリーム！ - fhána",
+  "item.xiaomu_mod.maid_s2_opening_tv_ver": "愛のシュプリーム! (TV size) - fhána",
+  "jukebox_song.xiaomu_mod.maid_s2_opening_tv_ver": "愛のシュプリーム! (TV size) - fhána",
 
   "item.xiaomu_mod.maid_s2_ending": "めいど・うぃず・どらごんず♥ - 桑原由気,長縄まりあ,高田憂希",
   "jukebox_song.xiaomu_mod.maid_s2_ending": "めいど・うぃず・どらごんず♥ - 桑原由気,長縄まりあ,高田憂希",
@@ -97,6 +99,12 @@
   "item.xiaomu_mod.day_light": "Daylight - Seredris",
   "jukebox_song.xiaomu_mod.day_light": "Daylight - Seredris",
 
+  "item.xiaomu_mod.hope_is_the_thing_with_feathers": "Hope Is the Thing With Feathers - Robin,HOYO-MiX,Chevy",
+  "jukebox_song.xiaomu_mod.hope_is_the_thing_with_feathers": "Hope Is the Thing With Feathers - Robin,HOYO-MiX,Chevy",
+
+  "item.xiaomu_mod.sway_to_my_beat_in_cosmos": "Sway to My Beat in Cosmos - Robin,HOYO-MiX,Chevy",
+  "jukebox_song.xiaomu_mod.sway_to_my_beat_in_cosmos": "Sway to My Beat in Cosmos - Robin,HOYO-MiX,Chevy",
+
 
   "item.xiaomu_mod.tohru_meat": "Tohru's Meat",
   "item.xiaomu_mod.cooked_tohru_meat": "Cooked Tohru's Meat",
@@ -109,12 +117,16 @@
 
   "item.xiaomu_mod.gilded_apple": "Gilded Apple",
 
+  "item.xiaomu_mod.gilded_bread": "Gilded Bread",
+
   "item.xiaomu_mod.golden_bread": "Golden Bread",
 
   "item.xiaomu_mod.enchanted_golden_bread": "Enchanted Golden Bread",
 
 
   "block.xiaomu_mod.random_food_block": "Food Gift Box",
+
+  "item.xiaomu_mod.tohru_horn": "Tohru Horn",
 
 
   "itemGroup.xiaomu_mod.music_disc_group": "Mod Music Disc",

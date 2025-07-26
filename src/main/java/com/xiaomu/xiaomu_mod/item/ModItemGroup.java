@@ -40,6 +40,7 @@ public class ModItemGroup {
                             entries.add(ModItems.MAID_S1_ENDING);
                             entries.add(ModItems.MAID_S1_ENDING_TV_VER);
                             entries.add(ModItems.MAID_S2_OPENING);
+                            entries.add(ModItems.MAID_S2_OPENING_TV_VER);
                             entries.add(ModItems.MAID_S2_ENDING);
                             entries.add(ModItems.DEER_S1_OPENING);
                             entries.add(ModItems.CAFE_S1_OPENING);
@@ -71,6 +72,8 @@ public class ModItemGroup {
                             entries.add(ModItems.DUVET);
                             entries.add(ModItems.I_LOVE_YOU_SO);
                             entries.add(ModItems.DAY_LIGHT);
+                            entries.add(ModItems.HOPE_IS_THE_THING_WITH_FEATHERS);
+                            entries.add(ModItems.SWAY_TO_MY_BEAT_IN_COSMOS);
                         }).build());
 
         Registry.register(Registries.ITEM_GROUP, FOOD_GROUP,
@@ -84,6 +87,7 @@ public class ModItemGroup {
                             entries.add(ModItems.KOBAYASHI_BEER_CAN_EMPTY);
                             entries.add(ModItems.GILDED_APPLE);
                             entries.add(ModItems.ENCHANTED_GOLDEN_CARROT);
+                            entries.add(ModItems.GILDED_BREAD);
                             entries.add(ModItems.GOLDEN_BREAD);
                             entries.add(ModItems.ENCHANTED_GOLDEN_BREAD);
                         }).build());
@@ -94,6 +98,7 @@ public class ModItemGroup {
                         .icon(() -> new ItemStack(ModBlocks.RANDOM_FOOD_BLOCK))
                         .entries((displayContext, entries) -> {
                             entries.add(ModBlocks.RANDOM_FOOD_BLOCK);
+                            //entries.add(ModItems.TOHRU_HORN);
                         }).build());
 
         XiaomuMod.LOGGER.info("Registering Groups");

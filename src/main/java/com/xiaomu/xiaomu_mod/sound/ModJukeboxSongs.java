@@ -20,6 +20,7 @@ public interface ModJukeboxSongs {
     RegistryKey<JukeboxSong> MAID_S1_ENDING_TV_VER = of("maid_s1_ending_tv_ver");
 
     RegistryKey<JukeboxSong> MAID_S2_OPENING = of("maid_s2_opening");
+    RegistryKey<JukeboxSong> MAID_S2_OPENING_TV_VER = of("maid_s2_opening_tv_ver");
 
     RegistryKey<JukeboxSong> MAID_S2_ENDING = of("maid_s2_ending");
 
@@ -75,6 +76,10 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> DAY_LIGHT = of("day_light");
 
+    RegistryKey<JukeboxSong> HOPE_IS_THE_THING_WITH_FEATHERS = of("hope_is_the_thing_with_feathers");
+
+    RegistryKey<JukeboxSong> SWAY_TO_MY_BEAT_IN_COSMOS = of("sway_to_my_beat_in_cosmos");
+
 
     private static RegistryKey<JukeboxSong> of(String id){
         return RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(XiaomuMod.MOD_ID, id));
@@ -99,6 +104,7 @@ public interface ModJukeboxSongs {
         register(registry, MAID_S1_ENDING_TV_VER, ModSoundEvents.MUSIC_DISC_MAID_S1_ENDING_TV_VER, 90, 15);
 
         register(registry, MAID_S2_OPENING, ModSoundEvents.MUSIC_DISC_MAID_S2_OPENING, 284, 15);
+        register(registry, MAID_S2_OPENING_TV_VER, ModSoundEvents.MUSIC_DISC_MAID_S2_OPENING_TV_VER, 88, 15);
 
         register(registry, MAID_S2_ENDING, ModSoundEvents.MUSIC_DISC_MAID_S2_ENDING, 222, 15);
 
@@ -154,5 +160,9 @@ public interface ModJukeboxSongs {
         register(registry, I_LOVE_YOU_SO, ModSoundEvents.MUSIC_DISC_I_LOVE_YOU_SO, 160, 15);
 
         register(registry, DAY_LIGHT, ModSoundEvents.MUSIC_DISC_DAY_LIGHT, 162, 15);
+
+        register(registry, HOPE_IS_THE_THING_WITH_FEATHERS, ModSoundEvents.MUSIC_DISC_HOPE_IS_THE_THING_WITH_FEATHERS, 230, 15);
+
+        register(registry, SWAY_TO_MY_BEAT_IN_COSMOS, ModSoundEvents.MUSIC_DISC_SWAY_TO_MY_BEAT_IN_COSMOS, 165, 15);
     }
 }

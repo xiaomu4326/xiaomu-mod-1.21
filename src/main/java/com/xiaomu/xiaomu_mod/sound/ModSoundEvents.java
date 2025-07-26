@@ -16,6 +16,7 @@ public class ModSoundEvents {
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S1_ENDING_TV_VER = registerReference("music_disc.maid_s1_ending_tv_ver");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S2_OPENING = registerReference("music_disc.maid_s2_opening");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S2_OPENING_TV_VER = registerReference("music_disc.maid_s2_opening_tv_ver");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S2_ENDING = registerReference("music_disc.maid_s2_ending");
 
@@ -70,6 +71,10 @@ public class ModSoundEvents {
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_I_LOVE_YOU_SO = registerReference("music_disc.i_love_you_so");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DAY_LIGHT = registerReference("music_disc.day_light");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_HOPE_IS_THE_THING_WITH_FEATHERS = registerReference("music_disc.hope_is_the_thing_with_feathers");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SWAY_TO_MY_BEAT_IN_COSMOS = registerReference("music_disc.sway_to_my_beat_in_cosmos");
 
 
     private static SoundEvent register(String name){

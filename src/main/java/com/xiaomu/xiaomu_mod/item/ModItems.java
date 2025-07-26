@@ -28,6 +28,8 @@ public class ModItems {
 
     public static final Item MAID_S2_OPENING = registerItems("maid_s2_opening",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.MAID_S2_OPENING)));
+    public static final Item MAID_S2_OPENING_TV_VER = registerItems("maid_s2_opening_tv_ver",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.MAID_S2_OPENING_TV_VER)));
 
     public static final Item MAID_S2_ENDING = registerItems("maid_s2_ending",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.MAID_S2_ENDING)));
@@ -113,6 +115,12 @@ public class ModItems {
     public static final Item DAY_LIGHT = registerItems("day_light",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.DAY_LIGHT)));
 
+    public static final Item HOPE_IS_THE_THING_WITH_FEATHERS = registerItems("hope_is_the_thing_with_feathers",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.HOPE_IS_THE_THING_WITH_FEATHERS)));
+
+    public static final Item SWAY_TO_MY_BEAT_IN_COSMOS = registerItems("sway_to_my_beat_in_cosmos",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.SWAY_TO_MY_BEAT_IN_COSMOS)));
+
 
     //Food
     public static final Item TOHRU_MEAT = registerItems("tohru_meat",
@@ -124,12 +132,18 @@ public class ModItems {
     public static final Item KOBAYASHI_BEER_CAN_FULL = registerItems("kobayashi_beer_can_full",
             new KobayashiBeerCanFull(new Item.Settings().maxCount(64).rarity(Rarity.COMMON).food(ModFoodComponents.KOBAYASHI_BEER_CAN_FULL)));
 
+    public static final Item KOBAYASHI_BEER_CAN_EMPTY = registerItems("kobayashi_beer_can_empty",
+            new Item(new Item.Settings().maxCount(64).rarity(Rarity.COMMON)));
+
     public static final Item ENCHANTED_GOLDEN_CARROT = registerItems("enchanted_golden_carrot",
             new Item((new Item.Settings().maxCount(64).rarity(Rarity.RARE).food(ModFoodComponents.ENCHANTED_GOLDEN_CARROT)
                     .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true))));
 
     public static final Item GILDED_APPLE = registerItems("gilded_apple",
             new Item((new Item.Settings().maxCount(64).rarity(Rarity.COMMON).food(ModFoodComponents.GILDED_APPLE))));
+
+    public static final Item GILDED_BREAD = registerItems("gilded_bread",
+            new Item((new Item.Settings().maxCount(64).rarity(Rarity.COMMON).food(ModFoodComponents.GILDED_BREAD))));
 
     public static final Item GOLDEN_BREAD = registerItems("golden_bread",
             new Item((new Item.Settings().maxCount(64).rarity(Rarity.RARE).food(ModFoodComponents.GOLDEN_BREAD))));
@@ -140,8 +154,9 @@ public class ModItems {
 
 
     //other
-    public static final Item KOBAYASHI_BEER_CAN_EMPTY = registerItems("kobayashi_beer_can_empty",
-            new Item(new Item.Settings().maxCount(64).rarity(Rarity.COMMON)));
+    public static final Item TOHRU_HORN = registerItems("tohru_horn",
+            new Item(new Item.Settings().maxCount(64).rarity(Rarity.COMMON).food(ModFoodComponents.TOHRU_HORN)));
+
 
     private static Item registerItems(String id, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(XiaomuMod.MOD_ID, id), item);
@@ -154,6 +169,7 @@ public class ModItems {
         fabricItemGroupEntries.add(KOBAYASHI_BEER_CAN_EMPTY);
         fabricItemGroupEntries.add(GILDED_APPLE);
         fabricItemGroupEntries.add(ENCHANTED_GOLDEN_CARROT);
+        fabricItemGroupEntries.add(GILDED_BREAD);
         fabricItemGroupEntries.add(GOLDEN_BREAD);
         fabricItemGroupEntries.add(ENCHANTED_GOLDEN_BREAD);
     }

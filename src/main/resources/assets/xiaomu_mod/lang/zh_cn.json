@@ -1,4 +1,11 @@
 {
+  "item.xiaomu_mod.hope_is_the_thing_with_feathers": "希望有羽毛和翅膀 - 知更鸟,HOYO-MiX,Chevy",
+  "jukebox_song.xiaomu_mod.hope_is_the_thing_with_feathers": "希望有羽毛和翅膀 - 知更鸟,HOYO-MiX,Chevy",
+
+  "item.xiaomu_mod.sway_to_my_beat_in_cosmos": "在银河中孤独摇摆 - 知更鸟,HOYO-MiX,Chevy",
+  "jukebox_song.xiaomu_mod.sway_to_my_beat_in_cosmos": "在银河中孤独摇摆 - 知更鸟,HOYO-MiX,Chevy",
+
+
   "item.xiaomu_mod.tohru_meat": "托尔的尾巴肉",
 
   "item.xiaomu_mod.cooked_tohru_meat": "煮熟的托尔的尾巴肉",
@@ -11,12 +18,16 @@
 
   "item.xiaomu_mod.gilded_apple": "镀金苹果",
 
+  "item.xiaomu_mod.gilded_bread": "镀金面包",
+
   "item.xiaomu_mod.golden_bread": "金面包",
 
   "item.xiaomu_mod.enchanted_golden_bread": "附魔金面包",
 
 
   "block.xiaomu_mod.random_food_block": "食物礼盒",
+
+  "item.xiaomu_mod.tohru_horn": "托尔的角",
 
 
   "itemGroup.xiaomu_mod.music_disc_group": "模组音乐唱片",

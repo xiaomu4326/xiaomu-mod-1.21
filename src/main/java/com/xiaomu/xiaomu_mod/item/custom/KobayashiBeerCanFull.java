@@ -9,6 +9,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsage;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.stat.Stats;
+import net.minecraft.text.Text;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
@@ -16,6 +17,7 @@ import net.minecraft.world.World;
 
 
 public class KobayashiBeerCanFull extends Item {
+
     public KobayashiBeerCanFull(Settings settings) {
         super(settings);
     }

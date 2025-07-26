@@ -514,6 +514,27 @@
             },
             {
               "type": "minecraft:item",
+              "name": "xiaomu_mod:gilded_bread",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
               "name": "xiaomu_mod:enchanted_golden_carrot",
               "functions": [
                 {
