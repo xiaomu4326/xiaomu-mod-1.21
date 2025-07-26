@@ -81,6 +81,10 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> SWAY_TO_MY_BEAT_IN_COSMOS = of("sway_to_my_beat_in_cosmos");
 
+    RegistryKey<JukeboxSong> LEVITATING = of("levitating");
+
+    RegistryKey<JukeboxSong> COLORS = of("colors");
+
 
     private static RegistryKey<JukeboxSong> of(String id){
         return RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(XiaomuMod.MOD_ID, id));
@@ -166,5 +170,10 @@ public interface ModJukeboxSongs {
         register(registry, HOPE_IS_THE_THING_WITH_FEATHERS, ModSoundEvents.MUSIC_DISC_HOPE_IS_THE_THING_WITH_FEATHERS, 230, 15);
 
         register(registry, SWAY_TO_MY_BEAT_IN_COSMOS, ModSoundEvents.MUSIC_DISC_SWAY_TO_MY_BEAT_IN_COSMOS, 165, 15);
+
+        register(registry, LEVITATING, ModSoundEvents.MUSIC_DISC_LEVITATING, 203, 15);
+
+        register(registry, COLORS, ModSoundEvents.MUSIC_DISC_COLORS, 261, 15);
+
     }
 }

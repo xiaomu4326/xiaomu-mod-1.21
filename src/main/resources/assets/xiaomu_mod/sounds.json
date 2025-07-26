@@ -193,5 +193,15 @@
     "sounds": [
       "xiaomu_mod:sway_to_my_beat_in_cosmos"
     ]
+  },
+  "music_disc.levitating": {
+    "sounds": [
+      "xiaomu_mod:levitating"
+    ]
+  },
+  "music_disc.colors": {
+    "sounds": [
+      "xiaomu_mod:colors"
+    ]
   }
 }

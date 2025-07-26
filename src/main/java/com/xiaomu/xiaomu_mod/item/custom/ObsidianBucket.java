@@ -54,11 +54,7 @@ public class ObsidianBucket extends Item {
     }
 
     private boolean isRightBlock(BlockState blockState) {
-        if (blockState.isOf(Blocks.AIR) || blockState.isOf(Blocks.VOID_AIR)) {
-            return true;
-        }else{
-            return false;
-        }
+        return blockState.isOf(Blocks.AIR) || blockState.isOf(Blocks.VOID_AIR);
     }
 }
 

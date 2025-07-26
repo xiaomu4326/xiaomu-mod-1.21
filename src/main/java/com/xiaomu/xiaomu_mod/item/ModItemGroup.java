@@ -75,6 +75,8 @@ public class ModItemGroup {
                             entries.add(ModItems.DAY_LIGHT);
                             entries.add(ModItems.HOPE_IS_THE_THING_WITH_FEATHERS);
                             entries.add(ModItems.SWAY_TO_MY_BEAT_IN_COSMOS);
+                            entries.add(ModItems.LEVITATING);
+                            entries.add(ModItems.COLORS);
                         }).build());
 
         Registry.register(Registries.ITEM_GROUP, FOOD_GROUP,
@@ -99,8 +101,8 @@ public class ModItemGroup {
                         .icon(() -> new ItemStack(ModBlocks.RANDOM_FOOD_BLOCK))
                         .entries((displayContext, entries) -> {
                             entries.add(ModBlocks.RANDOM_FOOD_BLOCK);
+                            entries.add(ModItems.TOHRU_HORN);
                             entries.add(ModItems.OBSIDIAN_BUCKET);
-                            //entries.add(ModItems.TOHRU_HORN);
                         }).build());
 
         XiaomuMod.LOGGER.info("Registering Groups");

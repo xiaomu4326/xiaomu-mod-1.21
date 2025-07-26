@@ -50,9 +50,4 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 2400, 3), 1.0F)
             .alwaysEdible()
             .build();
-
-    public static final FoodComponent TOHRU_HORN = new FoodComponent.Builder().nutrition(0).saturationModifier(0.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 3000, 0), 1.0F)
-            .alwaysEdible()
-            .build();
 }

@@ -124,6 +124,11 @@ public class ModItems {
     public static final Item SWAY_TO_MY_BEAT_IN_COSMOS = registerItems("sway_to_my_beat_in_cosmos",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.SWAY_TO_MY_BEAT_IN_COSMOS)));
 
+    public static final Item LEVITATING = registerItems("levitating",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.LEVITATING)));
+
+    public static final Item COLORS = registerItems("colors",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.COLORS)));
 
     //Food
     public static final Item TOHRU_MEAT = registerItems("tohru_meat",
@@ -158,7 +163,7 @@ public class ModItems {
 
     //other
     public static final Item TOHRU_HORN = registerItems("tohru_horn",
-            new Item(new Item.Settings().maxCount(64).rarity(Rarity.COMMON).food(ModFoodComponents.TOHRU_HORN)));
+            new Item(new Item.Settings().maxCount(64).rarity(Rarity.COMMON)));
 
     public static final Item OBSIDIAN_BUCKET = registerItems("obsidian_bucket",
             new ObsidianBucket(new Item.Settings().maxCount(2).rarity(Rarity.COMMON)));

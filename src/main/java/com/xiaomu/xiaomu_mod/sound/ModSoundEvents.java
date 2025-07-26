@@ -77,6 +77,9 @@ public class ModSoundEvents {
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SWAY_TO_MY_BEAT_IN_COSMOS = registerReference("music_disc.sway_to_my_beat_in_cosmos");
 
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_LEVITATING = registerReference("music_disc.levitating");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_COLORS = registerReference("music_disc.colors");
 
     private static SoundEvent register(String name){
         Identifier id = Identifier.of(XiaomuMod.MOD_ID, name);
