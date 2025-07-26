@@ -17,6 +17,8 @@
 
   "item.xiaomu_mod.maid_s2_ending": "めいど・うぃず・どらごんず♥ - 桑原由気,長縄まりあ,高田憂希",
   "jukebox_song.xiaomu_mod.maid_s2_ending": "めいど・うぃず・どらごんず♥ - 桑原由気,長縄まりあ,高田憂希",
+  "item.xiaomu_mod.maid_s2_ending_tv_ver": "めいど・うぃず・どらごんず♥ (TV size) - 桑原由気,長縄まりあ,高田憂希",
+  "jukebox_song.xiaomu_mod.maid_s2_ending_tv_ver": "めいど・うぃず・どらごんず♥ (TV size) - 桑原由気,長縄まりあ,高田憂希",
 
   "item.xiaomu_mod.deer_s1_opening": "シカ色デイズ - 潘めぐみ,藤田咲,田辺留依",
   "jukebox_song.xiaomu_mod.deer_s1_opening": "シカ色デイズ - 潘めぐみ,藤田咲,田辺留依",
@@ -127,6 +129,8 @@
   "block.xiaomu_mod.random_food_block": "Food Gift Box",
 
   "item.xiaomu_mod.tohru_horn": "Tohru Horn",
+
+  "item.xiaomu_mod.obsidian_bucket": "Obsidian Bucket",
 
 
   "itemGroup.xiaomu_mod.music_disc_group": "Mod Music Disc",

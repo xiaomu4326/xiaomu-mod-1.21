@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.xiaomu_mod.maid_s2_ending_tv_ver"
+  },
+  "length_in_seconds": 92.0,
+  "sound_event": "xiaomu_mod:music_disc.maid_s2_ending_tv_ver"
+}

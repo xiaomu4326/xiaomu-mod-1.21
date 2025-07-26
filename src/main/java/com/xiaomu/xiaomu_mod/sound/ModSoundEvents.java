@@ -19,6 +19,7 @@ public class ModSoundEvents {
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S2_OPENING_TV_VER = registerReference("music_disc.maid_s2_opening_tv_ver");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S2_ENDING = registerReference("music_disc.maid_s2_ending");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S2_ENDING_TV_VER = registerReference("music_disc.maid_s2_ending_tv_ver");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DEER_S1_OPENING = registerReference("music_disc.deer_s1_opening");
 

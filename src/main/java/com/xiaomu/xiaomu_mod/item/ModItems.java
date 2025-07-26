@@ -2,6 +2,7 @@ package com.xiaomu.xiaomu_mod.item;
 
 import com.xiaomu.xiaomu_mod.XiaomuMod;
 import com.xiaomu.xiaomu_mod.item.custom.KobayashiBeerCanFull;
+import com.xiaomu.xiaomu_mod.item.custom.ObsidianBucket;
 import com.xiaomu.xiaomu_mod.sound.ModJukeboxSongs;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -33,6 +34,8 @@ public class ModItems {
 
     public static final Item MAID_S2_ENDING = registerItems("maid_s2_ending",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.MAID_S2_ENDING)));
+    public static final Item MAID_S2_ENDING_TV_VER = registerItems("maid_s2_ending_tv_ver",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.MAID_S2_ENDING_TV_VER)));
 
     public static final Item DEER_S1_OPENING = registerItems("deer_s1_opening",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.DEER_S1_OPENING)));
@@ -157,6 +160,9 @@ public class ModItems {
     public static final Item TOHRU_HORN = registerItems("tohru_horn",
             new Item(new Item.Settings().maxCount(64).rarity(Rarity.COMMON).food(ModFoodComponents.TOHRU_HORN)));
 
+    public static final Item OBSIDIAN_BUCKET = registerItems("obsidian_bucket",
+            new ObsidianBucket(new Item.Settings().maxCount(2).rarity(Rarity.COMMON)));
+
 
     private static Item registerItems(String id, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(XiaomuMod.MOD_ID, id), item);
@@ -174,7 +180,12 @@ public class ModItems {
         fabricItemGroupEntries.add(ENCHANTED_GOLDEN_BREAD);
     }
 
+    public static void addItemToToolsAndUtilitiesItemGroup(FabricItemGroupEntries fabricItemGroupEntries){
+        fabricItemGroupEntries.add(OBSIDIAN_BUCKET);
+    }
+
     public static void registerModItems(){
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemToFoodAndDrinkItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemToToolsAndUtilitiesItemGroup);
     }
 }

@@ -23,6 +23,7 @@ public interface ModJukeboxSongs {
     RegistryKey<JukeboxSong> MAID_S2_OPENING_TV_VER = of("maid_s2_opening_tv_ver");
 
     RegistryKey<JukeboxSong> MAID_S2_ENDING = of("maid_s2_ending");
+    RegistryKey<JukeboxSong> MAID_S2_ENDING_TV_VER = of("maid_s2_ending_tv_ver");
 
     RegistryKey<JukeboxSong> DEER_S1_OPENING = of("deer_s1_opening");
 
@@ -107,6 +108,7 @@ public interface ModJukeboxSongs {
         register(registry, MAID_S2_OPENING_TV_VER, ModSoundEvents.MUSIC_DISC_MAID_S2_OPENING_TV_VER, 88, 15);
 
         register(registry, MAID_S2_ENDING, ModSoundEvents.MUSIC_DISC_MAID_S2_ENDING, 222, 15);
+        register(registry, MAID_S2_ENDING_TV_VER, ModSoundEvents.MUSIC_DISC_MAID_S2_ENDING_TV_VER, 92, 15);
 
         register(registry, DEER_S1_OPENING, ModSoundEvents.MUSIC_DISC_DEER_S1_OPENING, 201, 15);
 

@@ -42,6 +42,7 @@ public class ModItemGroup {
                             entries.add(ModItems.MAID_S2_OPENING);
                             entries.add(ModItems.MAID_S2_OPENING_TV_VER);
                             entries.add(ModItems.MAID_S2_ENDING);
+                            entries.add(ModItems.MAID_S2_ENDING_TV_VER);
                             entries.add(ModItems.DEER_S1_OPENING);
                             entries.add(ModItems.CAFE_S1_OPENING);
                             entries.add(ModItems.CAFE_S1_OPENING_TV_VER);
@@ -98,6 +99,7 @@ public class ModItemGroup {
                         .icon(() -> new ItemStack(ModBlocks.RANDOM_FOOD_BLOCK))
                         .entries((displayContext, entries) -> {
                             entries.add(ModBlocks.RANDOM_FOOD_BLOCK);
+                            entries.add(ModItems.OBSIDIAN_BUCKET);
                             //entries.add(ModItems.TOHRU_HORN);
                         }).build());
 
