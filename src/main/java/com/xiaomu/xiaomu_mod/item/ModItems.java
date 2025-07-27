@@ -66,6 +66,18 @@ public class ModItems {
     public static final Item MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING = registerItems("magic_tv_ver_s1_episode_3_to_11_ending",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING)));
 
+    public static final Item MAGIC_MOVIE_VER_S1_TO_S2_OPENING = registerItems("magic_movie_ver_s1_to_s2_opening",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.MAGIC_MOVIE_VER_S1_TO_S2_OPENING)));
+
+    public static final Item MAGIC_MOVIE_VER_S2_ENDING = registerItems("magic_movie_ver_s2_ending",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.MAGIC_MOVIE_VER_S2_ENDING)));
+
+    public static final Item MAGIC_MOVIE_VER_S3_OPENING = registerItems("magic_movie_ver_s3_opening",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.MAGIC_MOVIE_VER_S3_OPENING)));
+
+    public static final Item MAGIC_MOVIE_VER_S3_ENDING = registerItems("magic_movie_ver_s3_ending",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.MAGIC_MOVIE_VER_S3_ENDING)));
+
     public static final Item SENREN_BANKA_OPENING = registerItems("senren_banka_opening",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_OPENING)));
     public static final Item SENREN_BANKA_OPENING_GAME_VER = registerItems("senren_banka_opening_game_ver",
@@ -130,6 +142,12 @@ public class ModItems {
 
     public static final Item COLORS = registerItems("colors",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.COLORS)));
+
+    public static final Item RIDE_OR_DIE = registerItems("ride_or_die",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.RIDE_OR_DIE)));
+
+    public static final Item WHERE_WE_STARTED = registerItems("where_we_started",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.WHERE_WE_STARTED)));
 
     //Food
     public static final Item TOHRU_MEAT = registerItems("tohru_meat",

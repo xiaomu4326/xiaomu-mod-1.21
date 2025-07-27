@@ -39,6 +39,14 @@ public class ModSoundEvents {
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING = registerReference("music_disc.magic_tv_ver_s1_episode_3_to_11_ending");
 
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIC_MOVIE_VER_S1_TO_S2_OPENING = registerReference("music_disc.magic_movie_ver_s1_to_s2_opening");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIC_MOVIE_VER_S2_ENDING = registerReference("music_disc.magic_movie_ver_s2_ending");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIC_MOVIE_VER_S3_OPENING = registerReference("music_disc.magic_movie_ver_s3_opening");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIC_MOVIE_VER_S3_ENDING = registerReference("music_disc.magic_movie_ver_s3_ending");
+
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_OPENING = registerReference("music_disc.senren_banka_opening");
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_OPENING_GAME_VER = registerReference("music_disc.senren_banka_opening_game_ver");
 
@@ -80,6 +88,10 @@ public class ModSoundEvents {
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_LEVITATING = registerReference("music_disc.levitating");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_COLORS = registerReference("music_disc.colors");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_RIDE_OR_DIE = registerReference("music_disc.ride_or_die");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_WHERE_WE_STARTED = registerReference("music_disc.where_we_started");
 
     private static SoundEvent register(String name){
         Identifier id = Identifier.of(XiaomuMod.MOD_ID, name);

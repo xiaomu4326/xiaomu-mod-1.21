@@ -53,6 +53,10 @@ public class ModItemGroup {
                             entries.add(ModItems.MAGIC_TV_VER_S1_OPENING);
                             entries.add(ModItems.MAGIC_TV_VER_S1_EPISODE_1_TO_2_ENDING);
                             entries.add(ModItems.MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING);
+                            entries.add(ModItems.MAGIC_MOVIE_VER_S1_TO_S2_OPENING);
+                            entries.add(ModItems.MAGIC_MOVIE_VER_S2_ENDING);
+                            entries.add(ModItems.MAGIC_MOVIE_VER_S3_OPENING);
+                            entries.add(ModItems.MAGIC_MOVIE_VER_S3_ENDING);
                             entries.add(ModItems.SENREN_BANKA_OPENING);
                             entries.add(ModItems.SENREN_BANKA_OPENING_GAME_VER);
                             entries.add(ModItems.SENREN_BANKA_YOSHINO);
@@ -77,6 +81,8 @@ public class ModItemGroup {
                             entries.add(ModItems.SWAY_TO_MY_BEAT_IN_COSMOS);
                             entries.add(ModItems.LEVITATING);
                             entries.add(ModItems.COLORS);
+                            entries.add(ModItems.RIDE_OR_DIE);
+                            entries.add(ModItems.WHERE_WE_STARTED);
                         }).build());
 
         Registry.register(Registries.ITEM_GROUP, FOOD_GROUP,

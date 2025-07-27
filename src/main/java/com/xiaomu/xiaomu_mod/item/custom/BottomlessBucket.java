@@ -42,20 +42,7 @@ public class BottomlessBucket extends Item {
         BlockState blockState_west = world.getBlockState(blockPos_west);
         BlockState blockState_east = world.getBlockState(blockPos_east);
 
-        if (Screen.hasControlDown() && Screen.hasAltDown()) {
-            world.playSound(player, pos, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
-            for (int i = 0; i < pos.getY()+64; i++){
-                for (int j = 0; j < 5; j++){
-                    for (int k = 0; k < 5; k++){
-                        BlockPos pos_shift_1 = pos.down(i).south(j-2).west(k-2);
-                        BlockState blockState1 = world.getBlockState(pos_shift_1);
-                        if (!isWrongBlock(blockState1)) {
-                            world.setBlockState(pos_shift_1, Blocks.AIR.getDefaultState());
-                        }
-                    }
-                }
-            }
-        }else if (Screen.hasControlDown()) {
+        if (Screen.hasControlDown()) {
             world.playSound(player, pos, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
             for (int i = 0; i < 5; i++){
                 for (int j = 0; j < 5; j++){
@@ -114,7 +101,7 @@ public class BottomlessBucket extends Item {
     }
 
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand){
-        if (Screen.hasAltDown() && Screen.hasControlDown() && Screen.hasShiftDown()) {
+        if (Screen.hasShiftDown() && Screen.hasControlDown()) {
             user.playSound(SoundEvents.ITEM_BUCKET_FILL);
             user.kill();
         }

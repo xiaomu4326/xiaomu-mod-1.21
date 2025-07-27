@@ -43,6 +43,14 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING = of("magic_tv_ver_s1_episode_3_to_11_ending");
 
+    RegistryKey<JukeboxSong> MAGIC_MOVIE_VER_S1_TO_S2_OPENING = of("magic_movie_ver_s1_to_s2_opening");
+
+    RegistryKey<JukeboxSong> MAGIC_MOVIE_VER_S2_ENDING = of("magic_movie_ver_s2_ending");
+
+    RegistryKey<JukeboxSong> MAGIC_MOVIE_VER_S3_OPENING = of("magic_movie_ver_s3_opening");
+
+    RegistryKey<JukeboxSong> MAGIC_MOVIE_VER_S3_ENDING = of("magic_movie_ver_s3_ending");
+
     RegistryKey<JukeboxSong> SENREN_BANKA_OPENING = of("senren_banka_opening");
     RegistryKey<JukeboxSong> SENREN_BANKA_OPENING_GAME_VER = of("senren_banka_opening_game_ver");
 
@@ -85,6 +93,10 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> COLORS = of("colors");
 
+    RegistryKey<JukeboxSong> RIDE_OR_DIE = of("ride_or_die");
+
+    RegistryKey<JukeboxSong> WHERE_WE_STARTED = of("where_we_started");
+
 
     private static RegistryKey<JukeboxSong> of(String id){
         return RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(XiaomuMod.MOD_ID, id));
@@ -102,7 +114,7 @@ public interface ModJukeboxSongs {
     static void bootstrap(Registerable<JukeboxSong> registry) {
 
         //Japanese
-        register(registry, MAID_S1_OPENING, ModSoundEvents.MUSIC_DISC_MAID_S1_OPENING, 227, 15);
+        register(registry, MAID_S1_OPENING, ModSoundEvents.MUSIC_DISC_MAID_S1_OPENING, 277, 15);
         register(registry, MAID_S1_OPENING_TV_VER, ModSoundEvents.MUSIC_DISC_MAID_S1_OPENING_TV_VER, 95, 15);
 
         register(registry, MAID_S1_ENDING, ModSoundEvents.MUSIC_DISC_MAID_S1_ENDING, 246, 15);
@@ -131,6 +143,14 @@ public interface ModJukeboxSongs {
         register(registry, MAGIC_TV_VER_S1_EPISODE_1_TO_2_ENDING, ModSoundEvents.MUSIC_DISC_MAGIC_TV_VER_S1_EPISODE_1_TO_2_ENDING, 264, 15);
 
         register(registry, MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING, ModSoundEvents.MUSIC_DISC_MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING, 313, 15);
+
+        register(registry, MAGIC_MOVIE_VER_S1_TO_S2_OPENING, ModSoundEvents.MUSIC_DISC_MAGIC_MOVIE_VER_S1_TO_S2_OPENING, 248, 15);
+
+        register(registry, MAGIC_MOVIE_VER_S2_ENDING, ModSoundEvents.MUSIC_DISC_MAGIC_MOVIE_VER_S2_ENDING, 293, 15);
+
+        register(registry, MAGIC_MOVIE_VER_S3_OPENING, ModSoundEvents.MUSIC_DISC_MAGIC_MOVIE_VER_S3_OPENING, 272, 15);
+
+        register(registry, MAGIC_MOVIE_VER_S3_ENDING, ModSoundEvents.MUSIC_DISC_MAGIC_MOVIE_VER_S3_ENDING, 306, 15);
 
         register(registry, SENREN_BANKA_OPENING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_OPENING, 237, 15);
         register(registry, SENREN_BANKA_OPENING_GAME_VER, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_OPENING_GAME_VER, 107, 15);
@@ -174,6 +194,10 @@ public interface ModJukeboxSongs {
         register(registry, LEVITATING, ModSoundEvents.MUSIC_DISC_LEVITATING, 203, 15);
 
         register(registry, COLORS, ModSoundEvents.MUSIC_DISC_COLORS, 261, 15);
+
+        register(registry, RIDE_OR_DIE, ModSoundEvents.MUSIC_DISC_RIDE_OR_DIE, 205, 15);
+
+        register(registry, WHERE_WE_STARTED, ModSoundEvents.MUSIC_DISC_WHERE_WE_STARTED, 244, 15);
 
     }
 }

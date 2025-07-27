@@ -89,6 +89,26 @@
       "xiaomu_mod:magic_tv_ver_s1_episode_3_to_11_ending"
     ]
   },
+  "music_disc.magic_movie_ver_s1_to_s2_opening": {
+    "sounds": [
+      "xiaomu_mod:magic_movie_ver_s1_to_s2_opening"
+    ]
+  },
+  "music_disc.magic_movie_ver_s2_ending": {
+    "sounds": [
+      "xiaomu_mod:magic_movie_ver_s2_ending"
+    ]
+  },
+  "music_disc.magic_movie_ver_s3_opening": {
+    "sounds": [
+      "xiaomu_mod:magic_movie_ver_s3_opening"
+    ]
+  },
+  "music_disc.magic_movie_ver_s3_ending": {
+    "sounds": [
+      "xiaomu_mod:magic_movie_ver_s3_ending"
+    ]
+  },
   "music_disc.senren_banka_opening": {
     "sounds": [
       "xiaomu_mod:senren_banka_opening"
@@ -202,6 +222,16 @@
   "music_disc.colors": {
     "sounds": [
       "xiaomu_mod:colors"
+    ]
+  },
+  "music_disc.ride_or_die": {
+    "sounds": [
+      "xiaomu_mod:ride_or_die"
+    ]
+  },
+  "music_disc.where_we_started": {
+    "sounds": [
+      "xiaomu_mod:where_we_started"
     ]
   }
 }
