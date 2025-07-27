@@ -1,6 +1,7 @@
 package com.xiaomu.xiaomu_mod.item;
 
 import com.xiaomu.xiaomu_mod.XiaomuMod;
+import com.xiaomu.xiaomu_mod.item.custom.BottomlessBucket;
 import com.xiaomu.xiaomu_mod.item.custom.KobayashiBeerCanFull;
 import com.xiaomu.xiaomu_mod.item.custom.ObsidianBucket;
 import com.xiaomu.xiaomu_mod.sound.ModJukeboxSongs;
@@ -167,6 +168,10 @@ public class ModItems {
 
     public static final Item OBSIDIAN_BUCKET = registerItems("obsidian_bucket",
             new ObsidianBucket(new Item.Settings().maxCount(2).rarity(Rarity.COMMON)));
+
+    public static final Item BOTTOMLESS_BUCKET = registerItems("bottomless_bucket",
+            new BottomlessBucket(new Item.Settings().maxCount(1).rarity(Rarity.EPIC)
+                    .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)));
 
 
     private static Item registerItems(String id, Item item){

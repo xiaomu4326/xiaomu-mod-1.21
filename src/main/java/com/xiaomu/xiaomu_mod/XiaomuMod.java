@@ -4,6 +4,7 @@ import com.xiaomu.xiaomu_mod.block.ModBlocks;
 import com.xiaomu.xiaomu_mod.item.ModItemGroup;
 import com.xiaomu.xiaomu_mod.item.ModItems;
 import com.xiaomu.xiaomu_mod.sound.ModSoundEvents;
+import com.xiaomu.xiaomu_mod.tags.ModBlockTags;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -26,6 +27,7 @@ public class XiaomuMod implements ModInitializer {
 		ModItemGroup.registerRecordsGroup();
 		ModSoundEvents.registerModSoundEvents();
 		ModBlocks.registerModBlocks();
+		ModBlockTags.registerBlockTags();
 
 		LOGGER.info("Yoshino, Tohru and all of my waifus are so cute!");
 		LOGGER.info("MOD_ID: " + MOD_ID);

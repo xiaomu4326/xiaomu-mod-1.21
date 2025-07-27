@@ -7,6 +7,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.item.Items;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
@@ -24,37 +26,37 @@ public class ObsidianBucket extends Item {
         PlayerEntity player = context.getPlayer();
         Direction side = context.getSide();
 
-        if (!world.isClient()) {
-            BlockPos pos1 = pos;
-            if (side == Direction.DOWN) {
-                pos1 = pos.down(1);
-            }else if (side == Direction.UP) {
-                pos1 = pos.up(1);
-            }else if (side == Direction.NORTH) {
-                pos1 = pos.north(1);
-            }else if (side == Direction.SOUTH) {
-                pos1 = pos.south(1);
-            }else if (side == Direction.EAST) {
-                pos1 = pos.east(1);
-            }else if (side == Direction.WEST) {
-                pos1 = pos.west(1);
-            }
-            BlockState blockState = world.getBlockState(pos1);
-            String name = blockState.getBlock().getName().getString();
-            if (isRightBlock(blockState)) {
-                world.setBlockState(pos1, Blocks.OBSIDIAN.getDefaultState());
-                if (player != null && !player.isCreative()) {
-                    ItemStack stack = context.getStack();
-                    stack.setCount(stack.getCount() - 1);
-                    player.giveItemStack(new ItemStack(Items.BUCKET));
-                }
+        BlockPos pos1 = pos;
+        if (side == Direction.DOWN) {
+            pos1 = pos.down(1);
+        }else if (side == Direction.UP) {
+            pos1 = pos.up(1);
+        }else if (side == Direction.NORTH) {
+            pos1 = pos.north(1);
+        }else if (side == Direction.SOUTH) {
+            pos1 = pos.south(1);
+        }else if (side == Direction.EAST) {
+            pos1 = pos.east(1);
+        }else if (side == Direction.WEST) {
+            pos1 = pos.west(1);
+        }
+        BlockState blockState = world.getBlockState(pos1);
+        String name = blockState.getBlock().getName().getString();
+        if (isRightBlock(blockState)) {
+            world.playSound(player, pos1, SoundEvents.BLOCK_STONE_PLACE, SoundCategory.BLOCKS, 1.0F, 1.0F);
+            world.setBlockState(pos1, Blocks.OBSIDIAN.getDefaultState());
+            if (player != null && !player.isCreative()) {
+                ItemStack stack = context.getStack();
+                stack.setCount(stack.getCount() - 1);
+                player.giveItemStack(new ItemStack(Items.BUCKET));
             }
         }
         return super.useOnBlock(context);
     }
 
+
     private boolean isRightBlock(BlockState blockState) {
-        return blockState.isOf(Blocks.AIR) || blockState.isOf(Blocks.VOID_AIR);
+        return blockState.isOf(Blocks.AIR) | blockState.isOf(Blocks.VOID_AIR);
     }
 }
 

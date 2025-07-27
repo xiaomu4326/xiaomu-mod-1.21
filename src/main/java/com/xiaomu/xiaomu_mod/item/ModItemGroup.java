@@ -103,6 +103,7 @@ public class ModItemGroup {
                             entries.add(ModBlocks.RANDOM_FOOD_BLOCK);
                             entries.add(ModItems.TOHRU_HORN);
                             entries.add(ModItems.OBSIDIAN_BUCKET);
+                            entries.add(ModItems.BOTTOMLESS_BUCKET);
                         }).build());
 
         XiaomuMod.LOGGER.info("Registering Groups");
