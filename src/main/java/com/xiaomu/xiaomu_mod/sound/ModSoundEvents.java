@@ -45,6 +45,8 @@ public class ModSoundEvents {
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIC_MOVIE_VER_S3_OPENING = registerReference("music_disc.magic_movie_ver_s3_opening");
 
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIC_MOVIE_VER_S3_EPISODE = registerReference("music_disc.magic_movie_ver_s3_episode");
+
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIC_MOVIE_VER_S3_ENDING = registerReference("music_disc.magic_movie_ver_s3_ending");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_OPENING = registerReference("music_disc.senren_banka_opening");

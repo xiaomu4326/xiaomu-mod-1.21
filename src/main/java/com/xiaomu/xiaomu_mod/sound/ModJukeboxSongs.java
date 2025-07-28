@@ -49,6 +49,8 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> MAGIC_MOVIE_VER_S3_OPENING = of("magic_movie_ver_s3_opening");
 
+    RegistryKey<JukeboxSong> MAGIC_MOVIE_VER_S3_EPISODE = of("magic_movie_ver_s3_episode");
+
     RegistryKey<JukeboxSong> MAGIC_MOVIE_VER_S3_ENDING = of("magic_movie_ver_s3_ending");
 
     RegistryKey<JukeboxSong> SENREN_BANKA_OPENING = of("senren_banka_opening");
@@ -153,6 +155,8 @@ public interface ModJukeboxSongs {
         register(registry, MAGIC_MOVIE_VER_S2_ENDING, ModSoundEvents.MUSIC_DISC_MAGIC_MOVIE_VER_S2_ENDING, 293, 15);
 
         register(registry, MAGIC_MOVIE_VER_S3_OPENING, ModSoundEvents.MUSIC_DISC_MAGIC_MOVIE_VER_S3_OPENING, 272, 15);
+
+        register(registry, MAGIC_MOVIE_VER_S3_EPISODE, ModSoundEvents.MUSIC_DISC_MAGIC_MOVIE_VER_S3_EPISODE, 243, 15);
 
         register(registry, MAGIC_MOVIE_VER_S3_ENDING, ModSoundEvents.MUSIC_DISC_MAGIC_MOVIE_VER_S3_ENDING, 306, 15);
 

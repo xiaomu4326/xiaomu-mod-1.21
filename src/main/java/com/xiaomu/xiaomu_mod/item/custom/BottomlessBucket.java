@@ -37,10 +37,12 @@ public class BottomlessBucket extends Item {
         BlockPos blockPos_south = pos.south(1);
         BlockPos blockPos_west = pos.west(1);
         BlockPos blockPos_east = pos.east(1);
+        BlockPos blockPos_up = pos.up(1);
         BlockState blockState_north = world.getBlockState(blockPos_north);
         BlockState blockState_south = world.getBlockState(blockPos_south);
         BlockState blockState_west = world.getBlockState(blockPos_west);
         BlockState blockState_east = world.getBlockState(blockPos_east);
+        BlockState blockState_up = world.getBlockState(blockPos_up);
 
         if (Screen.hasControlDown()) {
             world.playSound(player, pos, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
@@ -79,10 +81,17 @@ public class BottomlessBucket extends Item {
             }else if (side == Direction.EAST && blockState_east.isIn(ModBlockTags.FLUID)) {
                 if (isLava(blockState_east)) {
                     world.playSound(player, blockPos_east, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                }else {
+                } else {
                     world.playSound(player, blockPos_east, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
                 }
                 world.setBlockState(blockPos_east, Blocks.AIR.getDefaultState());
+            }else if(side == Direction.UP && blockState_up.isIn(ModBlockTags.FLUID)){
+                if (isLava(blockState_up)) {
+                    world.playSound(player, blockPos_up, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                } else {
+                    world.playSound(player, blockPos_up, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                }
+                world.setBlockState(blockPos_up, Blocks.AIR.getDefaultState());
             }else {
                 if (!isWrongBlock(blockState)) {
                     world.playSound(player, pos, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);

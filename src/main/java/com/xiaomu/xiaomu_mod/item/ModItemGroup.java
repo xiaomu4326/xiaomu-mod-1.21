@@ -56,6 +56,7 @@ public class ModItemGroup {
                             entries.add(ModItems.MAGIC_MOVIE_VER_S1_TO_S2_OPENING);
                             entries.add(ModItems.MAGIC_MOVIE_VER_S2_ENDING);
                             entries.add(ModItems.MAGIC_MOVIE_VER_S3_OPENING);
+                            entries.add(ModItems.MAGIC_MOVIE_VER_S3_EPISODE);
                             entries.add(ModItems.MAGIC_MOVIE_VER_S3_ENDING);
                             entries.add(ModItems.SENREN_BANKA_OPENING);
                             entries.add(ModItems.SENREN_BANKA_OPENING_GAME_VER);
@@ -112,6 +113,8 @@ public class ModItemGroup {
                             entries.add(ModItems.TOHRU_HORN);
                             entries.add(ModItems.OBSIDIAN_BUCKET);
                             entries.add(ModItems.BOTTOMLESS_BUCKET);
+                            entries.add(ModItems.BOTTOMLESS_WATER_BUCKET);
+                            entries.add(ModItems.BOTTOMLESS_LAVA_BUCKET);
                         }).build());
 
         XiaomuMod.LOGGER.info("Registering Groups");

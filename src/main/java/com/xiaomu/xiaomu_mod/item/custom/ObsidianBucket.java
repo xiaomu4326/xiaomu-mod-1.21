@@ -41,7 +41,6 @@ public class ObsidianBucket extends Item {
             pos1 = pos.west(1);
         }
         BlockState blockState = world.getBlockState(pos1);
-        String name = blockState.getBlock().getName().getString();
         if (isRightBlock(blockState)) {
             world.playSound(player, pos1, SoundEvents.BLOCK_STONE_PLACE, SoundCategory.BLOCKS, 1.0F, 1.0F);
             world.setBlockState(pos1, Blocks.OBSIDIAN.getDefaultState());

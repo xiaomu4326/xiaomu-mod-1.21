@@ -57,6 +57,9 @@
   "item.xiaomu_mod.magic_movie_ver_s3_opening": "カラフル - ClariS",
   "jukebox_song.xiaomu_mod.magic_movie_ver_s3_opening": "カラフル - ClariS",
 
+  "item.xiaomu_mod.magic_movie_ver_s3_episode": "misterioso - Kalafina",
+  "jukebox_song.xiaomu_mod.magic_movie_ver_s3_episode": "misterioso - Kalafina",
+
   "item.xiaomu_mod.magic_movie_ver_s3_ending": "君の銀の庭 - Kalafina",
   "jukebox_song.xiaomu_mod.magic_movie_ver_s3_ending": "君の銀の庭 - Kalafina",
 
@@ -163,6 +166,10 @@
   "item.xiaomu_mod.obsidian_bucket": "Obsidian Bucket",
 
   "item.xiaomu_mod.bottomless_bucket": "Bottomless Bucket",
+
+  "item.xiaomu_mod.bottomless_water_bucket": "Bottomless Water Bucket",
+
+  "item.xiaomu_mod.bottomless_lava_bucket": "Bottomless Lava Bucket",
 
 
   "itemGroup.xiaomu_mod.music_disc_group": "Mod Music Disc",

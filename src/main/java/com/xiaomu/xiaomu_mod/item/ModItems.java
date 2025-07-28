@@ -1,9 +1,7 @@
 package com.xiaomu.xiaomu_mod.item;
 
 import com.xiaomu.xiaomu_mod.XiaomuMod;
-import com.xiaomu.xiaomu_mod.item.custom.BottomlessBucket;
-import com.xiaomu.xiaomu_mod.item.custom.KobayashiBeerCanFull;
-import com.xiaomu.xiaomu_mod.item.custom.ObsidianBucket;
+import com.xiaomu.xiaomu_mod.item.custom.*;
 import com.xiaomu.xiaomu_mod.sound.ModJukeboxSongs;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -74,6 +72,9 @@ public class ModItems {
 
     public static final Item MAGIC_MOVIE_VER_S3_OPENING = registerItems("magic_movie_ver_s3_opening",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.MAGIC_MOVIE_VER_S3_OPENING)));
+
+    public static final Item MAGIC_MOVIE_VER_S3_EPISODE = registerItems("magic_movie_ver_s3_episode",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.MAGIC_MOVIE_VER_S3_EPISODE)));
 
     public static final Item MAGIC_MOVIE_VER_S3_ENDING = registerItems("magic_movie_ver_s3_ending",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.MAGIC_MOVIE_VER_S3_ENDING)));
@@ -198,6 +199,14 @@ public class ModItems {
             new BottomlessBucket(new Item.Settings().maxCount(1).rarity(Rarity.EPIC)
                     .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)));
 
+    public static final Item BOTTOMLESS_WATER_BUCKET = registerItems("bottomless_water_bucket",
+            new BottomlessWaterBucket(new Item.Settings().maxCount(1).rarity(Rarity.EPIC)
+                    .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)));
+
+    public static final Item BOTTOMLESS_LAVA_BUCKET = registerItems("bottomless_lava_bucket",
+            new BottomlessLavaBucket(new Item.Settings().maxCount(1).rarity(Rarity.EPIC)
+                    .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)));
+
 
     private static Item registerItems(String id, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(XiaomuMod.MOD_ID, id), item);
@@ -217,6 +226,9 @@ public class ModItems {
 
     public static void addItemToToolsAndUtilitiesItemGroup(FabricItemGroupEntries fabricItemGroupEntries){
         fabricItemGroupEntries.add(OBSIDIAN_BUCKET);
+        fabricItemGroupEntries.add(BOTTOMLESS_BUCKET);
+        fabricItemGroupEntries.add(BOTTOMLESS_WATER_BUCKET);
+        fabricItemGroupEntries.add(BOTTOMLESS_LAVA_BUCKET);
     }
 
     public static void registerModItems(){

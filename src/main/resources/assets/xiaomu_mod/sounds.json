@@ -104,6 +104,11 @@
       "xiaomu_mod:magic_movie_ver_s3_opening"
     ]
   },
+  "music_disc.magic_movie_ver_s3_episode": {
+    "sounds": [
+      "xiaomu_mod:magic_movie_ver_s3_episode"
+    ]
+  },
   "music_disc.magic_movie_ver_s3_ending": {
     "sounds": [
       "xiaomu_mod:magic_movie_ver_s3_ending"
