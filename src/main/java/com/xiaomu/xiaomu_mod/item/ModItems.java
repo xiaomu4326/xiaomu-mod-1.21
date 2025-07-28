@@ -115,6 +115,9 @@ public class ModItems {
     public static final Item SENREN_BANKA_LENA_ENDING = registerItems("senren_banka_lena_ending",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_LENA_ENDING)));
 
+    public static final Item SLEEP_S1_OPENING = registerItems("sleep_s1_opening",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.SLEEP_S1_OPENING)));
+
     //English
     public static final Item PASSING_MEMORIES = registerItems("passing_memories",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.PASSING_MEMORIES)));
@@ -148,6 +151,10 @@ public class ModItems {
 
     public static final Item WHERE_WE_STARTED = registerItems("where_we_started",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.WHERE_WE_STARTED)));
+
+    public static final Item PAST_LIVES = registerItems("past_lives",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.PAST_LIVES)));
+
 
     //Food
     public static final Item TOHRU_MEAT = registerItems("tohru_meat",

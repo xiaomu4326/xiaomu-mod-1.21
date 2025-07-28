@@ -70,6 +70,8 @@ public class ModSoundEvents {
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_LENA_ENDING = registerReference("music_disc.senren_banka_lena_ending");
 
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SLEEP_S1_OPENING = registerReference("music_disc.sleep_s1_opening");
+
     //English
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_PASSING_MEMORIES = registerReference("music_disc.passing_memories");
 
@@ -92,6 +94,8 @@ public class ModSoundEvents {
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_RIDE_OR_DIE = registerReference("music_disc.ride_or_die");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_WHERE_WE_STARTED = registerReference("music_disc.where_we_started");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_PAST_LIVES = registerReference("music_disc.past_lives");
 
     private static SoundEvent register(String name){
         Identifier id = Identifier.of(XiaomuMod.MOD_ID, name);

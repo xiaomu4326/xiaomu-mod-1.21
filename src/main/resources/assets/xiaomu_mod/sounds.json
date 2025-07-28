@@ -179,6 +179,11 @@
       "xiaomu_mod:senren_banka_lena_ending"
     ]
   },
+  "music_disc.sleep_s1_opening": {
+    "sounds": [
+      "xiaomu_mod:sleep_s1_opening"
+    ]
+  },
   "music_disc.passing_memories": {
     "sounds": [
       "xiaomu_mod:passing_memories"
@@ -232,6 +237,11 @@
   "music_disc.where_we_started": {
     "sounds": [
       "xiaomu_mod:where_we_started"
+    ]
+  },
+  "music_disc.past_lives": {
+    "sounds": [
+      "xiaomu_mod:past_lives"
     ]
   }
 }

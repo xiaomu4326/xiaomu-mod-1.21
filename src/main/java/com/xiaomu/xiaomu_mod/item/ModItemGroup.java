@@ -71,6 +71,7 @@ public class ModItemGroup {
                             entries.add(ModItems.SENREN_BANKA_MAKO_ENDING);
                             entries.add(ModItems.SENREN_BANKA_LENA);
                             entries.add(ModItems.SENREN_BANKA_LENA_ENDING);
+                            entries.add(ModItems.SLEEP_S1_OPENING);
                             //English
                             entries.add(ModItems.PASSING_MEMORIES);
                             entries.add(ModItems.CALL_OF_SILENCE);
@@ -83,6 +84,7 @@ public class ModItemGroup {
                             entries.add(ModItems.COLORS);
                             entries.add(ModItems.RIDE_OR_DIE);
                             entries.add(ModItems.WHERE_WE_STARTED);
+                            entries.add(ModItems.PAST_LIVES);
                         }).build());
 
         Registry.register(Registries.ITEM_GROUP, FOOD_GROUP,
@@ -115,4 +117,3 @@ public class ModItemGroup {
         XiaomuMod.LOGGER.info("Registering Groups");
     }
 }
-

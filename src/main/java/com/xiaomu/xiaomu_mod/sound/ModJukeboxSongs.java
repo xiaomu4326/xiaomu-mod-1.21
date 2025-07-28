@@ -74,6 +74,8 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> SENREN_BANKA_LENA_ENDING = of("senren_banka_lena_ending");
 
+    RegistryKey<JukeboxSong> SLEEP_S1_OPENING = of("sleep_s1_opening");
+
     //English
     RegistryKey<JukeboxSong> PASSING_MEMORIES = of("passing_memories");
 
@@ -96,6 +98,8 @@ public interface ModJukeboxSongs {
     RegistryKey<JukeboxSong> RIDE_OR_DIE = of("ride_or_die");
 
     RegistryKey<JukeboxSong> WHERE_WE_STARTED = of("where_we_started");
+
+    RegistryKey<JukeboxSong> PAST_LIVES = of("past_lives");
 
 
     private static RegistryKey<JukeboxSong> of(String id){
@@ -175,6 +179,8 @@ public interface ModJukeboxSongs {
 
         register(registry, SENREN_BANKA_LENA_ENDING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_LENA_ENDING, 464, 15);
 
+        register(registry, SLEEP_S1_OPENING, ModSoundEvents.MUSIC_DISC_SLEEP_S1_OPENING, 220, 15);
+
 
         //English
         register(registry, PASSING_MEMORIES, ModSoundEvents.MUSIC_DISC_PASSING_MEMORIES, 219, 15);
@@ -199,5 +205,6 @@ public interface ModJukeboxSongs {
 
         register(registry, WHERE_WE_STARTED, ModSoundEvents.MUSIC_DISC_WHERE_WE_STARTED, 244, 15);
 
+        register(registry, PAST_LIVES, ModSoundEvents.MUSIC_DISC_PAST_LIVES, 153, 15);
     }
 }

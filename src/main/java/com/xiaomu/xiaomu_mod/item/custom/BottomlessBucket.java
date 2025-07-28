@@ -83,7 +83,7 @@ public class BottomlessBucket extends Item {
                     world.playSound(player, blockPos_east, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
                 }
                 world.setBlockState(blockPos_east, Blocks.AIR.getDefaultState());
-            }else{
+            }else {
                 if (!isWrongBlock(blockState)) {
                     world.playSound(player, pos, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
                     world.setBlockState(pos, Blocks.AIR.getDefaultState());
@@ -101,7 +101,7 @@ public class BottomlessBucket extends Item {
     }
 
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand){
-        if (Screen.hasShiftDown() && Screen.hasControlDown()) {
+        if (Screen.hasAltDown()) {
             user.playSound(SoundEvents.ITEM_BUCKET_FILL);
             user.kill();
         }
