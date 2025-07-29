@@ -44,10 +44,20 @@ public class ObsidianBucket extends Item {
         if (isRightBlock(blockState)) {
             world.playSound(player, pos1, SoundEvents.BLOCK_STONE_PLACE, SoundCategory.BLOCKS, 1.0F, 1.0F);
             world.setBlockState(pos1, Blocks.OBSIDIAN.getDefaultState());
-            if (player != null && !player.isCreative()) {
+            if (player != null && !player.isInCreativeMode()) {
                 ItemStack stack = context.getStack();
-                stack.setCount(stack.getCount() - 1);
-                player.giveItemStack(new ItemStack(Items.BUCKET));
+                if (stack.isEmpty()) {
+                    stack.setCount(stack.getCount() - 1);
+                    player.giveItemStack(new ItemStack(Items.BUCKET));
+                }else {
+                    if (!player.isInCreativeMode()) {
+                        ItemStack itemStack = new ItemStack(Items.BUCKET);
+                        stack.setCount(stack.getCount() - 1);
+                        if (!player.getInventory().insertStack(itemStack)) {
+                            player.dropItem(itemStack, false);
+                        }
+                    }
+                }
             }
         }
         return super.useOnBlock(context);

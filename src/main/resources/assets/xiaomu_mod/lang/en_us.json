@@ -140,6 +140,9 @@
   "item.xiaomu_mod.past_lives": "Past Lives - sapientdream,Slushii",
   "jukebox_song.xiaomu_mod.past_lives": "Past Lives - sapientdream,Slushii",
 
+  "item.xiaomu_mod.umbrella": "Umbrella (Matte Remix) - Matte,Ember Island",
+  "jukebox_song.xiaomu_mod.umbrella": "Umbrella (Matte Remix) - Matte,Ember Island",
+
 
   "item.xiaomu_mod.tohru_meat": "Tohru's Meat",
   "item.xiaomu_mod.cooked_tohru_meat": "Cooked Tohru's Meat",
@@ -164,6 +167,8 @@
   "item.xiaomu_mod.tohru_horn": "Tohru Horn",
 
   "item.xiaomu_mod.obsidian_bucket": "Obsidian Bucket",
+
+  "item.xiaomu_mod.bottomless_obsidian_bucket": "Bottomless Obsidian Bucket",
 
   "item.xiaomu_mod.bottomless_bucket": "Bottomless Bucket",
 

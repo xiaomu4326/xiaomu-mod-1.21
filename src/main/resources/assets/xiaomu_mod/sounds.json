@@ -248,5 +248,10 @@
     "sounds": [
       "xiaomu_mod:past_lives"
     ]
+  },
+  "music_disc.umbrella": {
+    "sounds": [
+      "xiaomu_mod:umbrella"
+    ]
   }
 }

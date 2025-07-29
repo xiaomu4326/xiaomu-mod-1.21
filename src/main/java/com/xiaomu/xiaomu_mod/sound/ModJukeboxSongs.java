@@ -103,6 +103,8 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> PAST_LIVES = of("past_lives");
 
+    RegistryKey<JukeboxSong> UMBRELLA = of("umbrella");
+
 
     private static RegistryKey<JukeboxSong> of(String id){
         return RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(XiaomuMod.MOD_ID, id));
@@ -210,5 +212,7 @@ public interface ModJukeboxSongs {
         register(registry, WHERE_WE_STARTED, ModSoundEvents.MUSIC_DISC_WHERE_WE_STARTED, 244, 15);
 
         register(registry, PAST_LIVES, ModSoundEvents.MUSIC_DISC_PAST_LIVES, 153, 15);
+
+        register(registry, UMBRELLA, ModSoundEvents.MUSIC_DISC_UMBRELLA, 285, 15);
     }
 }

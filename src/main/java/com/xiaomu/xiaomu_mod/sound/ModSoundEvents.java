@@ -99,6 +99,8 @@ public class ModSoundEvents {
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_PAST_LIVES = registerReference("music_disc.past_lives");
 
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_UMBRELLA = registerReference("music_disc.umbrella");
+
     private static SoundEvent register(String name){
         Identifier id = Identifier.of(XiaomuMod.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));

@@ -156,6 +156,9 @@ public class ModItems {
     public static final Item PAST_LIVES = registerItems("past_lives",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.PAST_LIVES)));
 
+    public static final Item UMBRELLA = registerItems("umbrella",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.UMBRELLA)));
+
 
     //Food
     public static final Item TOHRU_MEAT = registerItems("tohru_meat",
@@ -195,6 +198,10 @@ public class ModItems {
     public static final Item OBSIDIAN_BUCKET = registerItems("obsidian_bucket",
             new ObsidianBucket(new Item.Settings().maxCount(2).rarity(Rarity.COMMON)));
 
+    public static final Item BOTTOMLESS_OBSIDIAN_BUCKET = registerItems("bottomless_obsidian_bucket",
+            new BottomlessObsidianBucket(new Item.Settings().maxCount(1).rarity(Rarity.EPIC)
+                    .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)));
+
     public static final Item BOTTOMLESS_BUCKET = registerItems("bottomless_bucket",
             new BottomlessBucket(new Item.Settings().maxCount(1).rarity(Rarity.EPIC)
                     .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)));
@@ -226,6 +233,7 @@ public class ModItems {
 
     public static void addItemToToolsAndUtilitiesItemGroup(FabricItemGroupEntries fabricItemGroupEntries){
         fabricItemGroupEntries.add(OBSIDIAN_BUCKET);
+        fabricItemGroupEntries.add(BOTTOMLESS_OBSIDIAN_BUCKET);
         fabricItemGroupEntries.add(BOTTOMLESS_BUCKET);
         fabricItemGroupEntries.add(BOTTOMLESS_WATER_BUCKET);
         fabricItemGroupEntries.add(BOTTOMLESS_LAVA_BUCKET);

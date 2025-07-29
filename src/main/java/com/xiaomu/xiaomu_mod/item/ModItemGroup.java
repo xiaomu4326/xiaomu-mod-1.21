@@ -86,6 +86,7 @@ public class ModItemGroup {
                             entries.add(ModItems.RIDE_OR_DIE);
                             entries.add(ModItems.WHERE_WE_STARTED);
                             entries.add(ModItems.PAST_LIVES);
+                            entries.add(ModItems.UMBRELLA);
                         }).build());
 
         Registry.register(Registries.ITEM_GROUP, FOOD_GROUP,
@@ -112,6 +113,7 @@ public class ModItemGroup {
                             entries.add(ModBlocks.RANDOM_FOOD_BLOCK);
                             entries.add(ModItems.TOHRU_HORN);
                             entries.add(ModItems.OBSIDIAN_BUCKET);
+                            entries.add(ModItems.BOTTOMLESS_OBSIDIAN_BUCKET);
                             entries.add(ModItems.BOTTOMLESS_BUCKET);
                             entries.add(ModItems.BOTTOMLESS_WATER_BUCKET);
                             entries.add(ModItems.BOTTOMLESS_LAVA_BUCKET);
