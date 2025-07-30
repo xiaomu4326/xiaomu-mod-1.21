@@ -1,6 +1,5 @@
 package com.xiaomu.xiaomu_mod.item.custom;
 
-import com.xiaomu.xiaomu_mod.tags.ModBlockTags;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.gui.screen.Screen;
@@ -9,11 +8,9 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
-import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
-import net.minecraft.util.math.Vec2f;
 import net.minecraft.world.World;
 
 public class BottomlessObsidianBucket extends Item {
@@ -47,7 +44,7 @@ public class BottomlessObsidianBucket extends Item {
             for (int i = 0; i < 5; i++) {
                 for (int j = 0; j < 5; j++) {
                     BlockPos area_pos = pos.up(i).east(j - 2);
-                    if (world.getBlockState(area_pos).isIn(ModBlockTags.CANNOT_BE_PICKED_UP_WITH_BOTTOMLESS_BUCKET)) {
+                    if (!(world.getBlockState(area_pos).isOf(Blocks.AIR) | world.getBlockState(area_pos).isOf(Blocks.VOID_AIR))) {
                         isRightBlock = false;
                     }
                 }
@@ -68,7 +65,7 @@ public class BottomlessObsidianBucket extends Item {
                         }
                     }
                     world.setBlockState(pos.up(1), Blocks.FIRE.getDefaultState());
-                }else {
+                } else {
                     for (int k = 0; k < 5; k++) {
                         for (int a = 0; a < 5; a++) {
                             BlockPos area_pos_a = pos.up(a).east(k - 2);
@@ -84,8 +81,18 @@ public class BottomlessObsidianBucket extends Item {
                     world.setBlockState(pos.up(1), Blocks.FIRE.getDefaultState());
                 }
             }
-        }else {
-
+        }else if (Screen.hasAltDown()) {
+            for (int i = 0; i < 5; i++){
+                for (int j = 0; j < 5; j++){
+                    for (int k = 0; k < 5; k++){
+                        BlockPos pos_alt = pos.up(i+1).south(j-2).west(k-2);
+                        if (world.getBlockState(pos_alt).isOf(Blocks.AIR) | world.getBlockState(pos_alt).isOf(Blocks.VOID_AIR)) {
+                            world.setBlockState(pos_alt, Blocks.OBSIDIAN.getDefaultState());
+                        }
+                    }
+                }
+            }
+        } else {
             BlockPos pos1 = pos;
             if (side == Direction.DOWN) {
                 pos1 = pos.down(1);
