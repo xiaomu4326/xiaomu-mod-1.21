@@ -196,7 +196,7 @@ public class ModItems {
             new Item(new Item.Settings().maxCount(64).rarity(Rarity.COMMON)));
 
     public static final Item OBSIDIAN_BUCKET = registerItems("obsidian_bucket",
-            new ObsidianBucket(new Item.Settings().maxCount(2).rarity(Rarity.COMMON)));
+            new ObsidianBucket(new Item.Settings().maxCount(64).rarity(Rarity.COMMON)));
 
     public static final Item BOTTOMLESS_OBSIDIAN_BUCKET = registerItems("bottomless_obsidian_bucket",
             new BottomlessObsidianBucket(new Item.Settings().maxCount(1).rarity(Rarity.EPIC)
