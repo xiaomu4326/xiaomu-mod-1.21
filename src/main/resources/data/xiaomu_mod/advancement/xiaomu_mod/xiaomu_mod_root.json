@@ -1,0 +1,35 @@
+{
+    "criteria":{
+        "has_joined_world": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": false,
+        "show_toast": false,
+        "background": "minecraft:textures/block/stone.png",
+        "icon": {
+            "count": 1,
+            "id": "xiaomu_mod:tohru_horn"
+        },
+        "title": {
+            "translate": "advancements.xiaomu_mod.xiaomu_mod_root.title"
+        },
+        "description": {
+            "translate": "advancements.xiaomu_mod.xiaomu_mod_root.description"
+        },
+        "frame": "task"
+    },
+    "requirements": [
+        [
+        "has_joined_world"
+        ]
+    ]
+}

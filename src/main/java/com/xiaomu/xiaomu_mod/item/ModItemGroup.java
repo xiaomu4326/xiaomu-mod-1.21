@@ -3,6 +3,7 @@ package com.xiaomu.xiaomu_mod.item;
 import com.xiaomu.xiaomu_mod.XiaomuMod;
 import com.xiaomu.xiaomu_mod.block.ModBlocks;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.Items;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;

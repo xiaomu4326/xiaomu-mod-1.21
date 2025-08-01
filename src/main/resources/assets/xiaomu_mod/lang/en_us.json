@@ -181,5 +181,15 @@
 
   "itemGroup.xiaomu_mod.food_group": "Mod Food",
 
-  "itemGroup.xiaomu_mod.other_group": "Other"
+  "itemGroup.xiaomu_mod.other_group": "Other",
+
+
+  "advancements.xiaomu_mod.xiaomu_mod_root.title": "Xiaomu's Mod",
+  "advancements.xiaomu_mod.xiaomu_mod_root.description": "Thanks for using this mod!",
+
+  "advancements.xiaomu_mod.has_random_food_block.title": "Food Gift Box",
+  "advancements.xiaomu_mod.has_random_food_block.description": "Have a Food Gift Box",
+
+  "advancements.xiaomu_mod.has_tohru_meat.title": "Tohru Meat",
+  "advancements.xiaomu_mod.has_tohru_meat.description": "It's poisonous until it is cooked!"
 }
