@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "kill_iron_golem": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:iron_golem"
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "count": 1,
+            "id": "minecraft:diamond_sword"
+        },
+        "title": {
+            "translate": "advancements.village_hunter.kill_iron_golem.title"
+        },
+        "description": {
+            "translate": "advancements.village_hunter.kill_iron_golem.description"
+        },
+        "frame": "task"
+    },
+    "requirements":[
+        [
+            "kill_iron_golem"
+        ]
+    ],
+    "parent":"xiaomu_mod:village/root"
+}

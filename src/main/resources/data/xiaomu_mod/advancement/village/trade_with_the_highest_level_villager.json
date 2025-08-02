@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "traded_with_the_highest_level_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{level:5}}"
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "minecraft:emerald_block"
+    },
+    "title": {
+      "translate": "advancements.adventure.trade_with_the_highest_level_villager.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.trade_with_the_highest_level_villager.description"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "traded_with_the_highest_level_villager"
+    ]
+  ],
+  "sends_telemetry_event": true,
+  "parent": "minecraft:adventure/trade"
+}
