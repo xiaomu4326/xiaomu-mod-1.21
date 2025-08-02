@@ -960,9 +960,9 @@
                 {
                   "add": false,
                   "count": {
-                    "type": "minecraft:uniform",
-                    "max": 32.0,
-                    "min": 1.0
+                    "type": "minecraft:binomial",
+                    "n": 32,
+                    "p": 0.5
                   },
                   "function": "minecraft:set_count"
                 }
@@ -981,9 +981,9 @@
                 {
                   "add": false,
                   "count": {
-                    "type": "minecraft:uniform",
-                    "max": 32.0,
-                    "min": 1.0
+                    "type": "minecraft:binomial",
+                    "n": 32,
+                    "p": 0.5
                   },
                   "function": "minecraft:set_count"
                 }
@@ -1018,14 +1018,77 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:enchanted_golden_apple",
+              "name": "xiaomu_mod:gilded_apple",
               "functions": [
                 {
                   "add": false,
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 64.0,
+                    "max": 32.0,
                     "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.02
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xiaomu_mod:enchanted_golden_carrot",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 32.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.02
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:enchanted_golden_apple",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:binomial",
+                    "n": 64,
+                    "p": 0.5
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.01
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xiaomu_mod:enchanted_golden_bread",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:binomial",
+                    "n": 64,
+                    "p": 0.5
                   },
                   "function": "minecraft:set_count"
                 }
@@ -1044,9 +1107,8 @@
                 {
                   "add": false,
                   "count": {
-                    "type": "minecraft:uniform",
-                    "max": 128.0,
-                    "min": 128.0
+                    "type": "minecraft:constant",
+                    "value": 128
                   },
                   "function": "minecraft:set_count"
                 }
