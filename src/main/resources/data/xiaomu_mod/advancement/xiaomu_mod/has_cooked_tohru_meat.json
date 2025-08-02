@@ -1,11 +1,11 @@
 {
     "criteria": {
-        "has_tohru_meat": {
+        "has_cooked_tohru_meat": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "xiaomu_mod:tohru_meat"
+                        "items": "xiaomu_mod:cooked_tohru_meat"
                     }
                 ]
             }
@@ -14,20 +14,20 @@
     "display": {
         "icon": {
             "count": 1,
-            "id": "xiaomu_mod:tohru_meat"
+            "id": "xiaomu_mod:cooked_tohru_meat"
         },
         "title":{ 
-            "translate": "advancements.xiaomu_mod.has_tohru_meat.title"
+            "translate": "advancements.xiaomu_mod.has_cooked_tohru_meat.title"
         },
         "description": {
-            "translate": "advancements.xiaomu_mod.has_tohru_meat.description"
+            "translate": "advancements.xiaomu_mod.has_cooked_tohru_meat.description"
         },
         "frame": "goal"
     },
     "requirements": [
         [
-        "has_tohru_meat"
+        "has_cooked_tohru_meat"
         ]
     ],
-    "parent":"xiaomu_mod:xiaomu_mod/have_random_food_block"
+    "parent":"xiaomu_mod:xiaomu_mod/has_tohru_meat"
 }
