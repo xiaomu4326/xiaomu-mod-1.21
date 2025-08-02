@@ -184,8 +184,8 @@
   "itemGroup.xiaomu_mod.other_group": "Other",
 
 
-  "advancements.xiaomu_mod.xiaomu_mod_root.title": "Xiaomu's Mod",
-  "advancements.xiaomu_mod.xiaomu_mod_root.description": "Thanks for using this mod!",
+  "advancements.xiaomu_mod.root.title": "Xiaomu's Mod",
+  "advancements.xiaomu_mod.root.description": "Thanks for using this mod!",
 
   "advancements.xiaomu_mod.has_random_food_block.title": "Food Gift Box",
   "advancements.xiaomu_mod.has_random_food_block.description": "Have a Food Gift Box",
@@ -209,5 +209,12 @@
   "advancements.xiaomu_mod.has_obsidian_bucket.description": "When water and lava meet...",
 
   "advancements.xiaomu_mod.has_bottomless_obsidian_bucket.title": "Bottomless Obsidian Bucket",
-  "advancements.xiaomu_mod.has_bottomless_obsidian_bucket.description": "When the Ocean and the Nether Meet..."
+  "advancements.xiaomu_mod.has_bottomless_obsidian_bucket.description": "When the Ocean and the Nether Meet...",
+
+
+  "advancements.village_hunter.root.title": "Village Hunter",
+  "advancements.village_hunter.root.description": "The end of the village",
+
+  "advancements.village_hunter.kill_iron_golem.title": "\"White Zombie\"",
+  "advancements.village_hunter.kill_iron_golem.description": "It will \"harm\" the village!"
 }

@@ -29,5 +29,5 @@
         "has_bottomless_bucket"
         ]
     ],
-    "parent": "xiaomu_mod:xiaomu_mod/xiaomu_mod_root"
+    "parent": "xiaomu_mod:xiaomu_mod/root"
 }

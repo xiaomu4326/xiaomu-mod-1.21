@@ -1,5 +1,5 @@
 {
-    "criteria":{
+    "criteria": {
         "has_joined_world": {
             "trigger": "minecraft:location",
             "conditions": {
@@ -20,10 +20,10 @@
             "id": "xiaomu_mod:tohru_horn"
         },
         "title": {
-            "translate": "advancements.xiaomu_mod.xiaomu_mod_root.title"
+            "translate": "advancements.xiaomu_mod.root.title"
         },
         "description": {
-            "translate": "advancements.xiaomu_mod.xiaomu_mod_root.description"
+            "translate": "advancements.xiaomu_mod.root.description"
         },
         "frame": "task"
     },
