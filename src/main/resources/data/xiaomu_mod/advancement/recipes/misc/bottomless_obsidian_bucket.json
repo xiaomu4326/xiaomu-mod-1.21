@@ -1,43 +1,43 @@
 {
-    "parent": "minecraft:recipe/root",
-    "criteria": {
-        "has_bottomless_water_bucket": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items":[
-                    {
-                        "items": "xiaomu_mod:bottomless_water_bucket"
-                    }
-                ]
-            }
-        },
-        "has_bottomless_lava_bucket": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "xiaomu_mod:bottomless_lava_bucket"
-                    }
-                ]
-            }
-        },
-        "has_the_recipe": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-                "recipe": "xiaomu_mod:bottomless_obsidian_bucket"
-            }
-        }
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bottomless_water_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "xiaomu_mod:bottomless_water_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     },
-    "requirements": [
-        [
-            "has_the_recipe",
-            "has_bottomless_water_bucket",
-            "has_bottomless_lava_bucket"
+    "has_bottomless_lava_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "xiaomu_mod:bottomless_lava_bucket"
+          }
         ]
-    ],
-    "rewards": {
-        "recipes": [
-            "xiaomu_mod:bottomless_obsidian_bucket"
-        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "xiaomu_mod:bottomless_obsidian_bucket"
+      },
+      "trigger": "minecraft:recipe_unlocked"
     }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bottomless_water_bucket",
+      "has_bottomless_lava_bucket"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "xiaomu_mod:bottomless_obsidian_bucket"
+    ]
+  }
 }
