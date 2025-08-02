@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "has_bottomless_water_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "xiaomu_mod:bottomless_water_bucket"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "count": 1,
+            "id": "xiaomu_mod:bottomless_water_bucket"
+        },
+        "title":{ 
+            "translate": "advancements.xiaomu_mod.has_bottomless_water_bucket.title"
+        },
+        "description": {
+            "translate": "advancements.xiaomu_mod.has_bottomless_water_bucket.description"
+        },
+        "frame": "goal"
+    },
+    "requirements": [
+        [
+        "has_bottomless_water_bucket"
+        ]
+    ],
+    "parent": "xiaomu_mod:xiaomu_mod/has_bottomless_bucket"
+}

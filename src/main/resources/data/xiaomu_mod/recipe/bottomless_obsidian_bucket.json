@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "xiaomu_mod:bottomless_water_bucket"
+        },
+        {
+            "item": "xiaomu_mod:bottomless_lava_bucket"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "xiaomu_mod:bottomless_obsidian_bucket"
+    }
+}

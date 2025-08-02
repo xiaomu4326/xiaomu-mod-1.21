@@ -194,5 +194,20 @@
   "advancements.xiaomu_mod.has_tohru_meat.description": "It's poisonous until it is cooked!",
 
   "advancements.xiaomu_mod.has_cooked_tohru_meat.title": "Cooked Tohru Meat",
-  "advancements.xiaomu_mod.has_cooked_tohru_meat.description": "Miss Kobayashi doesn't like it!"
+  "advancements.xiaomu_mod.has_cooked_tohru_meat.description": "Miss Kobayashi doesn't like it!",
+
+  "advancements.xiaomu_mod.has_bottomless_bucket.title": "Bottomless Bucket",
+  "advancements.xiaomu_mod.has_bottomless_bucket.description": "It can accommodate anything, even players!",
+
+  "advancements.xiaomu_mod.has_bottomless_water_bucket.title": "Bottomless Water Bucket",
+  "advancements.xiaomu_mod.has_bottomless_water_bucket.description": "There's a whole ocean in it!",
+
+  "advancements.xiaomu_mod.has_bottomless_lava_bucket.title": "Bottomless Lava Bucket",
+  "advancements.xiaomu_mod.has_bottomless_lava_bucket.description": "There's a whole nether in it!",
+
+  "advancements.xiaomu_mod.has_obsidian_bucket.title": "Obsidian Bucket",
+  "advancements.xiaomu_mod.has_obsidian_bucket.description": "When water and lava meet...",
+
+  "advancements.xiaomu_mod.has_bottomless_obsidian_bucket.title": "Bottomless Obsidian Bucket",
+  "advancements.xiaomu_mod.has_bottomless_obsidian_bucket.description": "When the Ocean and the Nether Meet..."
 }

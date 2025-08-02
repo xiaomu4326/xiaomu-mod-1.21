@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "has_bottomless_lava_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "xiaomu_mod:bottomless_lava_bucket"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "count": 1,
+            "id": "xiaomu_mod:bottomless_lava_bucket"
+        },
+        "title":{ 
+            "translate": "advancements.xiaomu_mod.has_bottomless_lava_bucket.title"
+        },
+        "description": {
+            "translate": "advancements.xiaomu_mod.has_bottomless_lava_bucket.description"
+        },
+        "frame": "goal"
+    },
+    "requirements": [
+        [
+        "has_bottomless_lava_bucket"
+        ]
+    ],
+    "parent": "xiaomu_mod:xiaomu_mod/has_bottomless_water_bucket"
+}

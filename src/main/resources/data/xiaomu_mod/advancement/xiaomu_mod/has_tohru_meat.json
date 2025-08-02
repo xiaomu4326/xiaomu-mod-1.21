@@ -22,7 +22,7 @@
         "description": {
             "translate": "advancements.xiaomu_mod.has_tohru_meat.description"
         },
-        "frame": "goal"
+        "frame": "task"
     },
     "requirements": [
         [

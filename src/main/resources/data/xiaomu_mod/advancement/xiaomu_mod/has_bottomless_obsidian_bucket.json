@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "has_bottomless_obsidian_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "xiaomu_mod:bottomless_obsidian_bucket"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "count": 1,
+            "id": "xiaomu_mod:bottomless_obsidian_bucket"
+        },
+        "title":{ 
+            "translate": "advancements.xiaomu_mod.has_bottomless_obsidian_bucket.title"
+        },
+        "description": {
+            "translate": "advancements.xiaomu_mod.has_bottomless_obsidian_bucket.description"
+        },
+        "frame": "challenge"
+    },
+    "requirements": [
+        [
+        "has_bottomless_obsidian_bucket"
+        ]
+    ],
+    "parent": "xiaomu_mod:xiaomu_mod/has_bottomless_lava_bucket"
+}
