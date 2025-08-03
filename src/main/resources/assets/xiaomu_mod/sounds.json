@@ -194,6 +194,21 @@
       "xiaomu_mod:passing_memories"
     ]
   },
+  "music_disc.the_road_not_taken": {
+    "sounds": [
+      "xiaomu_mod:the_road_not_taken"
+    ]
+  },
+  "music_disc.hope_is_the_thing_with_feathers": {
+    "sounds": [
+      "xiaomu_mod:hope_is_the_thing_with_feathers"
+    ]
+  },
+  "music_disc.sway_to_my_beat_in_cosmos": {
+    "sounds": [
+      "xiaomu_mod:sway_to_my_beat_in_cosmos"
+    ]
+  },
   "music_disc.call_of_silence": {
     "sounds": [
       "xiaomu_mod:call_of_silence"
@@ -212,16 +227,6 @@
   "music_disc.day_light": {
     "sounds": [
       "xiaomu_mod:day_light"
-    ]
-  },
-  "music_disc.hope_is_the_thing_with_feathers": {
-    "sounds": [
-      "xiaomu_mod:hope_is_the_thing_with_feathers"
-    ]
-  },
-  "music_disc.sway_to_my_beat_in_cosmos": {
-    "sounds": [
-      "xiaomu_mod:sway_to_my_beat_in_cosmos"
     ]
   },
   "music_disc.levitating": {

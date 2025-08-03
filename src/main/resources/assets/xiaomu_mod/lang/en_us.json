@@ -107,6 +107,15 @@
   "item.xiaomu_mod.passing_memories": "Passing Memories - Faouzia,HOYO-MiX",
   "jukebox_song.xiaomu_mod.passing_memories": "Passing Memories - Faouzia,HOYO-MiX",
 
+  "item.xiaomu_mod.the_road_not_taken": "The Road Not Taken - HOYO-MiX,Aimer",
+  "jukebox_song.xiaomu_mod.the_road_not_taken": "The Road Not Taken - HOYO-MiX,Aimer",
+
+  "item.xiaomu_mod.hope_is_the_thing_with_feathers": "Hope Is the Thing With Feathers - Robin,HOYO-MiX,Chevy",
+  "jukebox_song.xiaomu_mod.hope_is_the_thing_with_feathers": "Hope Is the Thing With Feathers - Robin,HOYO-MiX,Chevy",
+
+  "item.xiaomu_mod.sway_to_my_beat_in_cosmos": "Sway to My Beat in Cosmos - Robin,HOYO-MiX,Chevy",
+  "jukebox_song.xiaomu_mod.sway_to_my_beat_in_cosmos": "Sway to My Beat in Cosmos - Robin,HOYO-MiX,Chevy",
+
   "item.xiaomu_mod.call_of_silence": "Call of Silence - 澤野弘之,R!N／Gemie",
   "jukebox_song.xiaomu_mod.call_of_silence": "Call of Silence - 澤野弘之,R!N／Gemie",
 
@@ -118,12 +127,6 @@
 
   "item.xiaomu_mod.day_light": "Daylight - Seredris",
   "jukebox_song.xiaomu_mod.day_light": "Daylight - Seredris",
-
-  "item.xiaomu_mod.hope_is_the_thing_with_feathers": "Hope Is the Thing With Feathers - Robin,HOYO-MiX,Chevy",
-  "jukebox_song.xiaomu_mod.hope_is_the_thing_with_feathers": "Hope Is the Thing With Feathers - Robin,HOYO-MiX,Chevy",
-
-  "item.xiaomu_mod.sway_to_my_beat_in_cosmos": "Sway to My Beat in Cosmos - Robin,HOYO-MiX,Chevy",
-  "jukebox_song.xiaomu_mod.sway_to_my_beat_in_cosmos": "Sway to My Beat in Cosmos - Robin,HOYO-MiX,Chevy",
 
   "item.xiaomu_mod.levitating": "Levitating - Dua Lipa",
   "jukebox_song.xiaomu_mod.levitating": "Levitating - Dua Lipa",
@@ -219,7 +222,7 @@
   "advancements.village.kill_iron_golem.description": "Kill an Iron Golem",
 
   "advancements.village.interacted_with_villager.title": "A Villager!",
-  "advancements.village.interacted_with_villager.description": "Interacted with a villager",
+  "advancements.village.interacted_with_villager.description": "Interact with a villager",
 
   "advancements.village.give_food_to_villager.title": "Philanthropist",
   "advancements.village.give_food_to_villager.description": "Give food to a Villager",
@@ -228,8 +231,11 @@
   "advancements.village.rob_food_from_villager.description": "Rob food from Villagers",
 
   "advancements.village.trade_with_the_highest_level_villager.title": "So many emeralds!",
-  "advancements.village.trade_with_the_highest_level_villager.description": "Trade with a highest level Villager",
+  "advancements.village.trade_with_the_highest_level_villager.description": "Trade with a max-level Villager",
 
   "advancements.village.kill_villager.title": "You're a criminal!",
-  "advancements.village.kill_villager.description": "Kill a villager"
+  "advancements.village.kill_villager.description": "Kill a villager",
+
+  "advancements.village.get_hay_block_from_village.title": "Free Bread",
+  "advancements.village.get_hay_block_from_village.description": "Get a Hay Bale from a Village"
 }

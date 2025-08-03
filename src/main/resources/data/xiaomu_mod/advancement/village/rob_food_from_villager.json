@@ -30,7 +30,7 @@
         "description": {
             "translate": "advancements.village.rob_food_from_villager.description"
         },
-        "frame": "challenge"
+        "frame": "goal"
     },
-    "parent": "xiaomu_mod:village/interacted_with_villager"
+    "parent": "xiaomu_mod:village/interact_with_villager"
 }

@@ -120,9 +120,20 @@ public class ModItems {
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.SLEEP_S1_OPENING)));
 
     //English
+    //mihoyo
     public static final Item PASSING_MEMORIES = registerItems("passing_memories",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.PASSING_MEMORIES)));
 
+    public static final Item THE_ROAD_NOT_TAKEN = registerItems("the_road_not_taken",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.THE_ROAD_NOT_TAKEN)));
+
+    public static final Item HOPE_IS_THE_THING_WITH_FEATHERS = registerItems("hope_is_the_thing_with_feathers",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.HOPE_IS_THE_THING_WITH_FEATHERS)));
+
+    public static final Item SWAY_TO_MY_BEAT_IN_COSMOS = registerItems("sway_to_my_beat_in_cosmos",
+            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.SWAY_TO_MY_BEAT_IN_COSMOS)));
+
+    //other    
     public static final Item CALL_OF_SILENCE = registerItems("call_of_silence",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.CALL_OF_SILENCE)));
 
@@ -134,12 +145,6 @@ public class ModItems {
 
     public static final Item DAY_LIGHT = registerItems("day_light",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.DAY_LIGHT)));
-
-    public static final Item HOPE_IS_THE_THING_WITH_FEATHERS = registerItems("hope_is_the_thing_with_feathers",
-            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.HOPE_IS_THE_THING_WITH_FEATHERS)));
-
-    public static final Item SWAY_TO_MY_BEAT_IN_COSMOS = registerItems("sway_to_my_beat_in_cosmos",
-            new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.SWAY_TO_MY_BEAT_IN_COSMOS)));
 
     public static final Item LEVITATING = registerItems("levitating",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.LEVITATING)));

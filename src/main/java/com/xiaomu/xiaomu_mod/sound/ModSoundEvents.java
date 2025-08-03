@@ -75,8 +75,16 @@ public class ModSoundEvents {
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SLEEP_S1_OPENING = registerReference("music_disc.sleep_s1_opening");
 
     //English
+    //mihoyo
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_PASSING_MEMORIES = registerReference("music_disc.passing_memories");
 
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_THE_ROAD_NOT_TAKEN = registerReference("music_disc.the_road_not_taken");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_HOPE_IS_THE_THING_WITH_FEATHERS = registerReference("music_disc.hope_is_the_thing_with_feathers");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SWAY_TO_MY_BEAT_IN_COSMOS = registerReference("music_disc.sway_to_my_beat_in_cosmos");
+
+    //other
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_CALL_OF_SILENCE = registerReference("music_disc.call_of_silence");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DUVET = registerReference("music_disc.duvet");
@@ -84,10 +92,6 @@ public class ModSoundEvents {
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_I_LOVE_YOU_SO = registerReference("music_disc.i_love_you_so");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DAY_LIGHT = registerReference("music_disc.day_light");
-
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_HOPE_IS_THE_THING_WITH_FEATHERS = registerReference("music_disc.hope_is_the_thing_with_feathers");
-
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SWAY_TO_MY_BEAT_IN_COSMOS = registerReference("music_disc.sway_to_my_beat_in_cosmos");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_LEVITATING = registerReference("music_disc.levitating");
 

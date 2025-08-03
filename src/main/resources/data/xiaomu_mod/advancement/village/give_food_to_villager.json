@@ -36,5 +36,5 @@
             "give_food"
         ]
     ],
-    "parent": "xiaomu_mod:village/interacted_with_villager"
+    "parent": "xiaomu_mod:village/interact_with_villager"
 }

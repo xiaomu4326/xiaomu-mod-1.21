@@ -75,13 +75,16 @@ public class ModItemGroup {
                             entries.add(ModItems.SENREN_BANKA_LENA_ENDING);
                             entries.add(ModItems.SLEEP_S1_OPENING);
                             //English
+                            //mihoyo
                             entries.add(ModItems.PASSING_MEMORIES);
+                            entries.add(ModItems.THE_ROAD_NOT_TAKEN);
+                            entries.add(ModItems.HOPE_IS_THE_THING_WITH_FEATHERS);
+                            entries.add(ModItems.SWAY_TO_MY_BEAT_IN_COSMOS);
+                            //other
                             entries.add(ModItems.CALL_OF_SILENCE);
                             entries.add(ModItems.DUVET);
                             entries.add(ModItems.I_LOVE_YOU_SO);
                             entries.add(ModItems.DAY_LIGHT);
-                            entries.add(ModItems.HOPE_IS_THE_THING_WITH_FEATHERS);
-                            entries.add(ModItems.SWAY_TO_MY_BEAT_IN_COSMOS);
                             entries.add(ModItems.LEVITATING);
                             entries.add(ModItems.COLORS);
                             entries.add(ModItems.RIDE_OR_DIE);

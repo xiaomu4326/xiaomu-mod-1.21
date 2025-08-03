@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "xiaomu_mod:bottomless_bucket"
+    },
+    "X": {
+      "item": "minecraft:water_bucket"
+    },
+    "*": {
+        "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "*X*",
+    "X#X",
+    "*X*"
+  ],
+  "result": {
+    "count": 1,
+    "id": "xiaomu_mod:bottomless_water_bucket"
+  }
+}

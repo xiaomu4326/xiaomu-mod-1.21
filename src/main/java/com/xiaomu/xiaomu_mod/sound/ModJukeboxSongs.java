@@ -79,8 +79,16 @@ public interface ModJukeboxSongs {
     RegistryKey<JukeboxSong> SLEEP_S1_OPENING = of("sleep_s1_opening");
 
     //English
+    //mihoyo
     RegistryKey<JukeboxSong> PASSING_MEMORIES = of("passing_memories");
 
+    RegistryKey<JukeboxSong> THE_ROAD_NOT_TAKEN = of("the_road_not_taken");
+
+    RegistryKey<JukeboxSong> HOPE_IS_THE_THING_WITH_FEATHERS = of("hope_is_the_thing_with_feathers");
+
+    RegistryKey<JukeboxSong> SWAY_TO_MY_BEAT_IN_COSMOS = of("sway_to_my_beat_in_cosmos");
+
+    //other
     RegistryKey<JukeboxSong> CALL_OF_SILENCE = of("call_of_silence");
 
     RegistryKey<JukeboxSong> DUVET = of("duvet");
@@ -88,10 +96,6 @@ public interface ModJukeboxSongs {
     RegistryKey<JukeboxSong> I_LOVE_YOU_SO = of("i_love_you_so");
 
     RegistryKey<JukeboxSong> DAY_LIGHT = of("day_light");
-
-    RegistryKey<JukeboxSong> HOPE_IS_THE_THING_WITH_FEATHERS = of("hope_is_the_thing_with_feathers");
-
-    RegistryKey<JukeboxSong> SWAY_TO_MY_BEAT_IN_COSMOS = of("sway_to_my_beat_in_cosmos");
 
     RegistryKey<JukeboxSong> LEVITATING = of("levitating");
 
@@ -189,8 +193,16 @@ public interface ModJukeboxSongs {
 
 
         //English
+        //mihoyo
         register(registry, PASSING_MEMORIES, ModSoundEvents.MUSIC_DISC_PASSING_MEMORIES, 219, 15);
 
+        register(registry, THE_ROAD_NOT_TAKEN, ModSoundEvents.MUSIC_DISC_THE_ROAD_NOT_TAKEN, 150, 15);
+
+        register(registry, HOPE_IS_THE_THING_WITH_FEATHERS, ModSoundEvents.MUSIC_DISC_HOPE_IS_THE_THING_WITH_FEATHERS, 230, 15);
+
+        register(registry, SWAY_TO_MY_BEAT_IN_COSMOS, ModSoundEvents.MUSIC_DISC_SWAY_TO_MY_BEAT_IN_COSMOS, 165, 15);
+
+        //other
         register(registry, CALL_OF_SILENCE, ModSoundEvents.MUSIC_DISC_CALL_OF_SILENCE, 178, 15);
 
         register(registry, DUVET, ModSoundEvents.MUSIC_DISC_DUVET, 203, 15);
@@ -198,10 +210,6 @@ public interface ModJukeboxSongs {
         register(registry, I_LOVE_YOU_SO, ModSoundEvents.MUSIC_DISC_I_LOVE_YOU_SO, 160, 15);
 
         register(registry, DAY_LIGHT, ModSoundEvents.MUSIC_DISC_DAY_LIGHT, 162, 15);
-
-        register(registry, HOPE_IS_THE_THING_WITH_FEATHERS, ModSoundEvents.MUSIC_DISC_HOPE_IS_THE_THING_WITH_FEATHERS, 230, 15);
-
-        register(registry, SWAY_TO_MY_BEAT_IN_COSMOS, ModSoundEvents.MUSIC_DISC_SWAY_TO_MY_BEAT_IN_COSMOS, 165, 15);
 
         register(registry, LEVITATING, ModSoundEvents.MUSIC_DISC_LEVITATING, 203, 15);
 

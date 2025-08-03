@@ -27,5 +27,5 @@
             "kill_villager"
         ]
     ],
-    "parent":"xiaomu_mod:village/interacted_with_villager"
+    "parent":"xiaomu_mod:village/rob_food_from_villager"
 }
