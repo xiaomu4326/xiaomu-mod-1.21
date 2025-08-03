@@ -212,18 +212,24 @@
   "advancements.xiaomu_mod.has_bottomless_obsidian_bucket.description": "When the Ocean and the Nether Meet...",
 
 
-  "advancements.village_hunter.root.title": "Village",
-  "advancements.village_hunter.root.description": "Find a village",
+  "advancements.village.root.title": "Village",
+  "advancements.village.root.description": "Find a village",
 
-  "advancements.village_hunter.kill_iron_golem.title": "\"White Zombie\"",
-  "advancements.village_hunter.kill_iron_golem.description": "Kill an Iron Golem",
+  "advancements.village.kill_iron_golem.title": "\"White Zombie\"",
+  "advancements.village.kill_iron_golem.description": "Kill an Iron Golem",
 
-  "advancements.village_hunter.interacted_with_villager.title": "A Villager!",
-  "advancements.village_hunter.interacted_with_villager.description": "Interacted with a villager",
+  "advancements.village.interacted_with_villager.title": "A Villager!",
+  "advancements.village.interacted_with_villager.description": "Interacted with a villager",
 
-  "advancements.adventure.trade_with_the_highest_level_villager.title": "So many emeralds!",
-  "advancements.adventure.trade_with_the_highest_level_villager.description": "Trade with a highest level Villager",
+  "advancements.village.give_food_to_villager.title": "Philanthropist",
+  "advancements.village.give_food_to_villager.description": "Give food to a Villager",
 
-  "advancements.village_hunter.kill_villager.title": "You're a criminal!",
-  "advancements.village_hunter.kill_villager.description": "Kill a villager"
+  "advancements.village.rob_food_from_villager.title": "Robber",
+  "advancements.village.rob_food_from_villager.description": "Rob food from Villagers",
+
+  "advancements.village.trade_with_the_highest_level_villager.title": "So many emeralds!",
+  "advancements.village.trade_with_the_highest_level_villager.description": "Trade with a highest level Villager",
+
+  "advancements.village.kill_villager.title": "You're a criminal!",
+  "advancements.village.kill_villager.description": "Kill a villager"
 }

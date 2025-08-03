@@ -15,10 +15,10 @@
             "id": "minecraft:iron_sword"
         },
         "title": {
-            "translate": "advancements.village_hunter.kill_villager.title"
+            "translate": "advancements.village.kill_villager.title"
         },
         "description": {
-            "translate": "advancements.village_hunter.kill_villager.description"
+            "translate": "advancements.village.kill_villager.description"
         },
         "frame": "task"
     },

@@ -1,0 +1,40 @@
+{
+    "criteria": {
+        "give_food": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:bread",
+                        "minecraft:potato",
+                        "minecraft:carrot",
+                        "minecraft:wheat",
+                        "minecraft:beetroot"
+                    ]
+                }
+            }
+        }
+    },
+    "display":{
+        "icon": {
+            "count": 1,
+            "id": "minecraft:bread"
+        },
+        "title": {
+            "translate": "advancements.village.give_food_to_villager.title"
+        },
+        "description": {
+            "translate": "advancements.village.give_food_to_villager.description"
+        },
+        "frame": "task"
+    },
+    "requirements": [
+        [
+            "give_food"
+        ]
+    ],
+    "parent": "xiaomu_mod:village/interacted_with_villager"
+}

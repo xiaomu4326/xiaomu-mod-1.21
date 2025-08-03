@@ -15,10 +15,10 @@
             "id": "minecraft:villager_spawn_egg"
         },
         "title": {
-            "translate": "advancements.village_hunter.interacted_with_villager.title"
+            "translate": "advancements.village.interacted_with_villager.title"
         },
         "description": {
-            "translate": "advancements.village_hunter.interacted_with_villager.description"
+            "translate": "advancements.village.interacted_with_villager.description"
         },
         "frame": "task"
     },

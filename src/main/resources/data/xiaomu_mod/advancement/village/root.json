@@ -18,10 +18,10 @@
             "id": "minecraft:emerald"
         },
         "title": {
-            "translate": "advancements.village_hunter.root.title"
+            "translate": "advancements.village.root.title"
         },
         "description": {
-            "translate": "advancements.village_hunter.root.description"
+            "translate": "advancements.village.root.description"
         },
         "frame": "task"
     },
