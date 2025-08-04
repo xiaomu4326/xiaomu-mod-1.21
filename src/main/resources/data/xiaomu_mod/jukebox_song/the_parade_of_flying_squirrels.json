@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.xiaomu_mod.the_parade_of_flying_squirrels"
+  },
+  "length_in_seconds": 96.0,
+  "sound_event": "xiaomu_mod:music_disc.the_parade_of_flying_squirrels"
+}

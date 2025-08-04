@@ -80,6 +80,9 @@ public class ModSoundEvents {
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_THE_ROAD_NOT_TAKEN = registerReference("music_disc.the_road_not_taken");
 
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_EMBERFIRE = registerReference("music_disc.emberfire");
+
+    
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_HOPE_IS_THE_THING_WITH_FEATHERS = registerReference("music_disc.hope_is_the_thing_with_feathers");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SWAY_TO_MY_BEAT_IN_COSMOS = registerReference("music_disc.sway_to_my_beat_in_cosmos");
@@ -91,7 +94,7 @@ public class ModSoundEvents {
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_I_LOVE_YOU_SO = registerReference("music_disc.i_love_you_so");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DAY_LIGHT = registerReference("music_disc.day_light");
+    
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_LEVITATING = registerReference("music_disc.levitating");
 
@@ -104,6 +107,20 @@ public class ModSoundEvents {
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_PAST_LIVES = registerReference("music_disc.past_lives");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_UMBRELLA = registerReference("music_disc.umbrella");
+    
+
+    //Chinese
+    //mihoyo
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DEVASTATION_AND_REDEMPTION = registerReference("music_disc.devastation_and_redemption");
+
+
+    //instrumental music
+    //mihoyo
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_THE_PARADE_OF_FLYING_SQUIRRELS = registerReference("music_disc.the_parade_of_flying_squirrels");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SURASTHANA_FANTASIA = registerReference("music_disc.surasthana_fantasia");
+    //other
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DAY_LIGHT = registerReference("music_disc.day_light");
 
     private static SoundEvent register(String name){
         Identifier id = Identifier.of(XiaomuMod.MOD_ID, name);

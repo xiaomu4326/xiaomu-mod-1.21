@@ -3,7 +3,6 @@ package com.xiaomu.xiaomu_mod.item;
 import com.xiaomu.xiaomu_mod.XiaomuMod;
 import com.xiaomu.xiaomu_mod.block.ModBlocks;
 import net.minecraft.block.Blocks;
-import net.minecraft.item.Items;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -78,19 +77,28 @@ public class ModItemGroup {
                             //mihoyo
                             entries.add(ModItems.PASSING_MEMORIES);
                             entries.add(ModItems.THE_ROAD_NOT_TAKEN);
+                            entries.add(ModItems.EMBERFIRE);
                             entries.add(ModItems.HOPE_IS_THE_THING_WITH_FEATHERS);
                             entries.add(ModItems.SWAY_TO_MY_BEAT_IN_COSMOS);
                             //other
                             entries.add(ModItems.CALL_OF_SILENCE);
                             entries.add(ModItems.DUVET);
                             entries.add(ModItems.I_LOVE_YOU_SO);
-                            entries.add(ModItems.DAY_LIGHT);
                             entries.add(ModItems.LEVITATING);
                             entries.add(ModItems.COLORS);
                             entries.add(ModItems.RIDE_OR_DIE);
                             entries.add(ModItems.WHERE_WE_STARTED);
                             entries.add(ModItems.PAST_LIVES);
                             entries.add(ModItems.UMBRELLA);
+                            //Chinese
+                            //mihoyo
+                            entries.add(ModItems.DEVASTATION_AND_REDEMPTION);
+                            //instrumental music
+                            //mihoyo
+                            entries.add(ModItems.THE_PARADE_OF_FLYING_SQUIRRELS);
+                            entries.add(ModItems.SURASTHANA_FANTASIA);
+                            //other
+                            entries.add(ModItems.DAY_LIGHT);
                         }).build());
 
         Registry.register(Registries.ITEM_GROUP, FOOD_GROUP,

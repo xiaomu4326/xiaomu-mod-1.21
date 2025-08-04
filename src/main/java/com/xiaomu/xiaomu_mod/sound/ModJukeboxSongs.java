@@ -84,6 +84,8 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> THE_ROAD_NOT_TAKEN = of("the_road_not_taken");
 
+    RegistryKey<JukeboxSong> EMBERFIRE = of("emberfire");
+
     RegistryKey<JukeboxSong> HOPE_IS_THE_THING_WITH_FEATHERS = of("hope_is_the_thing_with_feathers");
 
     RegistryKey<JukeboxSong> SWAY_TO_MY_BEAT_IN_COSMOS = of("sway_to_my_beat_in_cosmos");
@@ -94,8 +96,6 @@ public interface ModJukeboxSongs {
     RegistryKey<JukeboxSong> DUVET = of("duvet");
 
     RegistryKey<JukeboxSong> I_LOVE_YOU_SO = of("i_love_you_so");
-
-    RegistryKey<JukeboxSong> DAY_LIGHT = of("day_light");
 
     RegistryKey<JukeboxSong> LEVITATING = of("levitating");
 
@@ -109,6 +109,20 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> UMBRELLA = of("umbrella");
 
+
+    //Chinese
+    //mihoyo
+    RegistryKey<JukeboxSong> DEVASTATION_AND_REDEMPTION = of("devastation_and_redemption");
+    
+
+    //instrumental music
+    //mihoyo
+    RegistryKey<JukeboxSong> THE_PARADE_OF_FLYING_SQUIRRELS = of("the_parade_of_flying_squirrels");
+
+    RegistryKey<JukeboxSong> SURASTHANA_FANTASIA = of("surasthana_fantasia");
+
+    //other
+    RegistryKey<JukeboxSong> DAY_LIGHT = of("day_light");
 
     private static RegistryKey<JukeboxSong> of(String id){
         return RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(XiaomuMod.MOD_ID, id));
@@ -198,6 +212,8 @@ public interface ModJukeboxSongs {
 
         register(registry, THE_ROAD_NOT_TAKEN, ModSoundEvents.MUSIC_DISC_THE_ROAD_NOT_TAKEN, 150, 15);
 
+        register(registry, EMBERFIRE, ModSoundEvents.MUSIC_DISC_EMBERFIRE, 170, 15);
+
         register(registry, HOPE_IS_THE_THING_WITH_FEATHERS, ModSoundEvents.MUSIC_DISC_HOPE_IS_THE_THING_WITH_FEATHERS, 230, 15);
 
         register(registry, SWAY_TO_MY_BEAT_IN_COSMOS, ModSoundEvents.MUSIC_DISC_SWAY_TO_MY_BEAT_IN_COSMOS, 165, 15);
@@ -208,8 +224,6 @@ public interface ModJukeboxSongs {
         register(registry, DUVET, ModSoundEvents.MUSIC_DISC_DUVET, 203, 15);
 
         register(registry, I_LOVE_YOU_SO, ModSoundEvents.MUSIC_DISC_I_LOVE_YOU_SO, 160, 15);
-
-        register(registry, DAY_LIGHT, ModSoundEvents.MUSIC_DISC_DAY_LIGHT, 162, 15);
 
         register(registry, LEVITATING, ModSoundEvents.MUSIC_DISC_LEVITATING, 203, 15);
 
@@ -222,5 +236,20 @@ public interface ModJukeboxSongs {
         register(registry, PAST_LIVES, ModSoundEvents.MUSIC_DISC_PAST_LIVES, 153, 15);
 
         register(registry, UMBRELLA, ModSoundEvents.MUSIC_DISC_UMBRELLA, 285, 15);
+
+
+        //Chinese
+        //mihoyo
+        register(registry, DEVASTATION_AND_REDEMPTION, ModSoundEvents.MUSIC_DISC_DEVASTATION_AND_REDEMPTION, 160, 15);
+
+
+        //instrumental music
+        //mihoyo
+        register(registry, THE_PARADE_OF_FLYING_SQUIRRELS, ModSoundEvents.MUSIC_DISC_THE_PARADE_OF_FLYING_SQUIRRELS, 96, 15);
+
+        register(registry, SURASTHANA_FANTASIA, ModSoundEvents.MUSIC_DISC_SURASTHANA_FANTASIA, 141, 15);
+
+        //other
+        register(registry, DAY_LIGHT, ModSoundEvents.MUSIC_DISC_DAY_LIGHT, 162, 15);
     }
 }

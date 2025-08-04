@@ -41,11 +41,22 @@ public class BottomlessObsidianBucket extends Item {
             } else if (side == Direction.WEST) {
                 pos = pos.west(1);
             }
-            for (int i = 0; i < 5; i++) {
-                for (int j = 0; j < 5; j++) {
-                    BlockPos area_pos = pos.up(i).east(j - 2);
-                    if (!(world.getBlockState(area_pos).isOf(Blocks.AIR) | world.getBlockState(area_pos).isOf(Blocks.VOID_AIR))) {
-                        isRightBlock = false;
+            if ((45.0 <= PlayerYaw && PlayerYaw <= 135) | (-135.0 < PlayerYaw && PlayerYaw < -45.0)) {
+                    for (int i = 0; i < 5; i++) {
+                        for (int j = 0; j < 5; j++) {
+                            BlockPos area_pos = pos.up(i).south(j - 2);
+                            if (!(world.getBlockState(area_pos).isOf(Blocks.AIR) | world.getBlockState(area_pos).isOf(Blocks.VOID_AIR))) {
+                                isRightBlock = false;
+                        }
+                    }
+                }
+            } else {
+                for (int i = 0; i < 5; i++) {
+                        for (int j = 0; j < 5; j++) {
+                            BlockPos area_pos = pos.up(i).east(j - 2);
+                            if (!(world.getBlockState(area_pos).isOf(Blocks.AIR) | world.getBlockState(area_pos).isOf(Blocks.VOID_AIR))) {
+                                isRightBlock = false;
+                        }
                     }
                 }
             }

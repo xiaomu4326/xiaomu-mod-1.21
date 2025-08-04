@@ -199,6 +199,11 @@
       "xiaomu_mod:the_road_not_taken"
     ]
   },
+  "music_disc.emberfire": {
+    "sounds": [
+      "xiaomu_mod:emberfire"
+    ]
+  },
   "music_disc.hope_is_the_thing_with_feathers": {
     "sounds": [
       "xiaomu_mod:hope_is_the_thing_with_feathers"
@@ -222,11 +227,6 @@
   "music_disc.i_love_you_so": {
     "sounds": [
       "xiaomu_mod:i_love_you_so"
-    ]
-  },
-  "music_disc.day_light": {
-    "sounds": [
-      "xiaomu_mod:day_light"
     ]
   },
   "music_disc.levitating": {
@@ -257,6 +257,26 @@
   "music_disc.umbrella": {
     "sounds": [
       "xiaomu_mod:umbrella"
+    ]
+  },
+  "music_disc.devastation_and_redemption": {
+    "sounds": [
+      "xiaomu_mod:devastation_and_redemption"
+    ]
+  },
+  "music_disc.the_parade_of_flying_squirrels": {
+    "sounds": [
+      "xiaomu_mod:the_parade_of_flying_squirrels"
+    ]
+  },
+  "music_disc.surasthana_fantasia": {
+    "sounds": [
+      "xiaomu_mod:surasthana_fantasia"
+    ]
+  },
+  "music_disc.day_light": {
+    "sounds": [
+      "xiaomu_mod:day_light"
     ]
   }
 }
