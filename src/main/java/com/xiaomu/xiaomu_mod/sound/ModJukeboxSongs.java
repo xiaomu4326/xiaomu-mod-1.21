@@ -25,7 +25,10 @@ public interface ModJukeboxSongs {
     RegistryKey<JukeboxSong> MAID_S2_ENDING = of("maid_s2_ending");
     RegistryKey<JukeboxSong> MAID_S2_ENDING_TV_VER = of("maid_s2_ending_tv_ver");
 
+    RegistryKey<JukeboxSong> MAID_S2_EPISODE_3_ENDING = of("maid_s2_episode_3_ending");
+
     RegistryKey<JukeboxSong> DEER_S1_OPENING = of("deer_s1_opening");
+    RegistryKey<JukeboxSong> DEER_S1_OPENING_TV_VER = of("deer_s1_opening_tv_ver");
 
     RegistryKey<JukeboxSong> CAFE_S1_OPENING = of("cafe_s1_opening");
     RegistryKey<JukeboxSong> CAFE_S1_OPENING_TV_VER = of("cafe_s1_opening_tv_ver");
@@ -77,6 +80,9 @@ public interface ModJukeboxSongs {
     RegistryKey<JukeboxSong> SENREN_BANKA_LENA_ENDING = of("senren_banka_lena_ending");
 
     RegistryKey<JukeboxSong> SLEEP_S1_OPENING = of("sleep_s1_opening");
+
+    RegistryKey<JukeboxSong> SISTER_S1_OPENING = of("sister_s1_opening");
+    RegistryKey<JukeboxSong> SISTER_S1_OPENING_TV_VER = of("sister_s1_opening_tv_ver");
 
     //English
     //mihoyo
@@ -152,7 +158,10 @@ public interface ModJukeboxSongs {
         register(registry, MAID_S2_ENDING, ModSoundEvents.MUSIC_DISC_MAID_S2_ENDING, 222, 15);
         register(registry, MAID_S2_ENDING_TV_VER, ModSoundEvents.MUSIC_DISC_MAID_S2_ENDING_TV_VER, 92, 15);
 
+        register(registry, MAID_S2_EPISODE_3_ENDING, ModSoundEvents.MUSIC_DISC_MAID_S2_EPISODE_3_ENDING, 205, 15);
+
         register(registry, DEER_S1_OPENING, ModSoundEvents.MUSIC_DISC_DEER_S1_OPENING, 201, 15);
+        register(registry, DEER_S1_OPENING_TV_VER, ModSoundEvents.MUSIC_DISC_DEER_S1_OPENING_TV_VER, 90, 15);
 
         register(registry, CAFE_S1_OPENING, ModSoundEvents.MUSIC_DISC_CAFE_S1_OPENING, 255, 15);
         register(registry, CAFE_S1_OPENING_TV_VER, ModSoundEvents.MUSIC_DISC_CAFE_S1_OPENING_TV_VER, 91, 15);
@@ -204,6 +213,9 @@ public interface ModJukeboxSongs {
         register(registry, SENREN_BANKA_LENA_ENDING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_LENA_ENDING, 464, 15);
 
         register(registry, SLEEP_S1_OPENING, ModSoundEvents.MUSIC_DISC_SLEEP_S1_OPENING, 220, 15);
+
+        register(registry, SISTER_S1_OPENING, ModSoundEvents.MUSIC_DISC_SISTER_S1_OPENING, 243, 15);
+        register(registry, SISTER_S1_OPENING_TV_VER, ModSoundEvents.MUSIC_DISC_SISTER_S1_OPENING_TV_VER, 92, 15);
 
 
         //English

@@ -39,9 +39,19 @@
       "xiaomu_mod:maid_s2_ending_tv_ver"
     ]
   },
+  "music_disc.maid_s2_episode_3_ending": {
+    "sounds": [
+      "xiaomu_mod:maid_s2_episode_3_ending"
+    ]
+  },
   "music_disc.deer_s1_opening": {
     "sounds": [
       "xiaomu_mod:deer_s1_opening"
+    ]
+  },
+  "music_disc.deer_s1_opening_tv_ver": {
+    "sounds": [
+      "xiaomu_mod:deer_s1_opening_tv_ver"
     ]
   },
   "music_disc.cafe_s1_opening": {
@@ -187,6 +197,16 @@
   "music_disc.sleep_s1_opening": {
     "sounds": [
       "xiaomu_mod:sleep_s1_opening"
+    ]
+  },
+   "music_disc.sister_s1_opening": {
+    "sounds": [
+      "xiaomu_mod:sister_s1_opening"
+    ]
+  },
+   "music_disc.sister_s1_opening_tv_ver": {
+    "sounds": [
+      "xiaomu_mod:sister_s1_opening_tv_ver"
     ]
   },
   "music_disc.passing_memories": {

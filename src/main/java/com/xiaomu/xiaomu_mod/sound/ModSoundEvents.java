@@ -21,7 +21,10 @@ public class ModSoundEvents {
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S2_ENDING = registerReference("music_disc.maid_s2_ending");
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S2_ENDING_TV_VER = registerReference("music_disc.maid_s2_ending_tv_ver");
 
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S2_EPISODE_3_ENDING = registerReference("music_disc.maid_s2_episode_3_ending");
+
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DEER_S1_OPENING = registerReference("music_disc.deer_s1_opening");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DEER_S1_OPENING_TV_VER = registerReference("music_disc.deer_s1_opening_tv_ver");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_CAFE_S1_OPENING = registerReference("music_disc.cafe_s1_opening");
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_CAFE_S1_OPENING_TV_VER = registerReference("music_disc.cafe_s1_opening_tv_ver");
@@ -73,6 +76,9 @@ public class ModSoundEvents {
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_LENA_ENDING = registerReference("music_disc.senren_banka_lena_ending");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SLEEP_S1_OPENING = registerReference("music_disc.sleep_s1_opening");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SISTER_S1_OPENING = registerReference("music_disc.sister_s1_opening");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SISTER_S1_OPENING_TV_VER = registerReference("music_disc.sister_s1_opening_tv_ver");
 
     //English
     //mihoyo

@@ -20,8 +20,13 @@
   "item.xiaomu_mod.maid_s2_ending_tv_ver": "めいど・うぃず・どらごんず♥ (TV size) - 桑原由気,長縄まりあ,高田憂希",
   "jukebox_song.xiaomu_mod.maid_s2_ending_tv_ver": "めいど・うぃず・どらごんず♥ (TV size) - 桑原由気,長縄まりあ,高田憂希",
 
+  "item.xiaomu_mod.maid_s2_episode_3_ending": "イシュカン♥リレーションシップ - 桑原由氣",
+  "jukebox_song.xiaomu_mod.maid_s2_episode_3_ending": "イシュカン♥リレーションシップ - 桑原由氣",
+
   "item.xiaomu_mod.deer_s1_opening": "シカ色デイズ - 潘めぐみ,藤田咲,田辺留依",
   "jukebox_song.xiaomu_mod.deer_s1_opening": "シカ色デイズ - 潘めぐみ,藤田咲,田辺留依",
+  "item.xiaomu_mod.deer_s1_opening_tv_ver": "シカ色デイズ (TV Version) - 潘めぐみ,藤田咲,田辺留依",
+  "jukebox_song.xiaomu_mod.deer_s1_opening_tv_ver": "シカ色デイズ (TV Version) - 潘めぐみ,藤田咲,田辺留依",
 
   "item.xiaomu_mod.cafe_s1_opening": "ぼなぺてぃーと♡S - 和氣あず未,鬼頭明里,春野杏",
   "jukebox_song.xiaomu_mod.cafe_s1_opening": "ぼなぺてぃーと♡S - 和氣あず未,鬼頭明里,春野杏",
@@ -102,6 +107,12 @@
 
   "item.xiaomu_mod.sleep_s1_opening": "快眠! 安眠! スヤリスト生活 - 水瀬いのり",
   "jukebox_song.xiaomu_mod.sleep_s1_opening": "快眠! 安眠! スヤリスト生活 - 水瀬いのり",
+
+  "item.xiaomu_mod.sister_s1_opening": "アイデン貞貞メルトダウン - えなこ",
+  "jukebox_song.xiaomu_mod.sister_s1_opening": "アイデン貞貞メルトダウン - えなこ",
+
+  "item.xiaomu_mod.sister_s1_opening_tv_ver": "アイデン貞貞メルトダウン (TV size) - えなこ",
+  "jukebox_song.xiaomu_mod.sister_s1_opening_tv_ver": "アイデン貞貞メルトダウン (TV size) - えなこ",
 
 
   "item.xiaomu_mod.passing_memories": "Passing Memories - Faouzia,HOYO-MiX",

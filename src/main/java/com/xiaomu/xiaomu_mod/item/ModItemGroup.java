@@ -43,7 +43,9 @@ public class ModItemGroup {
                             entries.add(ModItems.MAID_S2_OPENING_TV_VER);
                             entries.add(ModItems.MAID_S2_ENDING);
                             entries.add(ModItems.MAID_S2_ENDING_TV_VER);
+                            entries.add(ModItems.MAID_S2_EPISODE_3_ENDING);
                             entries.add(ModItems.DEER_S1_OPENING);
+                            entries.add(ModItems.DEER_S1_OPENING_TV_VER);
                             entries.add(ModItems.CAFE_S1_OPENING);
                             entries.add(ModItems.CAFE_S1_OPENING_TV_VER);
                             entries.add(ModItems.CAFE_S1_ENDING);
@@ -73,6 +75,8 @@ public class ModItemGroup {
                             entries.add(ModItems.SENREN_BANKA_LENA);
                             entries.add(ModItems.SENREN_BANKA_LENA_ENDING);
                             entries.add(ModItems.SLEEP_S1_OPENING);
+                            entries.add(ModItems.SISTER_S1_OPENING);
+                            entries.add(ModItems.SISTER_S1_OPENING_TV_VER);
                             //English
                             //mihoyo
                             entries.add(ModItems.PASSING_MEMORIES);

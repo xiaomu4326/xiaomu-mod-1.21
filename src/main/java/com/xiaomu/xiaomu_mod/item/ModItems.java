@@ -44,9 +44,17 @@ public class ModItems {
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
                                         .jukeboxPlayable(ModJukeboxSongs.MAID_S2_ENDING_TV_VER)));
 
+        public static final Item MAID_S2_EPISODE_3_ENDING = registerItems("maid_s2_episode_3_ending",
+                        new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
+                                        .jukeboxPlayable(ModJukeboxSongs.MAID_S2_EPISODE_3_ENDING)));
+
         public static final Item DEER_S1_OPENING = registerItems("deer_s1_opening",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
                                         .jukeboxPlayable(ModJukeboxSongs.DEER_S1_OPENING)));
+
+        public static final Item DEER_S1_OPENING_TV_VER = registerItems("deer_s1_opening_tv_ver",
+                        new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
+                                        .jukeboxPlayable(ModJukeboxSongs.DEER_S1_OPENING_TV_VER)));
 
         public static final Item CAFE_S1_OPENING = registerItems("cafe_s1_opening",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
@@ -160,6 +168,13 @@ public class ModItems {
         public static final Item SLEEP_S1_OPENING = registerItems("sleep_s1_opening",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
                                         .jukeboxPlayable(ModJukeboxSongs.SLEEP_S1_OPENING)));
+
+        public static final Item SISTER_S1_OPENING = registerItems("sister_s1_opening",
+                        new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
+                                        .jukeboxPlayable(ModJukeboxSongs.SISTER_S1_OPENING)));
+        public static final Item SISTER_S1_OPENING_TV_VER = registerItems("sister_s1_opening_tv_ver",
+                        new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
+                                        .jukeboxPlayable(ModJukeboxSongs.SISTER_S1_OPENING_TV_VER)));
 
         // English
         // mihoyo

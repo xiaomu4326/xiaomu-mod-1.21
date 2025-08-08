@@ -8,6 +8,7 @@
     "xiaomu_mod:call_of_silence",
     "xiaomu_mod:so_lucky",
     "xiaomu_mod:deer_s1_opening",
+    "xiaomu_mod:deer_s1_opening_tv_ver",
     "xiaomu_mod:magic_tv_ver_s1_episode_1_to_2_ending",
     "xiaomu_mod:magic_tv_ver_s1_episode_3_to_11_ending",
     "xiaomu_mod:magic_tv_ver_s1_opening",
@@ -22,6 +23,7 @@
     "xiaomu_mod:maid_s1_opening_tv_ver",
     "xiaomu_mod:maid_s2_ending",
     "xiaomu_mod:maid_s2_ending_tv_ver",
+    "xiaomu_mod:maid_s2_episode_3_ending",
     "xiaomu_mod:maid_s2_opening",
     "xiaomu_mod:maid_s2_opening_tv_ver",
     "xiaomu_mod:senren_banka_opening",
@@ -37,7 +39,6 @@
     "xiaomu_mod:sleep_s1_opening",
 
     "xiaomu_mod:i_love_you_so",
-    "xiaomu_mod:duvet",
     "xiaomu_mod:day_light",
     "xiaomu_mod:passing_memories",
     "xiaomu_mod:hope_is_the_thing_with_feathers",
@@ -47,6 +48,12 @@
     "xiaomu_mod:ride_or_die",
     "xiaomu_mod:where_we_started",
     "xiaomu_mod:past_lives",
-    "xiaomu_mod:umbrella"
+    "xiaomu_mod:umbrella",
+
+    "xiaomu_mod:devastation_and_redemption",
+
+    "xiaomu_mod:the_parade_of_flying_squirrels",
+    "xiaomu_mod:surasthana_fantasia",
+    "xiaomu_mod:duvet"
   ]
 }
