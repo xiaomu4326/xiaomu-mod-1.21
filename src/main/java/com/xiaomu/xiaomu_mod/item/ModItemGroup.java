@@ -74,6 +74,7 @@ public class ModItemGroup {
                             entries.add(ModItems.SENREN_BANKA_MAKO_ENDING);
                             entries.add(ModItems.SENREN_BANKA_LENA);
                             entries.add(ModItems.SENREN_BANKA_LENA_ENDING);
+                            entries.add(ModItems.RIDDLE_JOKER_OPENING);
                             entries.add(ModItems.SLEEP_S1_OPENING);
                             entries.add(ModItems.SISTER_S1_OPENING);
                             entries.add(ModItems.SISTER_S1_OPENING_TV_VER);

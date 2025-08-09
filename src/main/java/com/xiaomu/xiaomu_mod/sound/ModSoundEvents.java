@@ -75,6 +75,8 @@ public class ModSoundEvents {
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_LENA_ENDING = registerReference("music_disc.senren_banka_lena_ending");
 
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_RIDDLE_JOKER_OPENING = registerReference("music_disc.riddle_joker_opening");
+
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SLEEP_S1_OPENING = registerReference("music_disc.sleep_s1_opening");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SISTER_S1_OPENING = registerReference("music_disc.sister_s1_opening");

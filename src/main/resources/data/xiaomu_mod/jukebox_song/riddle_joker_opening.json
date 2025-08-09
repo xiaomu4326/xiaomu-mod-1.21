@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.xiaomu_mod.riddle_joker_opening"
+  },
+  "length_in_seconds": 226.0,
+  "sound_event": "xiaomu_mod:music_disc.riddle_joker_opening"
+}

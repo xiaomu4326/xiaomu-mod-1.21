@@ -194,6 +194,11 @@
       "xiaomu_mod:senren_banka_lena_ending"
     ]
   },
+  "music_disc.riddle_joker_opening": {
+    "sounds": [
+      "xiaomu_mod:riddle_joker_opening"
+    ]
+  },
   "music_disc.sleep_s1_opening": {
     "sounds": [
       "xiaomu_mod:sleep_s1_opening"

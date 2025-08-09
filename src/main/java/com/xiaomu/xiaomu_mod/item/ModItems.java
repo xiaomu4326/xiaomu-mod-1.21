@@ -165,6 +165,10 @@ public class ModItems {
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
                                         .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_LENA_ENDING)));
 
+        public static final Item RIDDLE_JOKER_OPENING = registerItems("riddle_joker_opening",
+                        new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
+                                        .jukeboxPlayable(ModJukeboxSongs.RIDDLE_JOKER_OPENING)));
+
         public static final Item SLEEP_S1_OPENING = registerItems("sleep_s1_opening",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
                                         .jukeboxPlayable(ModJukeboxSongs.SLEEP_S1_OPENING)));

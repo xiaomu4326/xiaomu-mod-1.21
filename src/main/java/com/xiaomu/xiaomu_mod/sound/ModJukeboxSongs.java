@@ -79,6 +79,8 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> SENREN_BANKA_LENA_ENDING = of("senren_banka_lena_ending");
 
+    RegistryKey<JukeboxSong> RIDDLE_JOKER_OPENING = of("riddle_joker_opening");
+
     RegistryKey<JukeboxSong> SLEEP_S1_OPENING = of("sleep_s1_opening");
 
     RegistryKey<JukeboxSong> SISTER_S1_OPENING = of("sister_s1_opening");
@@ -211,6 +213,8 @@ public interface ModJukeboxSongs {
         register(registry, SENREN_BANKA_LENA, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_LENA, 194, 15);
 
         register(registry, SENREN_BANKA_LENA_ENDING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_LENA_ENDING, 464, 15);
+
+        register(registry, RIDDLE_JOKER_OPENING, ModSoundEvents.MUSIC_DISC_RIDDLE_JOKER_OPENING, 226, 15);
 
         register(registry, SLEEP_S1_OPENING, ModSoundEvents.MUSIC_DISC_SLEEP_S1_OPENING, 220, 15);
 
