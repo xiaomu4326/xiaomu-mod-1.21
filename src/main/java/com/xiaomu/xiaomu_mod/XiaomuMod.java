@@ -29,6 +29,6 @@ public class XiaomuMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModBlockTags.registerBlockTags();
 
-		LOGGER.info("Yoshino, Tohru and all of my waifus are so cute!");
+		LOGGER.info("I Love Tohru :)");
 	}
 }

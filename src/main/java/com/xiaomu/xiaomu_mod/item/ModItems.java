@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 
 public class ModItems {
-        // Records(Music Disc)
+        // Music Discs
         // Japanese
         public static final Item MAID_S1_OPENING = registerItems("maid_s1_opening",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
