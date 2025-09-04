@@ -195,7 +195,7 @@
 
   "block.xiaomu_mod.random_food_block": "Food Gift Box",
 
-  "item.xiaomu_mod.tohru_horn": "Tohru Horn",
+  "item.xiaomu_mod.tohru_horn": "Tohru's Horn",
 
   "item.xiaomu_mod.obsidian_bucket": "Obsidian Bucket",
 
@@ -221,10 +221,10 @@
   "advancements.xiaomu_mod.has_random_food_block.title": "Food Gift Box",
   "advancements.xiaomu_mod.has_random_food_block.description": "Have a Food Gift Box",
 
-  "advancements.xiaomu_mod.has_tohru_meat.title": "Tohru Meat",
+  "advancements.xiaomu_mod.has_tohru_meat.title": "Tohru's Meat",
   "advancements.xiaomu_mod.has_tohru_meat.description": "It's poisonous until it is cooked!",
 
-  "advancements.xiaomu_mod.has_cooked_tohru_meat.title": "Cooked Tohru Meat",
+  "advancements.xiaomu_mod.has_cooked_tohru_meat.title": "Cooked Tohru's Meat",
   "advancements.xiaomu_mod.has_cooked_tohru_meat.description": "Miss Kobayashi doesn't like it!",
 
   "advancements.xiaomu_mod.has_bottomless_bucket.title": "Bottomless Bucket",
