@@ -35,8 +35,8 @@ public class ModItemGroup {
                             //Jukebox
                             entries.add(Blocks.JUKEBOX);
                             //Japanese
-                            entries.add(ModItems.MAID_S1_OPENING);
-                            entries.add(ModItems.MAID_S1_OPENING_TV_VER);
+                            entries.add(ModItems.AOZORANORAPUSODI);
+                            entries.add(ModItems.AOZORANORAPUSODI_TV_VER);
                             entries.add(ModItems.MAID_S1_ENDING);
                             entries.add(ModItems.MAID_S1_ENDING_TV_VER);
                             entries.add(ModItems.MAID_S2_OPENING);
@@ -98,6 +98,9 @@ public class ModItemGroup {
                             //Chinese
                             //mihoyo
                             entries.add(ModItems.DEVASTATION_AND_REDEMPTION);
+                            //Other Language
+                            //mihoyo
+                            entries.add(ModItems.NOD_KRAI);
                             //instrumental music
                             //mihoyo
                             entries.add(ModItems.THE_PARADE_OF_FLYING_SQUIRRELS);

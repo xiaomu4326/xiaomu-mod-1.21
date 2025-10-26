@@ -9,8 +9,8 @@ import net.minecraft.util.Identifier;
 
 public class ModSoundEvents {
     //Japanese
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S1_OPENING = registerReference("music_disc.maid_s1_opening");
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S1_OPENING_TV_VER = registerReference("music_disc.maid_s1_opening_tv_ver");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_AOZORANORAPUSODI = registerReference("music_disc.aozoranorapusodi");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_AOZORANORAPUSODI_TV_VER = registerReference("music_disc.aozoranorapusodi_tv_ver");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S1_ENDING = registerReference("music_disc.maid_s1_ending");
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S1_ENDING_TV_VER = registerReference("music_disc.maid_s1_ending_tv_ver");
@@ -120,6 +120,11 @@ public class ModSoundEvents {
     //Chinese
     //mihoyo
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DEVASTATION_AND_REDEMPTION = registerReference("music_disc.devastation_and_redemption");
+
+
+    //Other Language
+    //mihoyo
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_NOD_KRAI = registerReference("music_disc.nod_krai");
 
 
     //instrumental music

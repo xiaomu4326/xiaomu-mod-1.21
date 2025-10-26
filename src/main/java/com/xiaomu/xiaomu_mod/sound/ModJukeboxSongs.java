@@ -13,8 +13,8 @@ import net.minecraft.util.Util;
 
 public interface ModJukeboxSongs {
     //Japanese
-    RegistryKey<JukeboxSong> MAID_S1_OPENING = of("maid_s1_opening");
-    RegistryKey<JukeboxSong> MAID_S1_OPENING_TV_VER = of("maid_s1_opening_tv_ver");
+    RegistryKey<JukeboxSong> AOZORANORAPUSODI = of("aozoranorapusodi");
+    RegistryKey<JukeboxSong> AOZORANORAPUSODI_TV_VER = of("aozoranorapusodi_tv_ver");
 
     RegistryKey<JukeboxSong> MAID_S1_ENDING = of("maid_s1_ending");
     RegistryKey<JukeboxSong> MAID_S1_ENDING_TV_VER = of("maid_s1_ending_tv_ver");
@@ -121,6 +121,10 @@ public interface ModJukeboxSongs {
     //Chinese
     //mihoyo
     RegistryKey<JukeboxSong> DEVASTATION_AND_REDEMPTION = of("devastation_and_redemption");
+
+    //Other Language
+    //mihoyo
+    RegistryKey<JukeboxSong> NOD_KRAI = of("nod_krai");
     
 
     //instrumental music
@@ -148,8 +152,8 @@ public interface ModJukeboxSongs {
     static void bootstrap(Registerable<JukeboxSong> registry) {
 
         //Japanese
-        register(registry, MAID_S1_OPENING, ModSoundEvents.MUSIC_DISC_MAID_S1_OPENING, 277, 15);
-        register(registry, MAID_S1_OPENING_TV_VER, ModSoundEvents.MUSIC_DISC_MAID_S1_OPENING_TV_VER, 95, 15);
+        register(registry, AOZORANORAPUSODI, ModSoundEvents.MUSIC_DISC_AOZORANORAPUSODI, 277, 15);
+        register(registry, AOZORANORAPUSODI_TV_VER, ModSoundEvents.MUSIC_DISC_AOZORANORAPUSODI_TV_VER, 95, 15);
 
         register(registry, MAID_S1_ENDING, ModSoundEvents.MUSIC_DISC_MAID_S1_ENDING, 246, 15);
         register(registry, MAID_S1_ENDING_TV_VER, ModSoundEvents.MUSIC_DISC_MAID_S1_ENDING_TV_VER, 90, 15);
@@ -257,6 +261,11 @@ public interface ModJukeboxSongs {
         //Chinese
         //mihoyo
         register(registry, DEVASTATION_AND_REDEMPTION, ModSoundEvents.MUSIC_DISC_DEVASTATION_AND_REDEMPTION, 160, 15);
+
+
+        //Other Language
+        //mihoyo
+        register(registry, NOD_KRAI, ModSoundEvents.MUSIC_DISC_NOD_KRAI, 260, 15);
 
 
         //instrumental music

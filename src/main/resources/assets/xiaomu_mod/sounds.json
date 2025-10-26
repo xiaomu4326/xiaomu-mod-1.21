@@ -1,12 +1,12 @@
 {
-  "music_disc.maid_s1_opening": {
+  "music_disc.aozoranorapusodi": {
     "sounds": [
-      "xiaomu_mod:maid_s1_opening"
+      "xiaomu_mod:aozoranorapusodi"
     ]
   },
-  "music_disc.maid_s1_opening_tv_ver": {
+  "music_disc.aozoranorapusodi_tv_ver": {
     "sounds": [
-      "xiaomu_mod:maid_s1_opening_tv_ver"
+      "xiaomu_mod:aozoranorapusodi_tv_ver"
     ]
   },
   "music_disc.maid_s1_ending": {
@@ -302,6 +302,11 @@
   "music_disc.day_light": {
     "sounds": [
       "xiaomu_mod:day_light"
+    ]
+  },
+  "music_disc.nod_krai": {
+    "sounds": [
+      "xiaomu_mod:nod_krai"
     ]
   }
 }

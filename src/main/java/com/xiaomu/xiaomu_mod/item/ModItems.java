@@ -16,12 +16,12 @@ import net.minecraft.util.Rarity;
 public class ModItems {
         // Music Discs
         // Japanese
-        public static final Item MAID_S1_OPENING = registerItems("maid_s1_opening",
+        public static final Item AOZORANORAPUSODI = registerItems("aozoranorapusodi",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAID_S1_OPENING)));
-        public static final Item MAID_S1_OPENING_TV_VER = registerItems("maid_s1_opening_tv_ver",
+                                        .jukeboxPlayable(ModJukeboxSongs.AOZORANORAPUSODI)));
+        public static final Item AOZORANORAPUSODI_TV_VER = registerItems("aozoranorapusodi_tv_ver",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAID_S1_OPENING_TV_VER)));
+                                        .jukeboxPlayable(ModJukeboxSongs.AOZORANORAPUSODI_TV_VER)));
 
         public static final Item MAID_S1_ENDING = registerItems("maid_s1_ending",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
@@ -246,6 +246,13 @@ public class ModItems {
         public static final Item DEVASTATION_AND_REDEMPTION = registerItems("devastation_and_redemption",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
                                         .jukeboxPlayable(ModJukeboxSongs.DEVASTATION_AND_REDEMPTION)));
+
+
+        //Other Language
+        //mihoyo
+        public static final Item NOD_KRAI = registerItems("nod_krai",
+                new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
+                        .jukeboxPlayable(ModJukeboxSongs.NOD_KRAI)));
 
 
         // instrumental music

@@ -1,9 +1,9 @@
 {
 
-  "item.xiaomu_mod.maid_s1_opening": "青空のラプソディ - fhána",
-  "jukebox_song.xiaomu_mod.maid_s1_opening": "青空のラプソディ - fhána",
-  "item.xiaomu_mod.maid_s1_opening_tv_ver": "青空のラプソディ (TV size) - fhána",
-  "jukebox_song.xiaomu_mod.maid_s1_opening_tv_ver": "青空のラプソディ (TV size) - fhána",
+  "item.xiaomu_mod.aozoranorapusodi": "青空のラプソディ - fhána",
+  "jukebox_song.xiaomu_mod.aozoranorapusodi": "青空のラプソディ - fhána",
+  "item.xiaomu_mod.aozoranorapusodi_tv_ver": "青空のラプソディ (TV size) - fhána",
+  "jukebox_song.xiaomu_mod.aozoranorapusodi_tv_ver": "青空のラプソディ (TV size) - fhána",
 
   "item.xiaomu_mod.maid_s1_ending": "イシュカン・コミュニケーション - 桑原由気,長縄まりあ,高田憂希",
   "jukebox_song.xiaomu_mod.maid_s1_ending": "イシュカン・コミュニケーション - 桑原由気,長縄まりあ,高田憂希",
@@ -173,6 +173,9 @@
 
   "item.xiaomu_mod.day_light": "Daylight - Seredris",
   "jukebox_song.xiaomu_mod.day_light": "Daylight - Seredris",
+
+  "item.xiaomu_mod.nod_krai": "Nod-Krai - AURORA,HOYO-MiX",
+  "jukebox_song.xiaomu_mod.nod_krai": "Nod-Krai - AURORA,HOYO-MiX",
 
 
   "item.xiaomu_mod.tohru_meat": "Tohru's Meat",

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.xiaomu_mod.nod_krai"
+  },
+  "length_in_seconds": 260.0,
+  "sound_event": "xiaomu_mod:music_disc.nod_krai"
+}
