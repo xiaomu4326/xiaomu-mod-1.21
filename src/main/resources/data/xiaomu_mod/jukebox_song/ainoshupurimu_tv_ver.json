@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.xiaomu_mod.ainoshupurimu_tv_ver"
+  },
+  "length_in_seconds": 88.0,
+  "sound_event": "xiaomu_mod:music_disc.ainoshupurimu_tv_ver"
+}

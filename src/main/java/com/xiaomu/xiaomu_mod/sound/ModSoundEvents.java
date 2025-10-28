@@ -12,37 +12,37 @@ public class ModSoundEvents {
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_AOZORANORAPUSODI = registerReference("music_disc.aozoranorapusodi");
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_AOZORANORAPUSODI_TV_VER = registerReference("music_disc.aozoranorapusodi_tv_ver");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S1_ENDING = registerReference("music_disc.maid_s1_ending");
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S1_ENDING_TV_VER = registerReference("music_disc.maid_s1_ending_tv_ver");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_ISHUKANKOMYUNIKESHON = registerReference("music_disc.ishukankomyunikeshon");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_ISHUKANKOMYUNIKESHON_TV_VER = registerReference("music_disc.ishukankomyunikeshon_tv_ver");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S2_OPENING = registerReference("music_disc.maid_s2_opening");
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S2_OPENING_TV_VER = registerReference("music_disc.maid_s2_opening_tv_ver");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_AINOSHUPURIMU = registerReference("music_disc.ainoshupurimu");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_AINOSHUPURIMU_TV_VER = registerReference("music_disc.ainoshupurimu_tv_ver");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S2_ENDING = registerReference("music_disc.maid_s2_ending");
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S2_ENDING_TV_VER = registerReference("music_disc.maid_s2_ending_tv_ver");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MEIDOWIZUDORAGONZU = registerReference("music_disc.meidowizudoragonzu");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MEIDOWIZUDORAGONZU_TV_VER = registerReference("music_disc.meidowizudoragonzu_tv_ver");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAID_S2_EPISODE_3_ENDING = registerReference("music_disc.maid_s2_episode_3_ending");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_ISHUKANRIRESHONSHIPPU = registerReference("music_disc.ishukanrireshonshippu");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DEER_S1_OPENING = registerReference("music_disc.deer_s1_opening");
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DEER_S1_OPENING_TV_VER = registerReference("music_disc.deer_s1_opening_tv_ver");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SHIKAIRODEIZU = registerReference("music_disc.shikairodeizu");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SHIKAIRODEIZU_TV_VER = registerReference("music_disc.shikairodeizu_tv_ver");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_CAFE_S1_OPENING = registerReference("music_disc.cafe_s1_opening");
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_CAFE_S1_OPENING_TV_VER = registerReference("music_disc.cafe_s1_opening_tv_ver");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_BONAPETITOS = registerReference("music_disc.bonapetitos");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_BONAPETITOS_TV_VER = registerReference("music_disc.bonapetitos_tv_ver");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_CAFE_S1_ENDING = registerReference("music_disc.cafe_s1_ending");
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_CAFE_S1_ENDING_TV_VER = registerReference("music_disc.cafe_s1_ending_tv_ver");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DETARAMENAMAINASUTOPURASUNIOKERUBURENDOKO = registerReference("music_disc.detaramenamainasutopurasuniokeruburendoko");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DETARAMENAMAINASUTOPURASUNIOKERUBURENDOKO_TV_VER = registerReference("music_disc.detaramenamainasutopurasuniokeruburendoko_tv_ver");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SO_LUCKY = registerReference("music_disc.so_lucky");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_AT_THE_MERCY_OF_GOD = registerReference("music_disc.at_the_mercy_of_god");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_KAMINOMANIMANI = registerReference("music_disc.kaminomanimani");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIC_TV_VER_S1_OPENING = registerReference("music_disc.magic_tv_ver_s1_opening");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_KONEKUTO = registerReference("music_disc.konekuto");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIC_TV_VER_S1_EPISODE_1_TO_2_ENDING = registerReference("music_disc.magic_tv_ver_s1_episode_1_to_2_ending");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MATAASHITA = registerReference("music_disc.mataashita");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING = registerReference("music_disc.magic_tv_ver_s1_episode_3_to_11_ending");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIA = registerReference("music_disc.magia");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIC_MOVIE_VER_S1_TO_S2_OPENING = registerReference("music_disc.magic_movie_ver_s1_to_s2_opening");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_RUMINASU = registerReference("music_disc.ruminasu");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAGIC_MOVIE_VER_S2_ENDING = registerReference("music_disc.magic_movie_ver_s2_ending");
 

@@ -23,78 +23,76 @@ public class ModItems {
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
                                         .jukeboxPlayable(ModJukeboxSongs.AOZORANORAPUSODI_TV_VER)));
 
-        public static final Item MAID_S1_ENDING = registerItems("maid_s1_ending",
+        public static final Item ISHUKANKOMYUNIKESHON = registerItems("ishukankomyunikeshon",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAID_S1_ENDING)));
-        public static final Item MAID_S1_ENDING_TV_VER = registerItems("maid_s1_ending_tv_ver",
+                                        .jukeboxPlayable(ModJukeboxSongs.ISHUKANKOMYUNIKESHON)));
+        public static final Item ISHUKANKOMYUNIKESHON_TV_VER = registerItems("ishukankomyunikeshon_tv_ver",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAID_S1_ENDING_TV_VER)));
+                                        .jukeboxPlayable(ModJukeboxSongs.ISHUKANKOMYUNIKESHON_TV_VER)));
 
-        public static final Item MAID_S2_OPENING = registerItems("maid_s2_opening",
+        public static final Item AINOSHUPURIMU = registerItems("ainoshupurimu",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAID_S2_OPENING)));
-        public static final Item MAID_S2_OPENING_TV_VER = registerItems("maid_s2_opening_tv_ver",
+                                        .jukeboxPlayable(ModJukeboxSongs.AINOSHUPURIMU)));
+        public static final Item AINOSHUPURIMU_TV_VER = registerItems("ainoshupurimu_tv_ver",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAID_S2_OPENING_TV_VER)));
+                                        .jukeboxPlayable(ModJukeboxSongs.AINOSHUPURIMU_TV_VER)));
 
-        public static final Item MAID_S2_ENDING = registerItems("maid_s2_ending",
+        public static final Item MEIDOWIZUDORAGONZU = registerItems("meidowizudoragonzu",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAID_S2_ENDING)));
-        public static final Item MAID_S2_ENDING_TV_VER = registerItems("maid_s2_ending_tv_ver",
+                                        .jukeboxPlayable(ModJukeboxSongs.MEIDOWIZUDORAGONZU)));
+        public static final Item MEIDOWIZUDORAGONZU_TV_VER = registerItems("meidowizudoragonzu_tv_ver",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAID_S2_ENDING_TV_VER)));
+                                        .jukeboxPlayable(ModJukeboxSongs.MEIDOWIZUDORAGONZU_TV_VER)));
 
-        public static final Item MAID_S2_EPISODE_3_ENDING = registerItems("maid_s2_episode_3_ending",
+        public static final Item ISHUKANRIRESHONSHIPPU = registerItems("ishukanrireshonshippu",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAID_S2_EPISODE_3_ENDING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.ISHUKANRIRESHONSHIPPU)));
 
-        public static final Item DEER_S1_OPENING = registerItems("deer_s1_opening",
+        public static final Item SHIKAIRODEIZU = registerItems("shikairodeizu",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.DEER_S1_OPENING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.SHIKAIRODEIZU)));
 
-        public static final Item DEER_S1_OPENING_TV_VER = registerItems("deer_s1_opening_tv_ver",
+        public static final Item SHIKAIRODEIZU_TV_VER = registerItems("shikairodeizu_tv_ver",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.DEER_S1_OPENING_TV_VER)));
+                                        .jukeboxPlayable(ModJukeboxSongs.SHIKAIRODEIZU_TV_VER)));
 
-        public static final Item CAFE_S1_OPENING = registerItems("cafe_s1_opening",
+        public static final Item BONAPETITOS = registerItems("bonapetitos",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.CAFE_S1_OPENING)));
-        public static final Item CAFE_S1_OPENING_TV_VER = registerItems("cafe_s1_opening_tv_ver",
+                                        .jukeboxPlayable(ModJukeboxSongs.BONAPETITOS)));
+        public static final Item BONAPETITOS_TV_VER = registerItems("bonapetitos_tv_ver",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.CAFE_S1_OPENING_TV_VER)));
+                                        .jukeboxPlayable(ModJukeboxSongs.BONAPETITOS_TV_VER)));
 
-        public static final Item CAFE_S1_ENDING = registerItems("cafe_s1_ending",
+        public static final Item DETARAMENAMAINASUTOPURASUNIOKERUBURENDOKO = registerItems("detaramenamainasutopurasuniokeruburendoko",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.CAFE_S1_ENDING)));
-        public static final Item CAFE_S1_ENDING_TV_VER = registerItems("cafe_s1_ending_tv_ver",
+                                        .jukeboxPlayable(ModJukeboxSongs.DETARAMENAMAINASUTOPURASUNIOKERUBURENDOKO)));
+        public static final Item DETARAMENAMAINASUTOPURASUNIOKERUBURENDOKO_TV_VER = registerItems("detaramenamainasutopurasuniokeruburendoko_tv_ver",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.CAFE_S1_ENDING_TV_VER)));
+                                        .jukeboxPlayable(ModJukeboxSongs.DETARAMENAMAINASUTOPURASUNIOKERUBURENDOKO_TV_VER)));
 
         public static final Item SO_LUCKY = registerItems("so_lucky",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
                                         .jukeboxPlayable(ModJukeboxSongs.SO_LUCKY)));
 
-        public static final Item AT_THE_MERCY_OF_GOD = registerItems("at_the_mercy_of_god",
+        public static final Item KAMINOMANIMANI = registerItems("kaminomanimani",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.AT_THE_MERCY_OF_GOD)));
+                                        .jukeboxPlayable(ModJukeboxSongs.KAMINOMANIMANI)));
 
-        public static final Item MAGIC_TV_VER_S1_OPENING = registerItems("magic_tv_ver_s1_opening",
+        public static final Item KONEKUTO = registerItems("konekuto",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAGIC_TV_VER_S1_OPENING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.KONEKUTO)));
 
-        public static final Item MAGIC_TV_VER_S1_EPISODE_1_TO_2_ENDING = registerItems(
-                        "magic_tv_ver_s1_episode_1_to_2_ending",
+        public static final Item MATAASHITA = registerItems("mataashita",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAGIC_TV_VER_S1_EPISODE_1_TO_2_ENDING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.MATAASHITA)));
 
-        public static final Item MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING = registerItems(
-                        "magic_tv_ver_s1_episode_3_to_11_ending",
+        public static final Item MAGIA = registerItems("magia",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.MAGIA)));
 
-        public static final Item MAGIC_MOVIE_VER_S1_TO_S2_OPENING = registerItems("magic_movie_ver_s1_to_s2_opening",
+        public static final Item RUMINASU = registerItems("ruminasu",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAGIC_MOVIE_VER_S1_TO_S2_OPENING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.RUMINASU)));
 
         public static final Item MAGIC_MOVIE_VER_S2_ENDING = registerItems("magic_movie_ver_s2_ending",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)

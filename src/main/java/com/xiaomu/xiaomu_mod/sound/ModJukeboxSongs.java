@@ -16,37 +16,37 @@ public interface ModJukeboxSongs {
     RegistryKey<JukeboxSong> AOZORANORAPUSODI = of("aozoranorapusodi");
     RegistryKey<JukeboxSong> AOZORANORAPUSODI_TV_VER = of("aozoranorapusodi_tv_ver");
 
-    RegistryKey<JukeboxSong> MAID_S1_ENDING = of("maid_s1_ending");
-    RegistryKey<JukeboxSong> MAID_S1_ENDING_TV_VER = of("maid_s1_ending_tv_ver");
+    RegistryKey<JukeboxSong> ISHUKANKOMYUNIKESHON = of("ishukankomyunikeshon");
+    RegistryKey<JukeboxSong> ISHUKANKOMYUNIKESHON_TV_VER = of("ishukankomyunikeshon_tv_ver");
 
-    RegistryKey<JukeboxSong> MAID_S2_OPENING = of("maid_s2_opening");
-    RegistryKey<JukeboxSong> MAID_S2_OPENING_TV_VER = of("maid_s2_opening_tv_ver");
+    RegistryKey<JukeboxSong> AINOSHUPURIMU = of("ainoshupurimu");
+    RegistryKey<JukeboxSong> AINOSHUPURIMU_TV_VER = of("ainoshupurimu_tv_ver");
 
-    RegistryKey<JukeboxSong> MAID_S2_ENDING = of("maid_s2_ending");
-    RegistryKey<JukeboxSong> MAID_S2_ENDING_TV_VER = of("maid_s2_ending_tv_ver");
+    RegistryKey<JukeboxSong> MEIDOWIZUDORAGONZU = of("meidowizudoragonzu");
+    RegistryKey<JukeboxSong> MEIDOWIZUDORAGONZU_TV_VER = of("meidowizudoragonzu_tv_ver");
 
-    RegistryKey<JukeboxSong> MAID_S2_EPISODE_3_ENDING = of("maid_s2_episode_3_ending");
+    RegistryKey<JukeboxSong> ISHUKANRIRESHONSHIPPU = of("ishukanrireshonshippu");
 
-    RegistryKey<JukeboxSong> DEER_S1_OPENING = of("deer_s1_opening");
-    RegistryKey<JukeboxSong> DEER_S1_OPENING_TV_VER = of("deer_s1_opening_tv_ver");
+    RegistryKey<JukeboxSong> SHIKAIRODEIZU = of("shikairodeizu");
+    RegistryKey<JukeboxSong> SHIKAIRODEIZU_TV_VER = of("shikairodeizu_tv_ver");
 
-    RegistryKey<JukeboxSong> CAFE_S1_OPENING = of("cafe_s1_opening");
-    RegistryKey<JukeboxSong> CAFE_S1_OPENING_TV_VER = of("cafe_s1_opening_tv_ver");
+    RegistryKey<JukeboxSong> BONAPETITOS = of("bonapetitos");
+    RegistryKey<JukeboxSong> BONAPETITOS_TV_VER = of("bonapetitos_tv_ver");
 
-    RegistryKey<JukeboxSong> CAFE_S1_ENDING = of("cafe_s1_ending");
-    RegistryKey<JukeboxSong> CAFE_S1_ENDING_TV_VER = of("cafe_s1_ending_tv_ver");
+    RegistryKey<JukeboxSong> DETARAMENAMAINASUTOPURASUNIOKERUBURENDOKO = of("detaramenamainasutopurasuniokeruburendoko");
+    RegistryKey<JukeboxSong> DETARAMENAMAINASUTOPURASUNIOKERUBURENDOKO_TV_VER = of("detaramenamainasutopurasuniokeruburendoko_tv_ver");
 
     RegistryKey<JukeboxSong> SO_LUCKY = of("so_lucky");
 
-    RegistryKey<JukeboxSong> AT_THE_MERCY_OF_GOD = of("at_the_mercy_of_god");
+    RegistryKey<JukeboxSong> KAMINOMANIMANI = of("kaminomanimani");
 
-    RegistryKey<JukeboxSong> MAGIC_TV_VER_S1_OPENING = of("magic_tv_ver_s1_opening");
+    RegistryKey<JukeboxSong> KONEKUTO = of("konekuto");
 
-    RegistryKey<JukeboxSong> MAGIC_TV_VER_S1_EPISODE_1_TO_2_ENDING = of("magic_tv_ver_s1_episode_1_to_2_ending");
+    RegistryKey<JukeboxSong> MATAASHITA = of("mataashita");
 
-    RegistryKey<JukeboxSong> MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING = of("magic_tv_ver_s1_episode_3_to_11_ending");
+    RegistryKey<JukeboxSong> MAGIA = of("magia");
 
-    RegistryKey<JukeboxSong> MAGIC_MOVIE_VER_S1_TO_S2_OPENING = of("magic_movie_ver_s1_to_s2_opening");
+    RegistryKey<JukeboxSong> RUMINASU = of("ruminasu");
 
     RegistryKey<JukeboxSong> MAGIC_MOVIE_VER_S2_ENDING = of("magic_movie_ver_s2_ending");
 
@@ -155,37 +155,37 @@ public interface ModJukeboxSongs {
         register(registry, AOZORANORAPUSODI, ModSoundEvents.MUSIC_DISC_AOZORANORAPUSODI, 277, 15);
         register(registry, AOZORANORAPUSODI_TV_VER, ModSoundEvents.MUSIC_DISC_AOZORANORAPUSODI_TV_VER, 95, 15);
 
-        register(registry, MAID_S1_ENDING, ModSoundEvents.MUSIC_DISC_MAID_S1_ENDING, 246, 15);
-        register(registry, MAID_S1_ENDING_TV_VER, ModSoundEvents.MUSIC_DISC_MAID_S1_ENDING_TV_VER, 90, 15);
+        register(registry, ISHUKANKOMYUNIKESHON, ModSoundEvents.MUSIC_DISC_ISHUKANKOMYUNIKESHON, 246, 15);
+        register(registry, ISHUKANKOMYUNIKESHON_TV_VER, ModSoundEvents.MUSIC_DISC_ISHUKANKOMYUNIKESHON_TV_VER, 90, 15);
 
-        register(registry, MAID_S2_OPENING, ModSoundEvents.MUSIC_DISC_MAID_S2_OPENING, 284, 15);
-        register(registry, MAID_S2_OPENING_TV_VER, ModSoundEvents.MUSIC_DISC_MAID_S2_OPENING_TV_VER, 88, 15);
+        register(registry, AINOSHUPURIMU, ModSoundEvents.MUSIC_DISC_AINOSHUPURIMU, 284, 15);
+        register(registry, AINOSHUPURIMU_TV_VER, ModSoundEvents.MUSIC_DISC_AINOSHUPURIMU_TV_VER, 88, 15);
 
-        register(registry, MAID_S2_ENDING, ModSoundEvents.MUSIC_DISC_MAID_S2_ENDING, 222, 15);
-        register(registry, MAID_S2_ENDING_TV_VER, ModSoundEvents.MUSIC_DISC_MAID_S2_ENDING_TV_VER, 92, 15);
+        register(registry, MEIDOWIZUDORAGONZU, ModSoundEvents.MUSIC_DISC_MEIDOWIZUDORAGONZU, 222, 15);
+        register(registry, MEIDOWIZUDORAGONZU_TV_VER, ModSoundEvents.MUSIC_DISC_MEIDOWIZUDORAGONZU_TV_VER, 92, 15);
 
-        register(registry, MAID_S2_EPISODE_3_ENDING, ModSoundEvents.MUSIC_DISC_MAID_S2_EPISODE_3_ENDING, 205, 15);
+        register(registry, ISHUKANRIRESHONSHIPPU, ModSoundEvents.MUSIC_DISC_ISHUKANRIRESHONSHIPPU, 205, 15);
 
-        register(registry, DEER_S1_OPENING, ModSoundEvents.MUSIC_DISC_DEER_S1_OPENING, 201, 15);
-        register(registry, DEER_S1_OPENING_TV_VER, ModSoundEvents.MUSIC_DISC_DEER_S1_OPENING_TV_VER, 90, 15);
+        register(registry, SHIKAIRODEIZU, ModSoundEvents.MUSIC_DISC_SHIKAIRODEIZU, 201, 15);
+        register(registry, SHIKAIRODEIZU_TV_VER, ModSoundEvents.MUSIC_DISC_SHIKAIRODEIZU_TV_VER, 90, 15);
 
-        register(registry, CAFE_S1_OPENING, ModSoundEvents.MUSIC_DISC_CAFE_S1_OPENING, 255, 15);
-        register(registry, CAFE_S1_OPENING_TV_VER, ModSoundEvents.MUSIC_DISC_CAFE_S1_OPENING_TV_VER, 91, 15);
+        register(registry, BONAPETITOS, ModSoundEvents.MUSIC_DISC_BONAPETITOS, 255, 15);
+        register(registry, BONAPETITOS_TV_VER, ModSoundEvents.MUSIC_DISC_BONAPETITOS_TV_VER, 91, 15);
 
-        register(registry, CAFE_S1_ENDING, ModSoundEvents.MUSIC_DISC_CAFE_S1_ENDING, 274, 15);
-        register(registry, CAFE_S1_ENDING_TV_VER, ModSoundEvents.MUSIC_DISC_CAFE_S1_ENDING_TV_VER, 92, 15);
+        register(registry, DETARAMENAMAINASUTOPURASUNIOKERUBURENDOKO, ModSoundEvents.MUSIC_DISC_DETARAMENAMAINASUTOPURASUNIOKERUBURENDOKO, 274, 15);
+        register(registry, DETARAMENAMAINASUTOPURASUNIOKERUBURENDOKO_TV_VER, ModSoundEvents.MUSIC_DISC_DETARAMENAMAINASUTOPURASUNIOKERUBURENDOKO_TV_VER, 92, 15);
 
         register(registry, SO_LUCKY, ModSoundEvents.MUSIC_DISC_SO_LUCKY, 193, 15);
 
-        register(registry, AT_THE_MERCY_OF_GOD, ModSoundEvents.MUSIC_DISC_AT_THE_MERCY_OF_GOD, 255, 15);
+        register(registry, KAMINOMANIMANI, ModSoundEvents.MUSIC_DISC_KAMINOMANIMANI, 255, 15);
 
-        register(registry, MAGIC_TV_VER_S1_OPENING, ModSoundEvents.MUSIC_DISC_MAGIC_TV_VER_S1_OPENING, 270, 15);
+        register(registry, KONEKUTO, ModSoundEvents.MUSIC_DISC_KONEKUTO, 270, 15);
 
-        register(registry, MAGIC_TV_VER_S1_EPISODE_1_TO_2_ENDING, ModSoundEvents.MUSIC_DISC_MAGIC_TV_VER_S1_EPISODE_1_TO_2_ENDING, 264, 15);
+        register(registry, MATAASHITA, ModSoundEvents.MUSIC_DISC_MATAASHITA, 264, 15);
 
-        register(registry, MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING, ModSoundEvents.MUSIC_DISC_MAGIC_TV_VER_S1_EPISODE_3_TO_11_ENDING, 313, 15);
+        register(registry, MAGIA, ModSoundEvents.MUSIC_DISC_MAGIA, 313, 15);
 
-        register(registry, MAGIC_MOVIE_VER_S1_TO_S2_OPENING, ModSoundEvents.MUSIC_DISC_MAGIC_MOVIE_VER_S1_TO_S2_OPENING, 248, 15);
+        register(registry, RUMINASU, ModSoundEvents.MUSIC_DISC_RUMINASU, 248, 15);
 
         register(registry, MAGIC_MOVIE_VER_S2_ENDING, ModSoundEvents.MUSIC_DISC_MAGIC_MOVIE_VER_S2_ENDING, 293, 15);
 

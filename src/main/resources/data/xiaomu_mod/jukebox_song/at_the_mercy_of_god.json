@@ -1,8 +1,0 @@
-{
-  "comparator_output": 15,
-  "description": {
-    "translate": "jukebox_song.xiaomu_mod.at_the_mercy_of_god"
-  },
-  "length_in_seconds": 255.0,
-  "sound_event": "xiaomu_mod:music_disc.at_the_mercy_of_god"
-}

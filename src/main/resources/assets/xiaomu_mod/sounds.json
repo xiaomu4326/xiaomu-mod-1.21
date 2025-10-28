@@ -9,69 +9,69 @@
       "xiaomu_mod:aozoranorapusodi_tv_ver"
     ]
   },
-  "music_disc.maid_s1_ending": {
+  "music_disc.ishukankomyunikeshon": {
     "sounds": [
-      "xiaomu_mod:maid_s1_ending"
+      "xiaomu_mod:ishukankomyunikeshon"
     ]
   },
-  "music_disc.maid_s1_ending_tv_ver": {
+  "music_disc.ishukankomyunikeshon_tv_ver": {
     "sounds": [
-      "xiaomu_mod:maid_s1_ending_tv_ver"
+      "xiaomu_mod:ishukankomyunikeshon_tv_ver"
     ]
   },
-  "music_disc.maid_s2_opening": {
+  "music_disc.ainoshupurimu": {
     "sounds": [
-      "xiaomu_mod:maid_s2_opening"
+      "xiaomu_mod:ainoshupurimu"
     ]
   },
-  "music_disc.maid_s2_opening_tv_ver": {
+  "music_disc.ainoshupurimu_tv_ver": {
     "sounds": [
-      "xiaomu_mod:maid_s2_opening_tv_ver"
+      "xiaomu_mod:ainoshupurimu_tv_ver"
     ]
   },
-  "music_disc.maid_s2_ending": {
+  "music_disc.meidowizudoragonzu": {
     "sounds": [
-      "xiaomu_mod:maid_s2_ending"
+      "xiaomu_mod:meidowizudoragonzu"
     ]
   },
-  "music_disc.maid_s2_ending_tv_ver": {
+  "music_disc.meidowizudoragonzu_tv_ver": {
     "sounds": [
-      "xiaomu_mod:maid_s2_ending_tv_ver"
+      "xiaomu_mod:meidowizudoragonzu_tv_ver"
     ]
   },
-  "music_disc.maid_s2_episode_3_ending": {
+  "music_disc.ishukanrireshonshippu": {
     "sounds": [
-      "xiaomu_mod:maid_s2_episode_3_ending"
+      "xiaomu_mod:ishukanrireshonshippu"
     ]
   },
-  "music_disc.deer_s1_opening": {
+  "music_disc.shikairodeizu": {
     "sounds": [
-      "xiaomu_mod:deer_s1_opening"
+      "xiaomu_mod:shikairodeizu"
     ]
   },
-  "music_disc.deer_s1_opening_tv_ver": {
+  "music_disc.shikairodeizu_tv_ver": {
     "sounds": [
-      "xiaomu_mod:deer_s1_opening_tv_ver"
+      "xiaomu_mod:shikairodeizu_tv_ver"
     ]
   },
-  "music_disc.cafe_s1_opening": {
+  "music_disc.bonapetitos": {
     "sounds": [
-      "xiaomu_mod:cafe_s1_opening"
+      "xiaomu_mod:bonapetitos"
     ]
   },
-  "music_disc.cafe_s1_ending": {
+  "music_disc.detaramenamainasutopurasuniokeruburendoko": {
     "sounds": [
-      "xiaomu_mod:cafe_s1_ending"
+      "xiaomu_mod:detaramenamainasutopurasuniokeruburendoko"
     ]
   },
-  "music_disc.cafe_s1_opening_tv_ver": {
+  "music_disc.bonapetitos_tv_ver": {
     "sounds": [
-      "xiaomu_mod:cafe_s1_opening_tv_ver"
+      "xiaomu_mod:bonapetitos_tv_ver"
     ]
   },
-  "music_disc.cafe_s1_ending_tv_ver": {
+  "music_disc.detaramenamainasutopurasuniokeruburendoko_tv_ver": {
     "sounds": [
-      "xiaomu_mod:cafe_s1_ending_tv_ver"
+      "xiaomu_mod:detaramenamainasutopurasuniokeruburendoko_tv_ver"
     ]
   },
   "music_disc.so_lucky": {
@@ -79,29 +79,29 @@
       "xiaomu_mod:so_lucky"
     ]
   },
-  "music_disc.at_the_mercy_of_god": {
+  "music_disc.kaminomanimani": {
     "sounds": [
-      "xiaomu_mod:at_the_mercy_of_god"
+      "xiaomu_mod:kaminomanimani"
     ]
   },
-  "music_disc.magic_tv_ver_s1_opening": {
+  "music_disc.konekuto": {
     "sounds": [
-      "xiaomu_mod:magic_tv_ver_s1_opening"
+      "xiaomu_mod:konekuto"
     ]
   },
-  "music_disc.magic_tv_ver_s1_episode_1_to_2_ending": {
+  "music_disc.mataashita": {
     "sounds": [
-      "xiaomu_mod:magic_tv_ver_s1_episode_1_to_2_ending"
+      "xiaomu_mod:mataashita"
     ]
   },
-  "music_disc.magic_tv_ver_s1_episode_3_to_11_ending": {
+  "music_disc.magia": {
     "sounds": [
-      "xiaomu_mod:magic_tv_ver_s1_episode_3_to_11_ending"
+      "xiaomu_mod:magia"
     ]
   },
-  "music_disc.magic_movie_ver_s1_to_s2_opening": {
+  "music_disc.ruminasu": {
     "sounds": [
-      "xiaomu_mod:magic_movie_ver_s1_to_s2_opening"
+      "xiaomu_mod:ruminasu"
     ]
   },
   "music_disc.magic_movie_ver_s2_ending": {

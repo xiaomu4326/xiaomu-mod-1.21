@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "xiaomu_mod:item/mahoshojomadokamagika_ending"
+    "layer0": "xiaomu_mod:item/kaminomanimani"
   }
 }

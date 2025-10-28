@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.xiaomu_mod.meidowizudoragonzu_tv_ver"
+  },
+  "length_in_seconds": 92.0,
+  "sound_event": "xiaomu_mod:music_disc.meidowizudoragonzu_tv_ver"
+}
