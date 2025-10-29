@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "xiaomu_mod:item/senren_banka_yoshino"
+    "layer0": "xiaomu_mod:item/senrenbanka_yoshino"
   }
 }

@@ -56,32 +56,32 @@
   "item.xiaomu_mod.ruminasu": "ルミナス - ClariS",
   "jukebox_song.xiaomu_mod.ruminasu": "ルミナス - ClariS",
 
-  "item.xiaomu_mod.magic_movie_ver_s2_ending": "ひかりふる - Kalafina",
-  "jukebox_song.xiaomu_mod.magic_movie_ver_s2_ending": "ひかりふる - Kalafina",
+  "item.xiaomu_mod.hikarifuru": "ひかりふる - Kalafina",
+  "jukebox_song.xiaomu_mod.hikarifuru": "ひかりふる - Kalafina",
 
-  "item.xiaomu_mod.magic_movie_ver_s3_opening": "カラフル - ClariS",
-  "jukebox_song.xiaomu_mod.magic_movie_ver_s3_opening": "カラフル - ClariS",
+  "item.xiaomu_mod.karafuru": "カラフル - ClariS",
+  "jukebox_song.xiaomu_mod.karafuru": "カラフル - ClariS",
 
-  "item.xiaomu_mod.magic_movie_ver_s3_episode": "misterioso - Kalafina",
-  "jukebox_song.xiaomu_mod.magic_movie_ver_s3_episode": "misterioso - Kalafina",
+  "item.xiaomu_mod.misterioso": "misterioso - Kalafina",
+  "jukebox_song.xiaomu_mod.misterioso": "misterioso - Kalafina",
 
-  "item.xiaomu_mod.magic_movie_ver_s3_ending": "君の銀の庭 - Kalafina",
-  "jukebox_song.xiaomu_mod.magic_movie_ver_s3_ending": "君の銀の庭 - Kalafina",
+  "item.xiaomu_mod.kiminoginnoniwa": "君の銀の庭 - Kalafina",
+  "jukebox_song.xiaomu_mod.kiminoginnoniwa": "君の銀の庭 - Kalafina",
 
-  "item.xiaomu_mod.senren_banka_opening": "恋ひ恋ふ縁 - Famishin,KOTOKO",
-  "jukebox_song.xiaomu_mod.senren_banka_opening": "恋ひ恋ふ縁 - Famishin,KOTOKO",
-  "item.xiaomu_mod.senren_banka_opening_game_ver": "恋ひ恋ふ縁 (Game Size) - Famishin,KOTOKO",
-  "jukebox_song.xiaomu_mod.senren_banka_opening_game_ver": "恋ひ恋ふ縁 (Game Size) - Famishin,KOTOKO",
+  "item.xiaomu_mod.koihikoifuen": "恋ひ恋ふ縁 - Famishin,KOTOKO",
+  "jukebox_song.xiaomu_mod.koihikoifuen": "恋ひ恋ふ縁 - Famishin,KOTOKO",
+  "item.xiaomu_mod.koihikoifuen_game_ver": "恋ひ恋ふ縁 (Game Size) - Famishin,KOTOKO",
+  "jukebox_song.xiaomu_mod.koihikoifuen_game_ver": "恋ひ恋ふ縁 (Game Size) - Famishin,KOTOKO",
 
-  "item.xiaomu_mod.senren_banka_yoshino": "とおりゃんせ~甘美風来 - 遥そら",
-  "jukebox_song.xiaomu_mod.senren_banka_yoshino": "とおりゃんせ~甘美風来 - 遥そら",
-  "item.xiaomu_mod.senren_banka_yoshino_instrument_ver": "とおりゃんせ～甘美風来 Instrument Version - Angel Note,ゆずひこ",
-  "jukebox_song.xiaomu_mod.senren_banka_yoshino_instrument_ver": "とおりゃんせ～甘美風来 Instrument Version - Angel Note,ゆずひこ",
-  "item.xiaomu_mod.senren_banka_yoshino_quiet_ver": "とおりゃんせ～甘美風来 Quiet Version - Angel Note,ゆずひこ",
-  "jukebox_song.xiaomu_mod.senren_banka_yoshino_quiet_ver": "とおりゃんせ～甘美風来 Quiet Version - Angel Note,ゆずひこ",
+  "item.xiaomu_mod.tooryansekanbifurai": "とおりゃんせ~甘美風来 - 遥そら",
+  "jukebox_song.xiaomu_mod.tooryansekanbifurai": "とおりゃんせ~甘美風来 - 遥そら",
+  "item.xiaomu_mod.tooryansekanbifurai_instrument_ver": "とおりゃんせ～甘美風来 Instrument Version - Angel Note,ゆずひこ",
+  "jukebox_song.xiaomu_mod.tooryansekanbifurai_instrument_ver": "とおりゃんせ～甘美風来 Instrument Version - Angel Note,ゆずひこ",
+  "item.xiaomu_mod.tooryansekanbifurai_quiet_ver": "とおりゃんせ～甘美風来 Quiet Version - Angel Note,ゆずひこ",
+  "jukebox_song.xiaomu_mod.tooryansekanbifurai_quiet_ver": "とおりゃんせ～甘美風来 Quiet Version - Angel Note,ゆずひこ",
 
-  "item.xiaomu_mod.senren_banka_yoshino_ending": "愛しさと感謝の気持ち - Famishin,榊原ゆい",
-  "jukebox_song.xiaomu_mod.senren_banka_yoshino_ending": "愛しさと感謝の気持ち - Famishin,榊原ゆい",
+  "item.xiaomu_mod.aishisatokanshanokimochi": "愛しさと感謝の気持ち - Famishin,榊原ゆい",
+  "jukebox_song.xiaomu_mod.aishisatokanshanokimochi": "愛しさと感謝の気持ち - Famishin,榊原ゆい",
 
   "item.xiaomu_mod.senren_banka_murasame": "キズナヒトツ - 山本希望",
   "jukebox_song.xiaomu_mod.senren_banka_murasame": "キズナヒトツ - 山本希望",
@@ -213,9 +213,9 @@
 
   "itemGroup.xiaomu_mod.music_disc_group": "Mod Music Disc",
 
-  "itemGroup.xiaomu_mod.food_group": "Mod Food",
+  "itemGroup.xiaomu_mod.food_group": "Mod Foods",
 
-  "itemGroup.xiaomu_mod.other_group": "Other",
+  "itemGroup.xiaomu_mod.other_group": "Other Mod Items",
 
 
   "advancements.xiaomu_mod.root.title": "Xiaomu's Mod",

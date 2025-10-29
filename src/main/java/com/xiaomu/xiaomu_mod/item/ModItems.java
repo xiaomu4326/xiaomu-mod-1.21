@@ -94,43 +94,42 @@ public class ModItems {
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
                                         .jukeboxPlayable(ModJukeboxSongs.RUMINASU)));
 
-        public static final Item MAGIC_MOVIE_VER_S2_ENDING = registerItems("magic_movie_ver_s2_ending",
+        public static final Item HIKARIFURU = registerItems("hikarifuru",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAGIC_MOVIE_VER_S2_ENDING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.HIKARIFURU)));
 
-        public static final Item MAGIC_MOVIE_VER_S3_OPENING = registerItems("magic_movie_ver_s3_opening",
+        public static final Item KARAFURU = registerItems("karafuru",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAGIC_MOVIE_VER_S3_OPENING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.KARAFURU)));
 
-        public static final Item MAGIC_MOVIE_VER_S3_EPISODE = registerItems("magic_movie_ver_s3_episode",
+        public static final Item MISTERIOSO = registerItems("misterioso",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAGIC_MOVIE_VER_S3_EPISODE)));
+                                        .jukeboxPlayable(ModJukeboxSongs.MISTERIOSO)));
 
-        public static final Item MAGIC_MOVIE_VER_S3_ENDING = registerItems("magic_movie_ver_s3_ending",
+        public static final Item KIMINOGINNONIWA = registerItems("kiminoginnoniwa",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.MAGIC_MOVIE_VER_S3_ENDING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.KIMINOGINNONIWA)));
 
-        public static final Item SENREN_BANKA_OPENING = registerItems("senren_banka_opening",
+        public static final Item KOIHIKOIFUEN = registerItems("koihikoifuen",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_OPENING)));
-        public static final Item SENREN_BANKA_OPENING_GAME_VER = registerItems("senren_banka_opening_game_ver",
+                                        .jukeboxPlayable(ModJukeboxSongs.KOIHIKOIFUEN)));
+        public static final Item KOIHIKOIFUEN_GAME_VER = registerItems("koihikoifuen_game_ver",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_OPENING_GAME_VER)));
+                                        .jukeboxPlayable(ModJukeboxSongs.KOIHIKOIFUEN_GAME_VER)));
 
-        public static final Item SENREN_BANKA_YOSHINO = registerItems("senren_banka_yoshino",
+        public static final Item TOORYANSEKANBIFURAI = registerItems("tooryansekanbifurai",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_YOSHINO)));
-        public static final Item SENREN_BANKA_YOSHINO_INSTRUMENT_VER = registerItems(
-                        "senren_banka_yoshino_instrument_ver",
+                                        .jukeboxPlayable(ModJukeboxSongs.TOORYANSEKANBIFURAI)));
+        public static final Item TOORYANSEKANBIFURAI_INSTRUMENT_VER = registerItems("tooryansekanbifurai_instrument_ver",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_YOSHINO_INSTRUMENT_VER)));
-        public static final Item SENREN_BANKA_YOSHINO_QUIET_VER = registerItems("senren_banka_yoshino_quiet_ver",
+                                        .jukeboxPlayable(ModJukeboxSongs.TOORYANSEKANBIFURAI_INSTRUMENT_VER)));
+        public static final Item TOORYANSEKANBIFURAI_QUIET_VER = registerItems("tooryansekanbifurai_quiet_ver",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_YOSHINO_QUIET_VER)));
+                                        .jukeboxPlayable(ModJukeboxSongs.TOORYANSEKANBIFURAI_QUIET_VER)));
 
-        public static final Item SENREN_BANKA_YOSHINO_ENDING = registerItems("senren_banka_yoshino_ending",
+        public static final Item AISHISATOKANSHANOKIMOCHI = registerItems("aishisatokanshanokimochi",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_YOSHINO_ENDING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.AISHISATOKANSHANOKIMOCHI)));
 
         public static final Item SENREN_BANKA_MURASAME = registerItems("senren_banka_murasame",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)

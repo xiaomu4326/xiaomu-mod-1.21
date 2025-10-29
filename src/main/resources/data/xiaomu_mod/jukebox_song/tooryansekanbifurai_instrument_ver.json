@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.xiaomu_mod.tooryansekanbifurai_instrument_ver"
+  },
+  "length_in_seconds": 156.0,
+  "sound_event": "xiaomu_mod:music_disc.tooryansekanbifurai_instrument_ver"
+}

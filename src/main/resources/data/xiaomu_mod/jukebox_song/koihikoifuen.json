@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.xiaomu_mod.koihikoifuen"
+  },
+  "length_in_seconds": 237.0,
+  "sound_event": "xiaomu_mod:music_disc.koihikoifuen"
+}

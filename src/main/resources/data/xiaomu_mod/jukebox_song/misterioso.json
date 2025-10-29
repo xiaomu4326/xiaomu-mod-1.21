@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.xiaomu_mod.misterioso"
+  },
+  "length_in_seconds": 243.0,
+  "sound_event": "xiaomu_mod:music_disc.misterioso"
+}

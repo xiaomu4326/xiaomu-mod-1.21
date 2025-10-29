@@ -104,54 +104,54 @@
       "xiaomu_mod:ruminasu"
     ]
   },
-  "music_disc.magic_movie_ver_s2_ending": {
+  "music_disc.hikarifuru": {
     "sounds": [
-      "xiaomu_mod:magic_movie_ver_s2_ending"
+      "xiaomu_mod:hikarifuru"
     ]
   },
-  "music_disc.magic_movie_ver_s3_opening": {
+  "music_disc.karafuru": {
     "sounds": [
-      "xiaomu_mod:magic_movie_ver_s3_opening"
+      "xiaomu_mod:karafuru"
     ]
   },
-  "music_disc.magic_movie_ver_s3_episode": {
+  "music_disc.misterioso": {
     "sounds": [
-      "xiaomu_mod:magic_movie_ver_s3_episode"
+      "xiaomu_mod:misterioso"
     ]
   },
-  "music_disc.magic_movie_ver_s3_ending": {
+  "music_disc.kiminoginnoniwa": {
     "sounds": [
-      "xiaomu_mod:magic_movie_ver_s3_ending"
+      "xiaomu_mod:kiminoginnoniwa"
     ]
   },
-  "music_disc.senren_banka_opening": {
+  "music_disc.koihikoifuen": {
     "sounds": [
-      "xiaomu_mod:senren_banka_opening"
+      "xiaomu_mod:koihikoifuen"
     ]
   },
-  "music_disc.senren_banka_opening_game_ver": {
+  "music_disc.koihikoifuen_game_ver": {
     "sounds": [
-      "xiaomu_mod:senren_banka_opening_game_ver"
+      "xiaomu_mod:koihikoifuen_game_ver"
     ]
   },
-  "music_disc.senren_banka_yoshino": {
+  "music_disc.tooryansekanbifurai": {
     "sounds": [
-      "xiaomu_mod:senren_banka_yoshino"
+      "xiaomu_mod:tooryansekanbifurai"
     ]
   },
-  "music_disc.senren_banka_yoshino_instrument_ver": {
+  "music_disc.tooryansekanbifurai_instrument_ver": {
     "sounds": [
-      "xiaomu_mod:senren_banka_yoshino_instrument_ver"
+      "xiaomu_mod:tooryansekanbifurai_instrument_ver"
     ]
   },
-  "music_disc.senren_banka_yoshino_quiet_ver": {
+  "music_disc.tooryansekanbifurai_quiet_ver": {
     "sounds": [
-      "xiaomu_mod:senren_banka_yoshino_quiet_ver"
+      "xiaomu_mod:tooryansekanbifurai_quiet_ver"
     ]
   },
-  "music_disc.senren_banka_yoshino_ending": {
+  "music_disc.aishisatokanshanokimochi": {
     "sounds": [
-      "xiaomu_mod:senren_banka_yoshino_ending"
+      "xiaomu_mod:aishisatokanshanokimochi"
     ]
   },
   "music_disc.senren_banka_murasame": {

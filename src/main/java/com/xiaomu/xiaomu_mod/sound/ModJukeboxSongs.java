@@ -48,22 +48,22 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> RUMINASU = of("ruminasu");
 
-    RegistryKey<JukeboxSong> MAGIC_MOVIE_VER_S2_ENDING = of("magic_movie_ver_s2_ending");
+    RegistryKey<JukeboxSong> HIKARIFURU = of("hikarifuru");
 
-    RegistryKey<JukeboxSong> MAGIC_MOVIE_VER_S3_OPENING = of("magic_movie_ver_s3_opening");
+    RegistryKey<JukeboxSong> KARAFURU = of("karafuru");
 
-    RegistryKey<JukeboxSong> MAGIC_MOVIE_VER_S3_EPISODE = of("magic_movie_ver_s3_episode");
+    RegistryKey<JukeboxSong> MISTERIOSO = of("misterioso");
 
-    RegistryKey<JukeboxSong> MAGIC_MOVIE_VER_S3_ENDING = of("magic_movie_ver_s3_ending");
+    RegistryKey<JukeboxSong> KIMINOGINNONIWA = of("kiminoginnoniwa");
 
-    RegistryKey<JukeboxSong> SENREN_BANKA_OPENING = of("senren_banka_opening");
-    RegistryKey<JukeboxSong> SENREN_BANKA_OPENING_GAME_VER = of("senren_banka_opening_game_ver");
+    RegistryKey<JukeboxSong> KOIHIKOIFUEN = of("koihikoifuen");
+    RegistryKey<JukeboxSong> KOIHIKOIFUEN_GAME_VER = of("koihikoifuen_game_ver");
 
-    RegistryKey<JukeboxSong> SENREN_BANKA_YOSHINO = of("senren_banka_yoshino");
-    RegistryKey<JukeboxSong> SENREN_BANKA_YOSHINO_INSTRUMENT_VER = of("senren_banka_yoshino_instrument_ver");
-    RegistryKey<JukeboxSong> SENREN_BANKA_YOSHINO_QUIET_VER = of("senren_banka_yoshino_quiet_ver");
+    RegistryKey<JukeboxSong> TOORYANSEKANBIFURAI = of("tooryansekanbifurai");
+    RegistryKey<JukeboxSong> TOORYANSEKANBIFURAI_INSTRUMENT_VER = of("tooryansekanbifurai_instrument_ver");
+    RegistryKey<JukeboxSong> TOORYANSEKANBIFURAI_QUIET_VER = of("tooryansekanbifurai_quiet_ver");
 
-    RegistryKey<JukeboxSong> SENREN_BANKA_YOSHINO_ENDING = of("senren_banka_yoshino_ending");
+    RegistryKey<JukeboxSong> AISHISATOKANSHANOKIMOCHI = of("aishisatokanshanokimochi");
 
     RegistryKey<JukeboxSong> SENREN_BANKA_MURASAME = of("senren_banka_murasame");
     RegistryKey<JukeboxSong> SENREN_BANKA_MURASAME_INSTRUMENT_VER = of("senren_banka_murasame_instrument_ver");
@@ -187,22 +187,22 @@ public interface ModJukeboxSongs {
 
         register(registry, RUMINASU, ModSoundEvents.MUSIC_DISC_RUMINASU, 248, 15);
 
-        register(registry, MAGIC_MOVIE_VER_S2_ENDING, ModSoundEvents.MUSIC_DISC_MAGIC_MOVIE_VER_S2_ENDING, 293, 15);
+        register(registry, HIKARIFURU, ModSoundEvents.MUSIC_DISC_HIKARIFURU, 293, 15);
 
-        register(registry, MAGIC_MOVIE_VER_S3_OPENING, ModSoundEvents.MUSIC_DISC_MAGIC_MOVIE_VER_S3_OPENING, 272, 15);
+        register(registry, KARAFURU, ModSoundEvents.MUSIC_DISC_KARAFURU, 272, 15);
 
-        register(registry, MAGIC_MOVIE_VER_S3_EPISODE, ModSoundEvents.MUSIC_DISC_MAGIC_MOVIE_VER_S3_EPISODE, 243, 15);
+        register(registry, MISTERIOSO, ModSoundEvents.MUSIC_DISC_MISTERIOSO, 243, 15);
 
-        register(registry, MAGIC_MOVIE_VER_S3_ENDING, ModSoundEvents.MUSIC_DISC_MAGIC_MOVIE_VER_S3_ENDING, 306, 15);
+        register(registry, KIMINOGINNONIWA, ModSoundEvents.MUSIC_DISC_KIMINOGINNONIWA, 306, 15);
 
-        register(registry, SENREN_BANKA_OPENING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_OPENING, 237, 15);
-        register(registry, SENREN_BANKA_OPENING_GAME_VER, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_OPENING_GAME_VER, 107, 15);
+        register(registry, KOIHIKOIFUEN, ModSoundEvents.MUSIC_DISC_KOIHIKOIFUEN, 237, 15);
+        register(registry, KOIHIKOIFUEN_GAME_VER, ModSoundEvents.MUSIC_DISC_KOIHIKOIFUEN_GAME_VER, 107, 15);
 
-        register(registry, SENREN_BANKA_YOSHINO, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_YOSHINO, 205, 15);
-        register(registry, SENREN_BANKA_YOSHINO_INSTRUMENT_VER, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_YOSHINO_INSTRUMENT_VER, 156, 15);
-        register(registry, SENREN_BANKA_YOSHINO_QUIET_VER, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_YOSHINO_QUIET_VER, 99, 15);
+        register(registry, TOORYANSEKANBIFURAI, ModSoundEvents.MUSIC_DISC_TOORYANSEKANBIFURAI, 205, 15);
+        register(registry, TOORYANSEKANBIFURAI_INSTRUMENT_VER, ModSoundEvents.MUSIC_DISC_TOORYANSEKANBIFURAI_INSTRUMENT_VER, 156, 15);
+        register(registry, TOORYANSEKANBIFURAI_QUIET_VER, ModSoundEvents.MUSIC_DISC_TOORYANSEKANBIFURAI_QUIET_VER, 99, 15);
 
-        register(registry, SENREN_BANKA_YOSHINO_ENDING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_YOSHINO_ENDING, 343, 15);
+        register(registry, AISHISATOKANSHANOKIMOCHI, ModSoundEvents.MUSIC_DISC_AISHISATOKANSHANOKIMOCHI, 343, 15);
 
         register(registry, SENREN_BANKA_MURASAME, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_MURASAME, 231, 15);
         register(registry, SENREN_BANKA_MURASAME_INSTRUMENT_VER, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_MURASAME_INSTRUMENT_VER, 207, 15);
