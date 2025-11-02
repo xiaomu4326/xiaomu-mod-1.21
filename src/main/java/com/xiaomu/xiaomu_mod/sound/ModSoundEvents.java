@@ -61,21 +61,21 @@ public class ModSoundEvents {
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_AISHISATOKANSHANOKIMOCHI = registerReference("music_disc.aishisatokanshanokimochi");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_MURASAME = registerReference("music_disc.senren_banka_murasame");
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_MURASAME_INSTRUMENT_VER = registerReference("music_disc.senren_banka_murasame_instrument_ver");
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_MURASAME_QUIET_VER = registerReference("music_disc.senren_banka_murasame_quiet_ver");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_KIZUNAHITOTSU = registerReference("music_disc.kizunahitotsu");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_KIZUNAHITOTSU_INSTRUMENT_VER = registerReference("music_disc.kizunahitotsu_instrument_ver");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_KIZUNAHITOTSU_QUIET_VER = registerReference("music_disc.kizunahitotsu_quiet_ver");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_MURASAME_ENDING = registerReference("music_disc.senren_banka_murasame_ending");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_FUTATSUNOKAGE = registerReference("music_disc.futatsunokage");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_MAKO = registerReference("music_disc.senren_banka_mako");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_MAKONONICHIJOU = registerReference("music_disc.makononichijou");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_MAKO_ENDING = registerReference("music_disc.senren_banka_mako_ending");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_FUTARIDE = registerReference("music_disc.futaride");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_LENA = registerReference("music_disc.senren_banka_lena");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_BLUE_SKY = registerReference("music_disc.blue_sky");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SENREN_BANKA_LENA_ENDING = registerReference("music_disc.senren_banka_lena_ending");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_GIFT = registerReference("music_disc.gift");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_RIDDLE_JOKER_OPENING = registerReference("music_disc.riddle_joker_opening");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_ASTRAL_ABILITY = registerReference("music_disc.astral_ability");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SLEEP_S1_OPENING = registerReference("music_disc.sleep_s1_opening");
 

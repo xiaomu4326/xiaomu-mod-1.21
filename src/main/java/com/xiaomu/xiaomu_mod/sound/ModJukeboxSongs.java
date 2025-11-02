@@ -65,21 +65,21 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> AISHISATOKANSHANOKIMOCHI = of("aishisatokanshanokimochi");
 
-    RegistryKey<JukeboxSong> SENREN_BANKA_MURASAME = of("senren_banka_murasame");
-    RegistryKey<JukeboxSong> SENREN_BANKA_MURASAME_INSTRUMENT_VER = of("senren_banka_murasame_instrument_ver");
-    RegistryKey<JukeboxSong> SENREN_BANKA_MURASAME_QUIET_VER = of("senren_banka_murasame_quiet_ver");
+    RegistryKey<JukeboxSong> KIZUNAHITOTSU = of("kizunahitotsu");
+    RegistryKey<JukeboxSong> KIZUNAHITOTSU_INSTRUMENT_VER = of("kizunahitotsu_instrument_ver");
+    RegistryKey<JukeboxSong> KIZUNAHITOTSU_QUIET_VER = of("kizunahitotsu_quiet_ver");
 
-    RegistryKey<JukeboxSong> SENREN_BANKA_MURASAME_ENDING = of("senren_banka_murasame_ending");
+    RegistryKey<JukeboxSong> FUTATSUNOKAGE = of("futatsunokage");
 
-    RegistryKey<JukeboxSong> SENREN_BANKA_MAKO = of("senren_banka_mako");
+    RegistryKey<JukeboxSong> MAKONONICHIJOU = of("makononichijou");
 
-    RegistryKey<JukeboxSong> SENREN_BANKA_MAKO_ENDING = of("senren_banka_mako_ending");
+    RegistryKey<JukeboxSong> FUTARIDE = of("futaride");
 
-    RegistryKey<JukeboxSong> SENREN_BANKA_LENA = of("senren_banka_lena");
+    RegistryKey<JukeboxSong> BLUE_SKY = of("blue_sky");
 
-    RegistryKey<JukeboxSong> SENREN_BANKA_LENA_ENDING = of("senren_banka_lena_ending");
+    RegistryKey<JukeboxSong> GIFT = of("gift");
 
-    RegistryKey<JukeboxSong> RIDDLE_JOKER_OPENING = of("riddle_joker_opening");
+    RegistryKey<JukeboxSong> ASTRAL_ABILITY = of("astral_ability");
 
     RegistryKey<JukeboxSong> SLEEP_S1_OPENING = of("sleep_s1_opening");
 
@@ -204,21 +204,21 @@ public interface ModJukeboxSongs {
 
         register(registry, AISHISATOKANSHANOKIMOCHI, ModSoundEvents.MUSIC_DISC_AISHISATOKANSHANOKIMOCHI, 343, 15);
 
-        register(registry, SENREN_BANKA_MURASAME, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_MURASAME, 231, 15);
-        register(registry, SENREN_BANKA_MURASAME_INSTRUMENT_VER, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_MURASAME_INSTRUMENT_VER, 207, 15);
-        register(registry, SENREN_BANKA_MURASAME_QUIET_VER, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_MURASAME_QUIET_VER, 135, 15);
+        register(registry, KIZUNAHITOTSU, ModSoundEvents.MUSIC_DISC_KIZUNAHITOTSU, 231, 15);
+        register(registry, KIZUNAHITOTSU_INSTRUMENT_VER, ModSoundEvents.MUSIC_DISC_KIZUNAHITOTSU_INSTRUMENT_VER, 207, 15);
+        register(registry, KIZUNAHITOTSU_QUIET_VER, ModSoundEvents.MUSIC_DISC_KIZUNAHITOTSU_QUIET_VER, 135, 15);
 
-        register(registry, SENREN_BANKA_MURASAME_ENDING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_MURASAME_ENDING, 250, 15);
+        register(registry, FUTATSUNOKAGE, ModSoundEvents.MUSIC_DISC_FUTATSUNOKAGE, 250, 15);
 
-        register(registry, SENREN_BANKA_MAKO, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_MAKO, 225, 15);
+        register(registry, MAKONONICHIJOU, ModSoundEvents.MUSIC_DISC_MAKONONICHIJOU, 225, 15);
 
-        register(registry, SENREN_BANKA_MAKO_ENDING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_MAKO_ENDING, 289, 15);
+        register(registry, FUTARIDE, ModSoundEvents.MUSIC_DISC_FUTARIDE, 289, 15);
 
-        register(registry, SENREN_BANKA_LENA, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_LENA, 194, 15);
+        register(registry, BLUE_SKY, ModSoundEvents.MUSIC_DISC_BLUE_SKY, 194, 15);
 
-        register(registry, SENREN_BANKA_LENA_ENDING, ModSoundEvents.MUSIC_DISC_SENREN_BANKA_LENA_ENDING, 464, 15);
+        register(registry, GIFT, ModSoundEvents.MUSIC_DISC_GIFT, 464, 15);
 
-        register(registry, RIDDLE_JOKER_OPENING, ModSoundEvents.MUSIC_DISC_RIDDLE_JOKER_OPENING, 226, 15);
+        register(registry, ASTRAL_ABILITY, ModSoundEvents.MUSIC_DISC_ASTRAL_ABILITY, 226, 15);
 
         register(registry, SLEEP_S1_OPENING, ModSoundEvents.MUSIC_DISC_SLEEP_S1_OPENING, 220, 15);
 

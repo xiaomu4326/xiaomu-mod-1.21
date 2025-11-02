@@ -58,44 +58,46 @@ public class BottomlessBucket extends Item {
                 }
             }
         }else {
-            if (side == Direction.NORTH && blockState_north.isIn(ModBlockTags.FLUID)){
-                if (isLava(blockState_north)) {
-                    world.playSound(player, blockPos_north, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
+            if (!Screen.hasAltDown()){
+                if (side == Direction.NORTH && blockState_north.isIn(ModBlockTags.FLUID)){
+                    if (isLava(blockState_north)) {
+                        world.playSound(player, blockPos_north, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                    }else {
+                        world.playSound(player, blockPos_north, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                    }
+                    world.setBlockState(blockPos_north, Blocks.AIR.getDefaultState());
+                }else if (side == Direction.SOUTH && blockState_south.isIn(ModBlockTags.FLUID)){
+                    if (isLava(blockState_south)) {world.playSound(player, blockPos_south, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                    }else {
+                        world.playSound(player, blockPos_north, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                    }
+                    world.setBlockState(blockPos_south, Blocks.AIR.getDefaultState());
+                }else if (side == Direction.WEST && blockState_west.isIn(ModBlockTags.FLUID)){
+                    if (isLava(blockState_west)) {
+                        world.playSound(player, blockPos_west, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                    }else {
+                        world.playSound(player, blockPos_west, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                    }
+                    world.setBlockState(blockPos_west, Blocks.AIR.getDefaultState());
+                }else if (side == Direction.EAST && blockState_east.isIn(ModBlockTags.FLUID)) {
+                    if (isLava(blockState_east)) {
+                        world.playSound(player, blockPos_east, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                    } else {
+                        world.playSound(player, blockPos_east, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                    }
+                    world.setBlockState(blockPos_east, Blocks.AIR.getDefaultState());
+                }else if(side == Direction.UP && blockState_up.isIn(ModBlockTags.FLUID)){
+                    if (isLava(blockState_up)) {
+                        world.playSound(player, blockPos_up, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                    } else {
+                        world.playSound(player, blockPos_up, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                    }
+                    world.setBlockState(blockPos_up, Blocks.AIR.getDefaultState());
                 }else {
-                    world.playSound(player, blockPos_north, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                }
-                world.setBlockState(blockPos_north, Blocks.AIR.getDefaultState());
-            }else if (side == Direction.SOUTH && blockState_south.isIn(ModBlockTags.FLUID)){
-                if (isLava(blockState_south)) {world.playSound(player, blockPos_south, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                }else {
-                    world.playSound(player, blockPos_north, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                }
-                world.setBlockState(blockPos_south, Blocks.AIR.getDefaultState());
-            }else if (side == Direction.WEST && blockState_west.isIn(ModBlockTags.FLUID)){
-                if (isLava(blockState_west)) {
-                    world.playSound(player, blockPos_west, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                }else {
-                    world.playSound(player, blockPos_west, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                }
-                world.setBlockState(blockPos_west, Blocks.AIR.getDefaultState());
-            }else if (side == Direction.EAST && blockState_east.isIn(ModBlockTags.FLUID)) {
-                if (isLava(blockState_east)) {
-                    world.playSound(player, blockPos_east, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                } else {
-                    world.playSound(player, blockPos_east, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                }
-                world.setBlockState(blockPos_east, Blocks.AIR.getDefaultState());
-            }else if(side == Direction.UP && blockState_up.isIn(ModBlockTags.FLUID)){
-                if (isLava(blockState_up)) {
-                    world.playSound(player, blockPos_up, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                } else {
-                    world.playSound(player, blockPos_up, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                }
-                world.setBlockState(blockPos_up, Blocks.AIR.getDefaultState());
-            }else {
-                if (!isWrongBlock(blockState)) {
-                    world.playSound(player, pos, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                    world.setBlockState(pos, Blocks.AIR.getDefaultState());
+                    if (!isWrongBlock(blockState)) {
+                        world.playSound(player, pos, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                        world.setBlockState(pos, Blocks.AIR.getDefaultState());
+                    }
                 }
             }
         }

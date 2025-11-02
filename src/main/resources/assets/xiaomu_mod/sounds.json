@@ -154,49 +154,49 @@
       "xiaomu_mod:aishisatokanshanokimochi"
     ]
   },
-  "music_disc.senren_banka_murasame": {
+  "music_disc.kizunahitotsu": {
     "sounds": [
-      "xiaomu_mod:senren_banka_murasame"
+      "xiaomu_mod:kizunahitotsu"
     ]
   },
-  "music_disc.senren_banka_murasame_instrument_ver": {
+  "music_disc.kizunahitotsu_instrument_ver": {
     "sounds": [
-      "xiaomu_mod:senren_banka_murasame_instrument_ver"
+      "xiaomu_mod:kizunahitotsu_instrument_ver"
     ]
   },
-  "music_disc.senren_banka_murasame_quiet_ver": {
+  "music_disc.kizunahitotsu_quiet_ver": {
     "sounds": [
-      "xiaomu_mod:senren_banka_murasame_quiet_ver"
+      "xiaomu_mod:kizunahitotsu_quiet_ver"
     ]
   },
-  "music_disc.senren_banka_murasame_ending": {
+  "music_disc.futatsunokage": {
     "sounds": [
-      "xiaomu_mod:senren_banka_murasame_ending"
+      "xiaomu_mod:futatsunokage"
     ]
   },
-  "music_disc.senren_banka_mako": {
+  "music_disc.makononichijou": {
     "sounds": [
-      "xiaomu_mod:senren_banka_mako"
+      "xiaomu_mod:makononichijou"
     ]
   },
-  "music_disc.senren_banka_mako_ending": {
+  "music_disc.futaride": {
     "sounds": [
-      "xiaomu_mod:senren_banka_mako_ending"
+      "xiaomu_mod:futaride"
     ]
   },
-  "music_disc.senren_banka_lena": {
+  "music_disc.blue_sky": {
     "sounds": [
-      "xiaomu_mod:senren_banka_lena"
+      "xiaomu_mod:blue_sky"
     ]
   },
-  "music_disc.senren_banka_lena_ending": {
+  "music_disc.gift": {
     "sounds": [
-      "xiaomu_mod:senren_banka_lena_ending"
+      "xiaomu_mod:gift"
     ]
   },
-  "music_disc.riddle_joker_opening": {
+  "music_disc.astral_ability": {
     "sounds": [
-      "xiaomu_mod:riddle_joker_opening"
+      "xiaomu_mod:astral_ability"
     ]
   },
   "music_disc.sleep_s1_opening": {

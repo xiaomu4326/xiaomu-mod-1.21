@@ -131,40 +131,39 @@ public class ModItems {
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
                                         .jukeboxPlayable(ModJukeboxSongs.AISHISATOKANSHANOKIMOCHI)));
 
-        public static final Item SENREN_BANKA_MURASAME = registerItems("senren_banka_murasame",
+        public static final Item KIZUNAHITOTSU = registerItems("kizunahitotsu",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_MURASAME)));
-        public static final Item SENREN_BANKA_MURASAME_INSTRUMENT_VER = registerItems(
-                        "senren_banka_murasame_instrument_ver",
+                                        .jukeboxPlayable(ModJukeboxSongs.KIZUNAHITOTSU)));
+        public static final Item KIZUNAHITOTSU_INSTRUMENT_VER = registerItems("kizunahitotsu_instrument_ver",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_MURASAME_INSTRUMENT_VER)));
-        public static final Item SENREN_BANKA_MURASAME_QUIET_VER = registerItems("senren_banka_murasame_quiet_ver",
+                                        .jukeboxPlayable(ModJukeboxSongs.KIZUNAHITOTSU_INSTRUMENT_VER)));
+        public static final Item KIZUNAHITOTSU_QUIET_VER = registerItems("kizunahitotsu_quiet_ver",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_MURASAME_QUIET_VER)));
+                                        .jukeboxPlayable(ModJukeboxSongs.KIZUNAHITOTSU_QUIET_VER)));
 
-        public static final Item SENREN_BANKA_MURASAME_ENDING = registerItems("senren_banka_murasame_ending",
+        public static final Item FUTATSUNOKAGE = registerItems("futatsunokage",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_MURASAME_ENDING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.FUTATSUNOKAGE)));
 
-        public static final Item SENREN_BANKA_MAKO = registerItems("senren_banka_mako",
+        public static final Item MAKONONICHIJOU = registerItems("makononichijou",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_MAKO)));
+                                        .jukeboxPlayable(ModJukeboxSongs.MAKONONICHIJOU)));
 
-        public static final Item SENREN_BANKA_MAKO_ENDING = registerItems("senren_banka_mako_ending",
+        public static final Item FUTARIDE = registerItems("futaride",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_MAKO_ENDING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.FUTARIDE)));
 
-        public static final Item SENREN_BANKA_LENA = registerItems("senren_banka_lena",
+        public static final Item BLUE_SKY = registerItems("blue_sky",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_LENA)));
+                                        .jukeboxPlayable(ModJukeboxSongs.BLUE_SKY)));
 
-        public static final Item SENREN_BANKA_LENA_ENDING = registerItems("senren_banka_lena_ending",
+        public static final Item GIFT = registerItems("gift",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SENREN_BANKA_LENA_ENDING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.GIFT)));
 
-        public static final Item RIDDLE_JOKER_OPENING = registerItems("riddle_joker_opening",
+        public static final Item ASTRAL_ABILITY = registerItems("astral_ability",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.RIDDLE_JOKER_OPENING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.ASTRAL_ABILITY)));
 
         public static final Item SLEEP_S1_OPENING = registerItems("sleep_s1_opening",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
