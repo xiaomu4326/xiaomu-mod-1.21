@@ -132,6 +132,7 @@ public class ModItemGroup {
                         .entries((displayContext, entries) -> {
                             entries.add(ModBlocks.RANDOM_FOOD_BLOCK);
                             entries.add(ModItems.TOHRU_HORN);
+                            entries.add(ModItems.UNPOLISHED_DIAMOND);
                             entries.add(ModItems.OBSIDIAN_BUCKET);
                             entries.add(ModItems.BOTTOMLESS_OBSIDIAN_BUCKET);
                             entries.add(ModItems.BOTTOMLESS_BUCKET);

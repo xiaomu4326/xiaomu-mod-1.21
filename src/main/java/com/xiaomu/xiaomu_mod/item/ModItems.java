@@ -306,6 +306,9 @@ public class ModItems {
                                         .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true))));
 
         // other
+        public static final Item UNPOLISHED_DIAMOND = registerItems("unpolished_diamond",
+                new Item(new Item.Settings().maxCount(64).rarity(Rarity.COMMON)));
+
         public static final Item TOHRU_HORN = registerItems("tohru_horn",
                         new Item(new Item.Settings().maxCount(64).rarity(Rarity.COMMON)));
 
