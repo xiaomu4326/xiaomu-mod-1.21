@@ -81,7 +81,7 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> ASTRAL_ABILITY = of("astral_ability");
 
-    RegistryKey<JukeboxSong> SLEEP_S1_OPENING = of("sleep_s1_opening");
+    RegistryKey<JukeboxSong> KAIMINANMINSUYARISUTOSEIKATSU = of("kaiminanminsuyarisutoseikatsu");
 
     RegistryKey<JukeboxSong> SISTER_S1_OPENING = of("sister_s1_opening");
     RegistryKey<JukeboxSong> SISTER_S1_OPENING_TV_VER = of("sister_s1_opening_tv_ver");
@@ -220,7 +220,7 @@ public interface ModJukeboxSongs {
 
         register(registry, ASTRAL_ABILITY, ModSoundEvents.MUSIC_DISC_ASTRAL_ABILITY, 226, 15);
 
-        register(registry, SLEEP_S1_OPENING, ModSoundEvents.MUSIC_DISC_SLEEP_S1_OPENING, 220, 15);
+        register(registry, KAIMINANMINSUYARISUTOSEIKATSU, ModSoundEvents.MUSIC_DISC_KAIMINANMINSUYARISUTOSEIKATSU, 220, 15);
 
         register(registry, SISTER_S1_OPENING, ModSoundEvents.MUSIC_DISC_SISTER_S1_OPENING, 243, 15);
         register(registry, SISTER_S1_OPENING_TV_VER, ModSoundEvents.MUSIC_DISC_SISTER_S1_OPENING_TV_VER, 92, 15);

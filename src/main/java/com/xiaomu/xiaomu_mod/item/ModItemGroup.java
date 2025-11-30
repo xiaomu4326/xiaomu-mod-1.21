@@ -75,7 +75,7 @@ public class ModItemGroup {
                             entries.add(ModItems.BLUE_SKY);
                             entries.add(ModItems.GIFT);
                             entries.add(ModItems.ASTRAL_ABILITY);
-                            entries.add(ModItems.SLEEP_S1_OPENING);
+                            entries.add(ModItems.KAIMINANMINSUYARISUTOSEIKATSU);
                             entries.add(ModItems.SISTER_S1_OPENING);
                             entries.add(ModItems.SISTER_S1_OPENING_TV_VER);
                             //English

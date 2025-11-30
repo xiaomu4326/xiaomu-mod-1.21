@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "xiaomu_mod:item/sleep_opening"
+    "layer0": "xiaomu_mod:item/maojodeoyasumi_opening"
   }
 }

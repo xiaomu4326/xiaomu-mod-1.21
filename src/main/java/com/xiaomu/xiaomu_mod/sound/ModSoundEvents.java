@@ -77,7 +77,7 @@ public class ModSoundEvents {
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_ASTRAL_ABILITY = registerReference("music_disc.astral_ability");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SLEEP_S1_OPENING = registerReference("music_disc.sleep_s1_opening");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_KAIMINANMINSUYARISUTOSEIKATSU = registerReference("music_disc.kaiminanminsuyarisutoseikatsu");
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SISTER_S1_OPENING = registerReference("music_disc.sister_s1_opening");
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SISTER_S1_OPENING_TV_VER = registerReference("music_disc.sister_s1_opening_tv_ver");

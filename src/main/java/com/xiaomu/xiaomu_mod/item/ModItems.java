@@ -165,9 +165,9 @@ public class ModItems {
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
                                         .jukeboxPlayable(ModJukeboxSongs.ASTRAL_ABILITY)));
 
-        public static final Item SLEEP_S1_OPENING = registerItems("sleep_s1_opening",
+        public static final Item KAIMINANMINSUYARISUTOSEIKATSU = registerItems("kaiminanminsuyarisutoseikatsu",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SLEEP_S1_OPENING)));
+                                        .jukeboxPlayable(ModJukeboxSongs.KAIMINANMINSUYARISUTOSEIKATSU)));
 
         public static final Item SISTER_S1_OPENING = registerItems("sister_s1_opening",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
