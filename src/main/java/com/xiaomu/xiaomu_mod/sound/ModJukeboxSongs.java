@@ -1,5 +1,7 @@
 package com.xiaomu.xiaomu_mod.sound;
 
+import java.rmi.registry.Registry;
+
 import com.xiaomu.xiaomu_mod.XiaomuMod;
 import net.minecraft.block.jukebox.JukeboxSong;
 import net.minecraft.registry.Registerable;
@@ -83,8 +85,13 @@ public interface ModJukeboxSongs {
 
     RegistryKey<JukeboxSong> KAIMINANMINSUYARISUTOSEIKATSU = of("kaiminanminsuyarisutoseikatsu");
 
-    RegistryKey<JukeboxSong> SISTER_S1_OPENING = of("sister_s1_opening");
-    RegistryKey<JukeboxSong> SISTER_S1_OPENING_TV_VER = of("sister_s1_opening_tv_ver");
+    RegistryKey<JukeboxSong> AIDENSADASADAMERUTODAUN = of("aidensadasadamerutodaun");
+    RegistryKey<JukeboxSong> AIDENSADASADAMERUTODAUN_TV_VER = of("aidensadasadamerutodaun_tv_ver");
+
+    RegistryKey<JukeboxSong> HOSHIFURUUMI = of("hoshifuruumi");
+    RegistryKey<JukeboxSong> RAY_CHOUKAGUYAHIME_VERSION = of("ray_choukaguyahime_version");
+    RegistryKey<JukeboxSong> WAARUDOIZUMAIN = of("waarudoizumain");
+    RegistryKey<JukeboxSong> WATASHIHAWATASHINOKOTOGASUKI = of("watashihawatashinokotogasuki");
 
     //English
     //mihoyo
@@ -222,8 +229,13 @@ public interface ModJukeboxSongs {
 
         register(registry, KAIMINANMINSUYARISUTOSEIKATSU, ModSoundEvents.MUSIC_DISC_KAIMINANMINSUYARISUTOSEIKATSU, 220, 15);
 
-        register(registry, SISTER_S1_OPENING, ModSoundEvents.MUSIC_DISC_SISTER_S1_OPENING, 243, 15);
-        register(registry, SISTER_S1_OPENING_TV_VER, ModSoundEvents.MUSIC_DISC_SISTER_S1_OPENING_TV_VER, 92, 15);
+        register(registry, AIDENSADASADAMERUTODAUN, ModSoundEvents.MUSIC_DISC_AIDENSADASADAMERUTODAUN, 243, 15);
+        register(registry, AIDENSADASADAMERUTODAUN_TV_VER, ModSoundEvents.MUSIC_DISC_AIDENSADASADAMERUTODAUN_TV_VER, 92, 15);
+
+        register(registry, HOSHIFURUUMI, ModSoundEvents.MUSIC_DISC_HOSHIFURUUMI, 253, 15);
+        register(registry, RAY_CHOUKAGUYAHIME_VERSION, ModSoundEvents.MUSIC_DISC_RAY_CHOUKAGUYAHIME_VERSION, 301, 15);
+        register(registry, WAARUDOIZUMAIN, ModSoundEvents.MUSIC_DISC_WAARUDOIZUMAIN, 226, 15);
+        register(registry, WATASHIHAWATASHINOKOTOGASUKI, ModSoundEvents.MUSIC_DISC_WATASHIHAWATASHINOKOTOGASUKI, 251, 15);
 
 
         //English

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 2.5,
+  "ingredient": {
+    "item": "minecraft:coal"
+  },
+  "result": {
+    "id": "xiaomu_mod:gaseous_carbon_dioxide"
+  }
+}

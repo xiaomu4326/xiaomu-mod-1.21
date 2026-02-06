@@ -111,11 +111,20 @@
   "item.xiaomu_mod.kaiminanminsuyarisutoseikatsu": "快眠! 安眠! スヤリスト生活 - 水瀬いのり",
   "jukebox_song.xiaomu_mod.kaiminanminsuyarisutoseikatsu": "快眠! 安眠! スヤリスト生活 - 水瀬いのり",
 
-  "item.xiaomu_mod.sister_s1_opening": "アイデン貞貞メルトダウン - えなこ",
-  "jukebox_song.xiaomu_mod.sister_s1_opening": "アイデン貞貞メルトダウン - えなこ",
+  "item.xiaomu_mod.aidensadasadamerutodaun": "アイデン貞貞メルトダウン - えなこ",
+  "jukebox_song.xiaomu_mod.aidensadasadamerutodaun": "アイデン貞貞メルトダウン - えなこ",
 
-  "item.xiaomu_mod.sister_s1_opening_tv_ver": "アイデン貞貞メルトダウン (TV size) - えなこ",
-  "jukebox_song.xiaomu_mod.sister_s1_opening_tv_ver": "アイデン貞貞メルトダウン (TV size) - えなこ",
+  "item.xiaomu_mod.aidensadasadamerutodaun_tv_ver": "アイデン貞貞メルトダウン (TV size) - えなこ",
+  "jukebox_song.xiaomu_mod.aidensadasadamerutodaun_tv_ver": "アイデン貞貞メルトダウン (TV size) - えなこ",
+
+  "item.xiaomu_mod.hoshifuruumi": "星降る海 - Aqu3ra,月見ヤチヨ(cv.早見沙織),",
+  "jukebox_song.xiaomu_mod.hoshifuruumi": "星降る海 - Aqu3ra,月見ヤチヨ(cv.早見沙織),",
+  "item.xiaomu_mod.ray_choukaguyahime_version": "ray (超かぐや姫！ Version) - かぐや(cv.夏吉ゆうこ),月見ヤチヨ(cv.早見沙織),",
+  "jukebox_song.xiaomu_mod.ray_choukaguyahime_version": "ray (超かぐや姫！ Version) - かぐや(cv.夏吉ゆうこ),月見ヤチヨ(cv.早見沙織),",
+  "item.xiaomu_mod.waarudoizumain": "ワールドイズマイン (かぐや&月見ヤチヨ ver.) [CPK! Remix] - ryo (supercell),かぐや(cv.夏吉ゆうこ),月見ヤチヨ(cv.早見沙織)",
+  "jukebox_song.xiaomu_mod.waarudoizumain": "ワールドイズマイン (かぐや&月見ヤチヨ ver.) [CPK! Remix] - ryo (supercell),かぐや(cv.夏吉ゆうこ),月見ヤチヨ(cv.早見沙織)",
+  "item.xiaomu_mod.watashihawatashinokotogasuki": "私は、わたしの事が好き。 - HoneyWorks,かぐや(cv.夏吉ゆうこ),",
+  "jukebox_song.xiaomu_mod.watashihawatashinokotogasuki": "私は、わたしの事が好き。 - HoneyWorks,かぐや(cv.夏吉ゆうこ),",
 
 
   "item.xiaomu_mod.passing_memories": "Passing Memories - Faouzia,HOYO-MiX",
@@ -182,6 +191,8 @@
   "item.xiaomu_mod.cooked_tohru_meat": "Cooked Tohru's Meat",
 
   "item.xiaomu_mod.unpolished_diamond": "Unpolished Diamond",
+
+  "item.xiaomu_mod.gaseous_carbon_dioxide": "Gaseous Carbon Dioxide (CO₂)",
 
   "item.xiaomu_mod.kobayashi_beer_can_full": "Kobayashi's Beer Can (Full)",
 

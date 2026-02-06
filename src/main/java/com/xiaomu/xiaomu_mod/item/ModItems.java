@@ -169,12 +169,28 @@ public class ModItems {
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
                                         .jukeboxPlayable(ModJukeboxSongs.KAIMINANMINSUYARISUTOSEIKATSU)));
 
-        public static final Item SISTER_S1_OPENING = registerItems("sister_s1_opening",
+        public static final Item AIDENSADASADAMERUTODAUN = registerItems("aidensadasadamerutodaun",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SISTER_S1_OPENING)));
-        public static final Item SISTER_S1_OPENING_TV_VER = registerItems("sister_s1_opening_tv_ver",
+                                        .jukeboxPlayable(ModJukeboxSongs.AIDENSADASADAMERUTODAUN)));
+        public static final Item AIDENSADASADAMERUTODAUN_TV_VER = registerItems("aidensadasadamerutodaun_tv_ver",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
-                                        .jukeboxPlayable(ModJukeboxSongs.SISTER_S1_OPENING_TV_VER)));
+                                        .jukeboxPlayable(ModJukeboxSongs.AIDENSADASADAMERUTODAUN_TV_VER)));
+        
+        public static final Item HOSHIFURUUMI = registerItems("hoshifuruumi",
+                        new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
+                                        .jukeboxPlayable(ModJukeboxSongs.HOSHIFURUUMI)));
+
+        public static final Item RAY_CHOUKAGUYAHIME_VERSION = registerItems("ray_choukaguyahime_version",
+                        new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
+                                        .jukeboxPlayable(ModJukeboxSongs.RAY_CHOUKAGUYAHIME_VERSION)));
+
+        public static final Item WAARUDOIZUMAIN = registerItems("waarudoizumain",
+                        new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
+                                        .jukeboxPlayable(ModJukeboxSongs.WAARUDOIZUMAIN)));
+
+        public static final Item WATASHIHAWATASHINOKOTOGASUKI = registerItems("watashihawatashinokotogasuki",
+                        new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
+                                        .jukeboxPlayable(ModJukeboxSongs.WATASHIHAWATASHINOKOTOGASUKI)));
 
         // English
         // mihoyo
@@ -307,6 +323,9 @@ public class ModItems {
 
         // other
         public static final Item UNPOLISHED_DIAMOND = registerItems("unpolished_diamond",
+                new Item(new Item.Settings().maxCount(64).rarity(Rarity.COMMON)));
+
+        public static final Item GASEOUS_CARBON_DIOXIDE = registerItems("gaseous_carbon_dioxide",
                 new Item(new Item.Settings().maxCount(64).rarity(Rarity.COMMON)));
 
         public static final Item TOHRU_HORN = registerItems("tohru_horn",

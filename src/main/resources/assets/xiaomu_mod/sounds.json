@@ -204,14 +204,34 @@
       "xiaomu_mod:kaiminanminsuyarisutoseikatsu"
     ]
   },
-   "music_disc.sister_s1_opening": {
+   "music_disc.aidensadasadamerutodaun": {
     "sounds": [
-      "xiaomu_mod:sister_s1_opening"
+      "xiaomu_mod:aidensadasadamerutodaun"
     ]
   },
-   "music_disc.sister_s1_opening_tv_ver": {
+   "music_disc.aidensadasadamerutodaun_tv_ver": {
     "sounds": [
-      "xiaomu_mod:sister_s1_opening_tv_ver"
+      "xiaomu_mod:aidensadasadamerutodaun_tv_ver"
+    ]
+  },
+  "music_disc.hoshifuruumi": {
+    "sounds": [
+      "xiaomu_mod:hoshifuruumi"
+    ]
+  },
+  "music_disc.ray_choukaguyahime_version": {
+    "sounds": [
+      "xiaomu_mod:ray_choukaguyahime_version"
+    ]
+  },
+  "music_disc.waarudoizumain": {
+    "sounds": [
+      "xiaomu_mod:waarudoizumain"
+    ]
+  },
+  "music_disc.watashihawatashinokotogasuki": {
+    "sounds": [
+      "xiaomu_mod:watashihawatashinokotogasuki"
     ]
   },
   "music_disc.passing_memories": {

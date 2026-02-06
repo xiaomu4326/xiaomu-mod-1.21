@@ -79,8 +79,13 @@ public class ModSoundEvents {
 
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_KAIMINANMINSUYARISUTOSEIKATSU = registerReference("music_disc.kaiminanminsuyarisutoseikatsu");
 
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SISTER_S1_OPENING = registerReference("music_disc.sister_s1_opening");
-    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SISTER_S1_OPENING_TV_VER = registerReference("music_disc.sister_s1_opening_tv_ver");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_AIDENSADASADAMERUTODAUN = registerReference("music_disc.aidensadasadamerutodaun");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_AIDENSADASADAMERUTODAUN_TV_VER = registerReference("music_disc.aidensadasadamerutodaun_tv_ver");
+
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_HOSHIFURUUMI = registerReference("music_disc.hoshifuruumi");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_RAY_CHOUKAGUYAHIME_VERSION = registerReference("music_disc.ray_choukaguyahime_version");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_WAARUDOIZUMAIN = registerReference("music_disc.waarudoizumain");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_WATASHIHAWATASHINOKOTOGASUKI = registerReference("music_disc.watashihawatashinokotogasuki");
 
     //English
     //mihoyo

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 75,
+  "experience": 25.0,
+  "ingredient": {
+    "item": "xiaomu_mod:unpolished_diamond"
+  },
+  "result": {
+    "id": "xiaomu_mod:gaseous_carbon_dioxide"
+  }
+}

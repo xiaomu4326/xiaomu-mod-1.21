@@ -76,8 +76,12 @@ public class ModItemGroup {
                             entries.add(ModItems.GIFT);
                             entries.add(ModItems.ASTRAL_ABILITY);
                             entries.add(ModItems.KAIMINANMINSUYARISUTOSEIKATSU);
-                            entries.add(ModItems.SISTER_S1_OPENING);
-                            entries.add(ModItems.SISTER_S1_OPENING_TV_VER);
+                            entries.add(ModItems.AIDENSADASADAMERUTODAUN);
+                            entries.add(ModItems.AIDENSADASADAMERUTODAUN_TV_VER);
+                            entries.add(ModItems.HOSHIFURUUMI);
+                            entries.add(ModItems.RAY_CHOUKAGUYAHIME_VERSION);
+                            entries.add(ModItems.WAARUDOIZUMAIN);
+                            entries.add(ModItems.WATASHIHAWATASHINOKOTOGASUKI);
                             //English
                             //mihoyo
                             entries.add(ModItems.PASSING_MEMORIES);
@@ -133,6 +137,7 @@ public class ModItemGroup {
                             entries.add(ModBlocks.RANDOM_FOOD_BLOCK);
                             entries.add(ModItems.TOHRU_HORN);
                             entries.add(ModItems.UNPOLISHED_DIAMOND);
+                            entries.add(ModItems.GASEOUS_CARBON_DIOXIDE);
                             entries.add(ModItems.OBSIDIAN_BUCKET);
                             entries.add(ModItems.BOTTOMLESS_OBSIDIAN_BUCKET);
                             entries.add(ModItems.BOTTOMLESS_BUCKET);
