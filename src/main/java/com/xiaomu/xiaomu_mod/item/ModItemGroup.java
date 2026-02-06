@@ -82,6 +82,7 @@ public class ModItemGroup {
                             entries.add(ModItems.RAY_CHOUKAGUYAHIME_VERSION);
                             entries.add(ModItems.WAARUDOIZUMAIN);
                             entries.add(ModItems.WATASHIHAWATASHINOKOTOGASUKI);
+                            entries.add(ModItems.EX_OTOGIBANASHI);
                             //English
                             //mihoyo
                             entries.add(ModItems.PASSING_MEMORIES);

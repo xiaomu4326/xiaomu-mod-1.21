@@ -234,6 +234,11 @@
       "xiaomu_mod:watashihawatashinokotogasuki"
     ]
   },
+  "music_disc.ex_otogibanashi": {
+    "sounds": [
+      "xiaomu_mod:ex_otogibanashi"
+    ]
+  },
   "music_disc.passing_memories": {
     "sounds": [
       "xiaomu_mod:passing_memories"

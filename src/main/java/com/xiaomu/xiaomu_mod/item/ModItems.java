@@ -191,6 +191,10 @@ public class ModItems {
         public static final Item WATASHIHAWATASHINOKOTOGASUKI = registerItems("watashihawatashinokotogasuki",
                         new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
                                         .jukeboxPlayable(ModJukeboxSongs.WATASHIHAWATASHINOKOTOGASUKI)));
+        
+        public static final Item EX_OTOGIBANASHI = registerItems("ex_otogibanashi",
+                        new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)
+                                        .jukeboxPlayable(ModJukeboxSongs.EX_OTOGIBANASHI)));
 
         // English
         // mihoyo

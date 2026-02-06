@@ -1,5 +1,6 @@
 package com.xiaomu.xiaomu_mod.sound;
 
+
 import java.rmi.registry.Registry;
 
 import com.xiaomu.xiaomu_mod.XiaomuMod;
@@ -92,6 +93,7 @@ public interface ModJukeboxSongs {
     RegistryKey<JukeboxSong> RAY_CHOUKAGUYAHIME_VERSION = of("ray_choukaguyahime_version");
     RegistryKey<JukeboxSong> WAARUDOIZUMAIN = of("waarudoizumain");
     RegistryKey<JukeboxSong> WATASHIHAWATASHINOKOTOGASUKI = of("watashihawatashinokotogasuki");
+    RegistryKey<JukeboxSong> EX_OTOGIBANASHI = of("ex_otogibanashi");
 
     //English
     //mihoyo
@@ -236,6 +238,7 @@ public interface ModJukeboxSongs {
         register(registry, RAY_CHOUKAGUYAHIME_VERSION, ModSoundEvents.MUSIC_DISC_RAY_CHOUKAGUYAHIME_VERSION, 301, 15);
         register(registry, WAARUDOIZUMAIN, ModSoundEvents.MUSIC_DISC_WAARUDOIZUMAIN, 226, 15);
         register(registry, WATASHIHAWATASHINOKOTOGASUKI, ModSoundEvents.MUSIC_DISC_WATASHIHAWATASHINOKOTOGASUKI, 251, 15);
+        register(registry, EX_OTOGIBANASHI, ModSoundEvents.MUSIC_DISC_EX_OTOGIBANASHI, 218, 15);
 
 
         //English
