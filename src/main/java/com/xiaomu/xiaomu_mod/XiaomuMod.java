@@ -29,6 +29,6 @@ public class XiaomuMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModBlockTags.registerBlockTags();
 
-		LOGGER.info("I Love Tohru :)");
+		LOGGER.info("Xiaomu's Mod");
 	}
 }
